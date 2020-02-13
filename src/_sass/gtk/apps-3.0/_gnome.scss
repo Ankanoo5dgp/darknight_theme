@@ -262,12 +262,8 @@ $nautilus_bg_color: if($titlebar == 'dark' and $variant == 'light', $base_color,
   }
 
   paned > separator { // Ensure paned separator rendering. See issue #84 for details.
-    min-width: 20px;
     color: transparent;
-    background-image: url("assets/scalable/side-paned.svg");
-    background-size: 20px 750px;
-    background-position: left center;
-    background-repeat: no-repeat;
+    display: none;
   }
 
   // Floating status bar
