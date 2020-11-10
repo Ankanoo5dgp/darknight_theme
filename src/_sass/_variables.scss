@@ -37,7 +37,7 @@ $subheading-size: if($compact == "false", 16px, 15px);
 $buttons_radius: 7px;
 $menu_radius: 8px;
 //$windows_radius: 13px;
-$windows_radius: 0;
+$windows_radius: 5px;
 $material_radius: 5px;
 $circular_radius: 9999px;
 $panel-corner-radius: 0; // For gnome-shell
