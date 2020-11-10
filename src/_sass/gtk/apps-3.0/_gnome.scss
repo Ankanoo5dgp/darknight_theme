@@ -148,7 +148,7 @@ $nautilus_bg_color: if($titlebar == 'dark' and $variant == 'light', $base_color,
 
   headerbar {
     background-color: if($solid == 'false', rgba($titlebar_bg_color, 0.97), $titlebar_bg_color);
-    background-image: $header-icon;
+    background-image: url('assets/scalable/header-icon.svg');
     background-size: 48px auto;
     background-position: left bottom;
     background-repeat: no-repeat;
