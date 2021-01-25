@@ -1599,13 +1599,23 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-color: #FFFFFF;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
 .popup-menu .message {
   box-shadow: none !important;
   background-color: rgba(0, 0, 0, 0.05) !important;
 }
 
+<<<<<<< HEAD
 .popup-menu .message:hover, .popup-menu .message:focus {
   background-color: rgba(0, 0, 0, 0.08) !important;
+=======
+.message:hover, .message:focus {
+  background-color: rgba(0, 0, 0, 0.08);
+=======
+.message:hover, .message:focus {
+  background-color: rgba(0, 0, 0, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
+>>>>>>> 47b438a (pulled new version and generated css with it)
 }
 
 .popup-menu .message:active {
@@ -1736,6 +1746,75 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: rgba(0, 0, 0, 0.38);
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
+=======
+.system-switch-user-submenu-icon.user-icon {
+  icon-size: 20px;
+  padding: 0 2px;
+}
+
+.system-switch-user-submenu-icon.default-icon {
+  icon-size: 16px;
+  padding: 0 4px;
+}
+
+#appMenu {
+  spinner-image: url("process-working.svg");
+  spacing: 4px;
+}
+
+#appMenu .label-shadow {
+  color: transparent;
+}
+
+.aggregate-menu {
+  min-width: 21em;
+}
+
+.aggregate-menu .popup-menu-icon {
+  padding: 0 0;
+  margin: 0 0;
+  -st-icon-style: symbolic;
+}
+
+.aggregate-menu .popup-sub-menu .popup-menu-item :first-child:ltr {
+  /* 8px spacing + 2*4px padding */
+  padding-left: 10px;
+  margin-left: 1.2307692308em;
+}
+
+.aggregate-menu .popup-sub-menu .popup-menu-item :first-child:rtl {
+  /* 8px spacing + 2*4px padding */
+  padding-right: 10px;
+  margin-right: 1.2307692308em;
+}
+
+.system-menu-action {
+  color: rgba(0, 0, 0, 0.54);
+  border-radius: 100px;
+  /* wish we could do 50% */
+  padding: 11px;
+  border: none;
+  -st-icon-style: symbolic;
+}
+
+.system-menu-action:hover, .system-menu-action:focus {
+  background-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.75);
+  border: none;
+  padding: 11px;
+}
+
+.system-menu-action:active {
+  background-color: rgba(0, 0, 0, 0.26);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.system-menu-action > StIcon {
+  icon-size: 16px;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 .ripple-box {
   width: 48px;
   height: 48px;
@@ -1805,13 +1884,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .nm-dialog-item {
   font-size: 1em;
   border-bottom: none;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 12px;
   spacing: 20px;
 }
 
 .nm-dialog-item:hover, .nm-dialog-item:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
   background-color: rgba(0, 0, 0, 0.08);
+=======
+  background-color: rgba(0, 0, 0, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 }
 
 .nm-dialog-item:active {
@@ -1839,6 +1922,58 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   spacing: 12px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
+=======
+/* OVERVIEW */
+#overview {
+  spacing: 24px;
+}
+
+#overview .app-view-controls {
+  width: 320px;
+  padding-bottom: 32px;
+}
+
+#overview .app-view-control {
+  padding: 0 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#overview .app-view-control:hover {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+#overview .app-view-control:active {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+#overview .app-view-control:checked {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.01) !important;
+  box-shadow: inset 0 2px #5657f5;
+}
+
+#overview .app-view-control:first-child {
+  border-right-width: 0;
+  border-radius: 7px;
+}
+
+#overview .app-view-control:first-child:checked {
+  border-radius: 0 0 7px 7px;
+}
+
+#overview .app-view-control:last-child {
+  border-radius: 7px;
+}
+
+#overview .app-view-control:last-child:checked {
+  border-radius: 0 0 7px 7px;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 .overview-controls {
   padding-bottom: 32px;
 }
@@ -1961,6 +2096,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding: 15px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
 .app-well-app .overview-icon,
 .show-apps .overview-icon,
 .grid-search-result .overview-icon, .search-provider-icon,
@@ -1968,6 +2104,14 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: #FFFFFF;
   border-radius: 20px;
   padding: 6px;
+=======
+/* DASHBOARD */
+#dash {
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 3px 0;
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
   border: none;
   border-left: 0px;
   border-radius: 0px 5px 5px 0px;
@@ -2001,6 +2145,28 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   text-align: center;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
+=======
+/* App Vault/Grid */
+.icon-grid {
+  spacing: 30px;
+  -shell-grid-horizontal-item-size: 136px;
+  -shell-grid-vertical-item-size: 136px;
+}
+
+.icon-grid .overview-icon {
+  icon-size: 96px;
+}
+
+.system-action-icon {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  background-color: #212121;
+  color: #FFFFFF;
+  border-radius: 99px;
+  icon-size: 48px;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 .search-provider-icon:focus, .search-provider-icon:selected, .search-provider-icon:hover,
 .list-search-result:focus,
 .list-search-result:selected,
@@ -2046,10 +2212,23 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
 StWidget.focused .app-well-app-running-dot {
   width: 24px;
   height: 2px;
   background-color: #5657f5 !important;
+=======
+.search-provider-icon,
+.list-search-result, .app-well-app .overview-icon,
+.show-apps .overview-icon,
+.grid-search-result .overview-icon {
+  color: #FFFFFF;
+  border-radius: 100px;
+  padding: 6px;
+  border: none;
+  transition-duration: 225ms;
+  text-align: center;
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 }
 
 .show-apps .show-apps-icon {
@@ -2282,6 +2461,33 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .workspace-thumbnails {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
+=======
+  visible-width: 32px;
+  spacing: 12px;
+  padding: 12px;
+  border-radius: 5px 0 0 5px;
+}
+
+.workspace-thumbnails:rtl {
+  border-radius: 0 5px 5px 0;
+}
+
+.workspace-thumbnail-indicator {
+  border: 0 solid #5657f5;
+  border-left-width: 2px;
+  padding: 6px;
+  border-radius: 0;
+}
+
+.search-display > StBoxLayout,
+.all-apps,
+.frequent-apps > StBoxLayout {
+  padding: 0px 88px 10px 88px;
+}
+
+.workspace-thumbnails {
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
@@ -2355,7 +2561,11 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .notification-banner .notification-button:hover, .notification-banner .notification-buttonfocus {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
   background-color: rgba(0, 0, 0, 0.08);
+=======
+  background-color: rgba(0, 0, 0, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
   color: rgba(0, 0, 0, 0.75);
 }
 
@@ -2558,12 +2768,20 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .keyboard-key.default-key:focus, .keyboard-key.default-key:hover {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
   color: rgba(0, 0, 0, 0.65);
+=======
+  color: rgba(0, 0, 0, 0.62);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
   background-color: #f4f4f9;
 }
 
 .keyboard-key.default-key:checked, .keyboard-key.default-key:active {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
   color: rgba(0, 0, 0, 0.65);
+=======
+  color: rgba(0, 0, 0, 0.62);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
   background-color: #e0e0ee;
 }
 
@@ -2638,10 +2856,13 @@ StWidget.focused .app-well-app-running-dot {
 .candidate-box:selected {
   background-color: #5657f5;
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
 }
 
 .candidate-box:last-child {
   margin-right: 0;
+=======
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 }
 
 .candidate-page-button-box {
@@ -2948,6 +3169,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .login-dialog-session-list-button:active {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
 }
 
 #lockDialogGroup {
@@ -3406,6 +3628,8 @@ StWidget.focused .app-well-app-running-dot {
 
 .system-menu-action > StIcon {
   icon-size: 16px;
+=======
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 }
 
 .screen-shield-arrows {
@@ -3499,7 +3723,82 @@ StWidget.focused .app-well-app-running-dot {
   box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22);
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
 #overview .app-view-control {
+=======
+#LookingGlassDialog > #Toolbar {
+  padding: 0 8px;
+  border: none;
+  border-radius: 0;
+  background-color: rgba(244, 244, 249, 0.01);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+}
+
+#LookingGlassDialog .labels {
+  spacing: 0;
+}
+
+#LookingGlassDialog .notebook-tab {
+  -natural-hpadding: 12px;
+  -minimum-hpadding: 6px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.38);
+  transition-duration: 225ms;
+  padding-left: 16px;
+  padding-right: 16px;
+  min-height: 32px;
+  padding: 0 32px;
+}
+
+#LookingGlassDialog .notebook-tab:hover {
+  box-shadow: inset 0 -2px 0px rgba(0, 0, 0, 0.26);
+  color: rgba(0, 0, 0, 0.75);
+  text-shadow: none;
+}
+
+#LookingGlassDialog .notebook-tab:selected {
+  border-bottom-width: 0;
+  border-color: transparent;
+  background-color: rgba(244, 244, 249, 0.01);
+  box-shadow: inset 0 -2px 0px #5657f5;
+  color: rgba(0, 0, 0, 0.75);
+  text-shadow: none;
+}
+
+#LookingGlassDialog StBoxLayout#EvalBox {
+  padding: 4px;
+  spacing: 4px;
+}
+
+#LookingGlassDialog StBoxLayout#ResultsArea {
+  spacing: 4px;
+}
+
+.lg-dialog StEntry {
+  selection-background-color: #5657f5;
+  selected-color: #FFFFFF;
+}
+
+.lg-dialog .shell-link {
+  color: #5657f5;
+}
+
+.lg-dialog .shell-link:hover {
+  color: #5657f5;
+}
+
+.lg-completions-text {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.lg-obj-inspector-title {
+  spacing: 4px;
+}
+
+.lg-obj-inspector-button {
+  min-height: 32px;
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
   padding: 0 16px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.7);
@@ -3718,6 +4017,33 @@ StWidget.focused #dashtodockContainer .app-well-app-running-dot {
   background-color: rgba(33, 33, 33, 0.5);
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
+=======
+/* GPaste */
+.popup-menu .search-entry {
+  color: rgba(0, 0, 0, 0.75);
+  selection-background-color: #5657f5;
+  selected-color: #FFFFFF;
+  background-color: rgba(244, 244, 249, 0.01);
+  border-color: transparent;
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.26);
+}
+
+.popup-menu .search-entry:focus {
+  border-color: transparent;
+  box-shadow: inset 0 -2px #5657f5;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.popup-menu .search-entry .search-entry-icon {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.popup-menu .search-entry:hover .search-entry-icon, .popup-menu .search-entry:focus .search-entry-icon {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 .openweather-button, .openweather-button-action, .openweather-menu-button-container, .openweather-button-box {
   border: 1px solid transparent;
 }
@@ -3784,5 +4110,9 @@ StWidget.focused #dashtodockContainer .app-well-app-running-dot {
 }
 
 .openweather-sunrise-icon, .openweather-sunset-icon, .openweather-build-icon {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
   color: rgba(0, 0, 0, 0.55);
+=======
+  color: rgba(0, 0, 0, 0.54);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
 }

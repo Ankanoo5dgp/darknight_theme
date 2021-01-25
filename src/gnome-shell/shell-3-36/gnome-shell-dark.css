@@ -758,9 +758,19 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+<<<<<<< HEAD
 .popup-menu .popup-menu-item:hover, .popup-menu .popup-menu-item:focus, .popup-menu .popup-menu-item.selected {
   background-color: rgba(255, 255, 255, 0.08) !important;
   color: #FFFFFF !important;
+=======
+.popup-menu .popup-menu-item.selected {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+  background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
+  color: #FFFFFF;
+>>>>>>> 47b438a (pulled new version and generated css with it)
   transition-duration: 0ms;
   box-shadow: none;
   border: none;
@@ -768,8 +778,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-menu-item:active {
+<<<<<<< HEAD
   background-color: rgba(255, 255, 255, 0.2) !important;
   color: #FFFFFF !important;
+=======
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+  background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
+  color: #FFFFFF;
+>>>>>>> 47b438a (pulled new version and generated css with it)
   transition-duration: 225ms;
 }
 
@@ -932,7 +951,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .switcher-list .item-box:outlined {
   padding: 8px;
   border: none;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   color: #FFFFFF;
 }
 
@@ -1110,7 +1133,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.05);
+=======
+  background-color: rgba(37, 37, 45, 0.01);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   box-shadow: inset 0 -2px 0px #5657f5;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -1119,6 +1146,14 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   icon-shadow: none;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+=======
+#panel .panel-button .system-status-icon {
+  icon-size: 1.2307692308em;
+  padding: 0 4px;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 .unlock-screen #panel .panel-button, .login-screen #panel .panel-button, .lock-screen #panel .panel-button {
   color: rgba(255, 255, 255, 0.68);
 }
@@ -1127,10 +1162,16 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: rgba(255, 255, 255, 0.8);
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
 #panel .system-status-icon {
   icon-size: 16px;
   padding: 5px;
   margin: 0 4px;
+=======
+#panel .panel-button.clock-display:active .clock, #panel .panel-button.clock-display:overview .clock, #panel .panel-button.clock-display:focus .clock, #panel .panel-button.clock-display:checked .clock {
+  background: none;
+  box-shadow: none;
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 #panel .panel-status-indicators-box .system-status-icon,
@@ -1148,6 +1189,40 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .remote-access-indicator {
   color: #FF6D00;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+=======
+}
+
+#panel.solid {
+  background-color: #25252d;
+  /* transition from transparent to solid */
+  transition-duration: 250ms;
+  background-gradient-direction: none;
+  text-shadow: none;
+}
+
+#panel.solid:overview {
+  background-color: transparent;
+}
+
+#panel.solid .panel-corner {
+  -panel-corner-background-color: #25252d;
+}
+
+#panel.solid .panel-button {
+  color: rgba(255, 255, 255, 0.68);
+  text-shadow: none;
+}
+
+#panel.solid .panel-button:hover, #panel.solid .panel-button:active, #panel.solid .panel-button:overview, #panel.solid .panel-button:focus, #panel.solid .panel-button:checked {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#panel.solid .system-status-icon,
+#panel.solid .app-menu-icon > StIcon,
+#panel.solid .popup-menu-arrow {
+  icon-shadow: none;
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 #panel #panelActivities.panel-button > * {
@@ -1213,12 +1288,20 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .datemenu-calendar-column:hover, .datemenu-calendar-column:focus {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .datemenu-calendar-column:active {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .datemenu-calendar-column:ltr {
@@ -1255,12 +1338,20 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .datemenu-today-button:hover, .datemenu-today-button:focus {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .datemenu-today-button:active {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .calendar-month-label {
@@ -1276,7 +1367,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .calendar-month-label:focus {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .pager-button {
@@ -1290,12 +1385,20 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .pager-button:hover, .pager-button:focus {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .pager-button:active {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .calendar-change-month-back {
@@ -1332,7 +1435,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-day-base:hover, .calendar-day-base:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .calendar-day-base:active {
@@ -1343,7 +1450,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .calendar-day-base:selected {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   border-color: transparent;
 }
 
@@ -1446,14 +1557,22 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .events-button:hover,
 .events-button:focus {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .world-clocks-button:active,
 .weather-button:active,
 .events-button:active {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .world-clocks-header,
@@ -1571,7 +1690,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .message-list-clear-button.button:hover, .message-list-clear-button.button:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .message-list-clear-button.button:active {
@@ -1599,13 +1722,23 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-color: #31313a;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
 .popup-menu .message {
   box-shadow: none !important;
   background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
+<<<<<<< HEAD
 .popup-menu .message:hover, .popup-menu .message:focus {
   background-color: rgba(255, 255, 255, 0.08) !important;
+=======
+.message:hover, .message:focus {
+  background-color: rgba(255, 255, 255, 0.08);
+=======
+.message:hover, .message:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
+>>>>>>> 47b438a (pulled new version and generated css with it)
 }
 
 .popup-menu .message:active {
@@ -1671,12 +1804,20 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .message-close-button:hover, .message-close-button:focus {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .message-close-button:active {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .message-close-button:insensitive {
@@ -1696,12 +1837,20 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .message-media-control:hover, .message-media-control:focus {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .message-media-control:active {
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .message-media-control:insensitive {
@@ -1736,6 +1885,75 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: rgba(255, 255, 255, 0.5);
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+=======
+.system-switch-user-submenu-icon.user-icon {
+  icon-size: 20px;
+  padding: 0 2px;
+}
+
+.system-switch-user-submenu-icon.default-icon {
+  icon-size: 16px;
+  padding: 0 4px;
+}
+
+#appMenu {
+  spinner-image: url("process-working.svg");
+  spacing: 4px;
+}
+
+#appMenu .label-shadow {
+  color: transparent;
+}
+
+.aggregate-menu {
+  min-width: 21em;
+}
+
+.aggregate-menu .popup-menu-icon {
+  padding: 0 0;
+  margin: 0 0;
+  -st-icon-style: symbolic;
+}
+
+.aggregate-menu .popup-sub-menu .popup-menu-item :first-child:ltr {
+  /* 8px spacing + 2*4px padding */
+  padding-left: 10px;
+  margin-left: 1.2307692308em;
+}
+
+.aggregate-menu .popup-sub-menu .popup-menu-item :first-child:rtl {
+  /* 8px spacing + 2*4px padding */
+  padding-right: 10px;
+  margin-right: 1.2307692308em;
+}
+
+.system-menu-action {
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 100px;
+  /* wish we could do 50% */
+  padding: 11px;
+  border: none;
+  -st-icon-style: symbolic;
+}
+
+.system-menu-action:hover, .system-menu-action:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+  border: none;
+  padding: 11px;
+}
+
+.system-menu-action:active {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+}
+
+.system-menu-action > StIcon {
+  icon-size: 16px;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 .ripple-box {
   width: 48px;
   height: 48px;
@@ -1805,13 +2023,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .nm-dialog-item {
   font-size: 1em;
   border-bottom: none;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 12px;
   spacing: 20px;
 }
 
 .nm-dialog-item:hover, .nm-dialog-item:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .nm-dialog-item:active {
@@ -1839,6 +2061,58 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   spacing: 12px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+=======
+/* OVERVIEW */
+#overview {
+  spacing: 24px;
+}
+
+#overview .app-view-controls {
+  width: 320px;
+  padding-bottom: 32px;
+}
+
+#overview .app-view-control {
+  padding: 0 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#overview .app-view-control:hover {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+#overview .app-view-control:active {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+#overview .app-view-control:checked {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.01) !important;
+  box-shadow: inset 0 2px #5657f5;
+}
+
+#overview .app-view-control:first-child {
+  border-right-width: 0;
+  border-radius: 7px;
+}
+
+#overview .app-view-control:first-child:checked {
+  border-radius: 0 0 7px 7px;
+}
+
+#overview .app-view-control:last-child {
+  border-radius: 7px;
+}
+
+#overview .app-view-control:last-child:checked {
+  border-radius: 0 0 7px 7px;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 .overview-controls {
   padding-bottom: 32px;
 }
@@ -1961,6 +2235,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding: 15px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
 .app-well-app .overview-icon,
 .show-apps .overview-icon,
 .grid-search-result .overview-icon, .search-provider-icon,
@@ -1968,6 +2243,14 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: #FFFFFF;
   border-radius: 20px;
   padding: 6px;
+=======
+/* DASHBOARD */
+#dash {
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 3px 0;
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   border: none;
   border-left: 0px;
   border-radius: 0px 5px 5px 0px;
@@ -2001,6 +2284,28 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   text-align: center;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+=======
+/* App Vault/Grid */
+.icon-grid {
+  spacing: 30px;
+  -shell-grid-horizontal-item-size: 136px;
+  -shell-grid-vertical-item-size: 136px;
+}
+
+.icon-grid .overview-icon {
+  icon-size: 96px;
+}
+
+.system-action-icon {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  background-color: #212121;
+  color: #FFFFFF;
+  border-radius: 99px;
+  icon-size: 48px;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 .search-provider-icon:focus, .search-provider-icon:selected, .search-provider-icon:hover,
 .list-search-result:focus,
 .list-search-result:selected,
@@ -2046,10 +2351,23 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
 StWidget.focused .app-well-app-running-dot {
   width: 24px;
   height: 2px;
   background-color: #5657f5 !important;
+=======
+.search-provider-icon,
+.list-search-result, .app-well-app .overview-icon,
+.show-apps .overview-icon,
+.grid-search-result .overview-icon {
+  color: #FFFFFF;
+  border-radius: 100px;
+  padding: 6px;
+  border: none;
+  transition-duration: 225ms;
+  text-align: center;
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .show-apps .show-apps-icon {
@@ -2282,6 +2600,33 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .workspace-thumbnails {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+=======
+  visible-width: 32px;
+  spacing: 12px;
+  padding: 12px;
+  border-radius: 5px 0 0 5px;
+}
+
+.workspace-thumbnails:rtl {
+  border-radius: 0 5px 5px 0;
+}
+
+.workspace-thumbnail-indicator {
+  border: 0 solid #5657f5;
+  border-left-width: 2px;
+  padding: 6px;
+  border-radius: 0;
+}
+
+.search-display > StBoxLayout,
+.all-apps,
+.frequent-apps > StBoxLayout {
+  padding: 0px 88px 10px 88px;
+}
+
+.workspace-thumbnails {
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
@@ -2355,12 +2700,20 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .notification-banner .notification-button:hover, .notification-banner .notification-buttonfocus {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   color: #FFFFFF;
 }
 
 .notification-banner .notification-button:active {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   color: #FFFFFF;
 }
 
@@ -2626,22 +2979,33 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .candidate-box:hover {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   color: #FFFFFF;
 }
 
 .candidate-box:active {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   color: #FFFFFF;
 }
 
 .candidate-box:selected {
   background-color: #5657f5;
   color: #FFFFFF;
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
 }
 
 .candidate-box:last-child {
   margin-right: 0;
+=======
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 }
 
 .candidate-page-button-box {
@@ -3066,7 +3430,11 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #LookingGlassDialog .notebook-tab:hover {
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
   box-shadow: inset 0 -2px 0px rgba(255, 255, 255, 0.2);
+=======
+  box-shadow: inset 0 -2px 0px rgba(255, 255, 255, 0.3);
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3827,6 +4195,33 @@ StWidget.focused #dashtodockContainer .app-well-app-running-dot {
   background-color: rgba(33, 33, 33, 0.5);
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+=======
+/* GPaste */
+.popup-menu .search-entry {
+  color: #FFFFFF;
+  selection-background-color: #5657f5;
+  selected-color: #FFFFFF;
+  background-color: rgba(68, 69, 75, 0.01);
+  border-color: transparent;
+  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
+}
+
+.popup-menu .search-entry:focus {
+  border-color: transparent;
+  box-shadow: inset 0 -2px #5657f5;
+  color: #FFFFFF;
+}
+
+.popup-menu .search-entry .search-entry-icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.popup-menu .search-entry:hover .search-entry-icon, .popup-menu .search-entry:focus .search-entry-icon {
+  color: #FFFFFF;
+}
+
+>>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
 .openweather-button, .openweather-button-action, .openweather-menu-button-container, .openweather-button-box {
   border: 1px solid transparent;
 }
