@@ -936,12 +936,14 @@ StScrollBar {
   /* transition from solid to transparent */
   font-weight: bold;
   height: $menuitem_size;
-  transition-duration: 250ms;
+  transition-duration: 0ms;
+  transition-delay: 0;
 
   &:overview,
   &.unlock-screen,
   &.login-screen,
   &.lock-screen {
+    transition-duration: 250ms;
     background-color: if(
       $titlebar == "light",
       rgba($panel_bg_color, 0.5),
