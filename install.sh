@@ -12,7 +12,7 @@ fi
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
-THEME_NAME=Layan_akume
+THEME_NAME=Akamayan
 COLOR_VARIANTS=('' '-light' '-dark')
 SOLID_VARIANTS=('' '-solid')
 
@@ -48,7 +48,7 @@ install() {
   local solid=${4}
 
   [[ ${color} == '-dark' ]] && local ELSE_DARK=${color}
-  [[ ${color} == '-light' ]] && local ELSE_LIGHT=${color}
+  [[ ${color} == '-darker' ]] && local ELSE_LIGHT=${color}
 
   local THEME_DIR=${dest}/${name}${color}${solid}
 
