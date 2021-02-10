@@ -21,14 +21,14 @@
 
 * {
   background-clip: padding-box;
-  -GtkToolButton-icon-spacing: 0;
-  -GtkTextView-error-underline-color: #DD2C00;
-  -GtkScrolledWindow-scrollbar-spacing: 0;
-  -GtkToolItemGroup-expander-size: 11;
-  -GtkWidget-text-handle-width: 24;
-  -GtkWidget-text-handle-height: 24;
-  -GtkDialog-button-spacing: 4;
-  -GtkDialog-action-area-border: 0;
+  -gtktoolbutton-icon-spacing: 0;
+  -gtktextview-error-underline-color: #DD2C00;
+  -gtkscrolledwindow-scrollbar-spacing: 0;
+  -gtktoolitemgroup-expander-size: 11;
+  -gtkwidget-text-handle-width: 24;
+  -gtkwidget-text-handle-height: 24;
+  -gtkdialog-button-spacing: 4;
+  -gtkdialog-action-area-border: 0;
   outline-style: solid;
   outline-width: 2px;
   outline-color: transparent;
@@ -93,12 +93,14 @@ notebook:focus tab,
   color: #FFFFFF;
 }
 
-window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view, filechooser stack.view scrolledwindow treeview.view, iconview, .view {
+window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view, filechooser stack.view scrolledwindow treeview.view, iconview,
+.view {
   background-color: #31313a;
   color: #FFFFFF;
 }
 
-window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:disabled, filechooser stack.view scrolledwindow treeview.view:disabled, iconview:disabled, .view:disabled {
+window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:disabled, filechooser stack.view scrolledwindow treeview.view:disabled, iconview:disabled,
+.view:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -180,7 +182,18 @@ assistant .sidebar label.highlight {
   color: #FFFFFF;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 .nautilus-window .floating-bar, .osd .scale-popup, .app-notification, popover.background.touch-selection, popover.background.magnifier, popover.background.osd, .osd {
+=======
+.nautilus-window .floating-bar, .osd .scale-popup, .app-notification, popover.touch-selection, popover.magnifier, popover.osd,
+popover.background.touch-selection,
+popover.background.magnifier,
+popover.background.osd,
+popover.background.menu.touch-selection,
+popover.background.menu.magnifier,
+popover.background.menu.osd,
+.osd {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   opacity: 0.9;
 }
 
@@ -211,7 +224,8 @@ spinner:checked:disabled {
 /****************
  * Text Entries *
  ****************/
-spinbutton:not(.vertical), entry {
+spinbutton:not(.vertical),
+entry {
   min-height: 32px;
   padding: 0 8px;
   border-radius: 7px;
@@ -222,12 +236,14 @@ spinbutton:not(.vertical), entry {
   color: #FFFFFF;
 }
 
-spinbutton:focus:not(.vertical), entry:focus {
+spinbutton:focus:not(.vertical),
+entry:focus {
   border-image: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
 }
 
-spinbutton:disabled:not(.vertical), entry:disabled {
+spinbutton:disabled:not(.vertical),
+entry:disabled {
   box-shadow: none;
   background-color: #3b3b43;
   color: rgba(255, 255, 255, 0.5);
@@ -235,8 +251,21 @@ spinbutton:disabled:not(.vertical), entry:disabled {
 
 #login_window entry, .raven .raven-background spinbutton:not(.vertical), .budgie-popover entry,
 .budgie-popover spinbutton:not(.vertical), window#whiskermenu-window entry, editortweak entry.search, layoutpane entry.search, entry.preferences-search, colorchooser .popover.osd spinbutton:not(.vertical), messagedialog entry, notebook > stack:not(:only-child) entry:not(.search),
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 notebook > stack:not(:only-child) spinbutton:not(.vertical), popover.background .linked entry, popover.background entry,
 popover.background spinbutton:not(.vertical), spinbutton.flat:not(.vertical), entry.flat {
+=======
+notebook > stack:not(:only-child) spinbutton:not(.vertical), popover .linked entry,
+popover entry,
+popover spinbutton:not(.vertical),
+popover.background .linked entry,
+popover.background entry,
+popover.background spinbutton:not(.vertical),
+popover.background.menu .linked entry,
+popover.background.menu entry,
+popover.background.menu spinbutton:not(.vertical), spinbutton.flat:not(.vertical),
+entry.flat {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   border-radius: 0;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 0%, transparent 0%) 0 0 0/0 0 0px;
@@ -247,44 +276,78 @@ popover.background spinbutton:not(.vertical), spinbutton.flat:not(.vertical), en
 
 #login_window entry:focus, .raven .raven-background spinbutton:focus:not(.vertical), .budgie-popover entry:focus,
 .budgie-popover spinbutton:focus:not(.vertical), window#whiskermenu-window entry:focus, editortweak entry.search:focus, layoutpane entry.search:focus, entry.preferences-search:focus, colorchooser .popover.osd spinbutton:focus:not(.vertical), messagedialog entry:focus, notebook > stack:not(:only-child) entry:focus:not(.search),
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 notebook > stack:not(:only-child) spinbutton:focus:not(.vertical), popover.background .linked entry:focus, popover.background entry:focus,
 popover.background spinbutton:focus:not(.vertical), spinbutton.flat:focus:not(.vertical), entry.flat:focus {
+=======
+notebook > stack:not(:only-child) spinbutton:focus:not(.vertical), popover .linked entry:focus,
+popover entry:focus,
+popover spinbutton:focus:not(.vertical),
+popover.background .linked entry:focus,
+popover.background entry:focus,
+popover.background spinbutton:focus:not(.vertical),
+popover.background.menu .linked entry:focus,
+popover.background.menu entry:focus,
+popover.background.menu spinbutton:focus:not(.vertical), spinbutton.flat:focus:not(.vertical),
+entry.flat:focus {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
 }
 
 #login_window entry:disabled, .raven .raven-background spinbutton:disabled:not(.vertical), .budgie-popover entry:disabled,
 .budgie-popover spinbutton:disabled:not(.vertical), window#whiskermenu-window entry:disabled, editortweak entry.search:disabled, layoutpane entry.search:disabled, entry.preferences-search:disabled, colorchooser .popover.osd spinbutton:disabled:not(.vertical), messagedialog entry:disabled, notebook > stack:not(:only-child) entry:disabled:not(.search),
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 notebook > stack:not(:only-child) spinbutton:disabled:not(.vertical), popover.background .linked entry:disabled, popover.background entry:disabled,
 popover.background spinbutton:disabled:not(.vertical), spinbutton.flat:disabled:not(.vertical), entry.flat:disabled {
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
+=======
+notebook > stack:not(:only-child) spinbutton:disabled:not(.vertical), popover .linked entry:disabled,
+popover entry:disabled,
+popover spinbutton:disabled:not(.vertical),
+popover.background .linked entry:disabled,
+popover.background entry:disabled,
+popover.background spinbutton:disabled:not(.vertical),
+popover.background.menu .linked entry:disabled,
+popover.background.menu entry:disabled,
+popover.background.menu spinbutton:disabled:not(.vertical), spinbutton.flat:disabled:not(.vertical),
+entry.flat:disabled {
+  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton:not(.vertical) image, entry image {
+spinbutton:not(.vertical) image,
+entry image {
   color: rgba(255, 255, 255, 0.7);
 }
 
-spinbutton:not(.vertical) image:hover, spinbutton:not(.vertical) image:active, entry image:hover, entry image:active {
+spinbutton:not(.vertical) image:hover, spinbutton:not(.vertical) image:active,
+entry image:hover,
+entry image:active {
   color: #FFFFFF;
 }
 
-spinbutton:not(.vertical) image:disabled, entry image:disabled {
+spinbutton:not(.vertical) image:disabled,
+entry image:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton:not(.vertical) image.left, entry image.left {
+spinbutton:not(.vertical) image.left,
+entry image.left {
   margin-left: 0px;
   margin-right: 6px;
 }
 
-spinbutton:not(.vertical) image.right, entry image.right {
+spinbutton:not(.vertical) image.right,
+entry image.right {
   margin-left: 6px;
   margin-right: 0px;
 }
 
-spinbutton:not(.vertical) undershoot.left, entry undershoot.left {
+spinbutton:not(.vertical) undershoot.left,
+entry undershoot.left {
   background-color: transparent;
   background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.2) 50%);
   padding-left: 1px;
@@ -294,7 +357,8 @@ spinbutton:not(.vertical) undershoot.left, entry undershoot.left {
   background-position: left top;
 }
 
-spinbutton:not(.vertical) undershoot.right, entry undershoot.right {
+spinbutton:not(.vertical) undershoot.right,
+entry undershoot.right {
   background-color: transparent;
   background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.2) 50%);
   padding-right: 1px;
@@ -304,7 +368,8 @@ spinbutton:not(.vertical) undershoot.right, entry undershoot.right {
   background-position: right top;
 }
 
-spinbutton.error:not(.vertical), entry.error {
+spinbutton.error:not(.vertical),
+entry.error {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1);
   border-image: none;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -312,18 +377,21 @@ spinbutton.error:not(.vertical), entry.error {
   color: #FFFFFF;
 }
 
-spinbutton.error:focus:not(.vertical), entry.error:focus {
+spinbutton.error:focus:not(.vertical),
+entry.error:focus {
   border-image: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
 }
 
-spinbutton.error:disabled:not(.vertical), entry.error:disabled {
+spinbutton.error:disabled:not(.vertical),
+entry.error:disabled {
   box-shadow: none;
   background-color: #3b3b43;
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton.error.flat:not(.vertical), entry.error.flat {
+spinbutton.error.flat:not(.vertical),
+entry.error.flat {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #DD2C00 0%, transparent 0%) 0 0 0/0 0 0px;
   box-shadow: inset 0 -1px #DD2C00;
@@ -331,30 +399,42 @@ spinbutton.error.flat:not(.vertical), entry.error.flat {
   color: #FFFFFF;
 }
 
-spinbutton.error.flat:focus:not(.vertical), entry.error.flat:focus {
+spinbutton.error.flat:focus:not(.vertical),
+entry.error.flat:focus {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #DD2C00 100%, transparent 0%) 0 0 2/0 0 2px;
   box-shadow: inset 0 -1px #DD2C00;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 spinbutton.error.flat:disabled:not(.vertical), entry.error.flat:disabled {
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
+=======
+spinbutton.error.flat:disabled:not(.vertical),
+entry.error.flat:disabled {
+  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton.error:not(.vertical) image, entry.error image {
+spinbutton.error:not(.vertical) image,
+entry.error image {
   color: rgba(255, 255, 255, 0.7);
 }
 
-spinbutton.error:not(.vertical) image:hover, spinbutton.error:not(.vertical) image:active, entry.error image:hover, entry.error image:active {
+spinbutton.error:not(.vertical) image:hover, spinbutton.error:not(.vertical) image:active,
+entry.error image:hover,
+entry.error image:active {
   color: #FFFFFF;
 }
 
-spinbutton.error:not(.vertical) image:disabled, entry.error image:disabled {
+spinbutton.error:not(.vertical) image:disabled,
+entry.error image:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton.warning:not(.vertical), entry.warning {
+spinbutton.warning:not(.vertical),
+entry.warning {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1);
   border-image: none;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -362,18 +442,21 @@ spinbutton.warning:not(.vertical), entry.warning {
   color: #FFFFFF;
 }
 
-spinbutton.warning:focus:not(.vertical), entry.warning:focus {
+spinbutton.warning:focus:not(.vertical),
+entry.warning:focus {
   border-image: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
 }
 
-spinbutton.warning:disabled:not(.vertical), entry.warning:disabled {
+spinbutton.warning:disabled:not(.vertical),
+entry.warning:disabled {
   box-shadow: none;
   background-color: #3b3b43;
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton.warning.flat:not(.vertical), entry.warning.flat {
+spinbutton.warning.flat:not(.vertical),
+entry.warning.flat {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #FF6D00 0%, transparent 0%) 0 0 0/0 0 0px;
   box-shadow: inset 0 -1px #FF6D00;
@@ -381,30 +464,42 @@ spinbutton.warning.flat:not(.vertical), entry.warning.flat {
   color: #FFFFFF;
 }
 
-spinbutton.warning.flat:focus:not(.vertical), entry.warning.flat:focus {
+spinbutton.warning.flat:focus:not(.vertical),
+entry.warning.flat:focus {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #FF6D00 100%, transparent 0%) 0 0 2/0 0 2px;
   box-shadow: inset 0 -1px #FF6D00;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 spinbutton.warning.flat:disabled:not(.vertical), entry.warning.flat:disabled {
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
+=======
+spinbutton.warning.flat:disabled:not(.vertical),
+entry.warning.flat:disabled {
+  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton.warning:not(.vertical) image, entry.warning image {
+spinbutton.warning:not(.vertical) image,
+entry.warning image {
   color: rgba(255, 255, 255, 0.7);
 }
 
-spinbutton.warning:not(.vertical) image:hover, spinbutton.warning:not(.vertical) image:active, entry.warning image:hover, entry.warning image:active {
+spinbutton.warning:not(.vertical) image:hover, spinbutton.warning:not(.vertical) image:active,
+entry.warning image:hover,
+entry.warning image:active {
   color: #FFFFFF;
 }
 
-spinbutton.warning:not(.vertical) image:disabled, entry.warning image:disabled {
+spinbutton.warning:not(.vertical) image:disabled,
+entry.warning image:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-spinbutton:not(.vertical) progress, entry progress {
+spinbutton:not(.vertical) progress,
+entry progress {
   margin: 2px -6px;
   border-bottom: 2px solid #5657f5;
   background-color: transparent;
@@ -903,7 +998,8 @@ button.color {
 /*********
  * Links *
  *********/
-*:link, button:link,
+*:link,
+button:link,
 button:visited {
   color: #5657f5;
 }
@@ -913,7 +1009,13 @@ button:visited {
   color: #E040FB;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 infobar.info > revealer > box *:link, infobar.info:backdrop > revealer > box *:link, infobar.question > revealer > box *:link, infobar.question:backdrop > revealer > box *:link, infobar.warning > revealer > box *:link, infobar.warning:backdrop > revealer > box *:link, infobar.error > revealer > box *:link, infobar.error:backdrop > revealer > box *:link, headerbar.selection-mode .subtitle:link, *:link:selected, *:selected *:link, button:selected:link,
+=======
+infobar.info *:link, infobar.question *:link, infobar.warning *:link, infobar.error *:link,
+headerbar.selection-mode .subtitle:link, *:link:selected, *:selected *:link,
+button:selected:link,
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
 button:selected:visited, *:selected button:link,
 *:selected button:visited {
   color: #FFFFFF;
@@ -1098,7 +1200,7 @@ combobox:drop(active) {
  * Toolbars *
  ************/
 toolbar {
-  -GtkWidget-window-dragging: true;
+  -gtkwidget-window-dragging: true;
   padding: 2px;
   background-color: #34343b;
 }
@@ -1112,7 +1214,7 @@ frame.documents-dropdown, .app-notification, toolbar.osd {
   padding: 4px;
   border-radius: 7px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #31313a;
+  background-color: red;
 }
 
 frame.documents-dropdown:backdrop, .app-notification:backdrop, toolbar.osd:backdrop {
@@ -1360,7 +1462,7 @@ headerbar.selection-mode .selection-menu {
 }
 
 headerbar.selection-mode .selection-menu arrow {
-  -GtkArrow-arrow-scaling: 1;
+  -gtkarrow-arrow-scaling: 1;
 }
 
 headerbar.selection-mode .selection-menu .arrow {
@@ -1612,12 +1714,12 @@ treeview.view {
 }
 
 * {
-  -GtkTreeView-horizontal-separator: 4;
-  -GtkTreeView-grid-line-width: 1;
-  -GtkTreeView-grid-line-pattern: '';
-  -GtkTreeView-tree-line-width: 1;
-  -GtkTreeView-tree-line-pattern: '';
-  -GtkTreeView-expander-size: 16;
+  -gtktreeview-horizontal-separator: 4;
+  -gtktreeview-grid-line-width: 1;
+  -gtktreeview-grid-line-pattern: "";
+  -gtktreeview-tree-line-width: 1;
+  -gtktreeview-tree-line-pattern: "";
+  -gtktreeview-expander-size: 16;
 }
 
 treeview.view:selected {
@@ -1744,7 +1846,7 @@ treeview.view acceleditor > label {
  *********/
 menubar,
 .menubar {
-  -GtkWidget-window-dragging: true;
+  -gtkwidget-window-dragging: true;
   padding: 0;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
   background-color: #31313a;
@@ -1919,27 +2021,99 @@ menuitem:disabled accelerator {
  ************/
 popover.background modelbutton.flat,
 popover.background menuitem.button.flat,
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background spinbutton.vertical button, popover.background row.button.flat.menuitem.activatable,
 popover.background row.activatable, popover.background .view, popover.background button.flat.combo, popover.background button.flat {
   color: rgba(255, 255, 255, 0.8);
+=======
+popover.background spinbutton.vertical button,
+popover.background.menu modelbutton.flat,
+popover.background.menu menuitem.button.flat,
+popover.background.menu spinbutton.vertical button, popover row.button.flat.menuitem.activatable,
+popover row.activatable,
+popover .view,
+popover.background row.button.flat.menuitem.activatable,
+popover.background row.activatable,
+popover.background .view,
+popover.background.menu row.button.flat.menuitem.activatable,
+popover.background.menu row.activatable,
+popover.background.menu .view, popover button.flat.combo,
+popover.background button.flat.combo,
+popover.background.menu button.flat.combo, popover button.flat,
+popover.background button.flat,
+popover.background.menu button.flat {
+  color: rgba(255, 255, 255, 0.7);
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   background-color: transparent;
 }
 
 popover.background modelbutton.flat:hover,
 popover.background menuitem.button.flat:hover,
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background spinbutton.vertical button:hover, popover.background row.button.flat.menuitem.activatable:hover,
 popover.background row.activatable:hover, popover.background .view:hover, popover.background button.flat.combo:hover, popover.background button.flat:hover {
+=======
+popover.background spinbutton.vertical button:hover,
+popover.background.menu modelbutton.flat:hover,
+popover.background.menu menuitem.button.flat:hover,
+popover.background.menu spinbutton.vertical button:hover, popover row.button.flat.menuitem.activatable:hover,
+popover row.activatable:hover,
+popover .view:hover,
+popover.background row.activatable:hover,
+popover.background .view:hover,
+popover.background.menu row.activatable:hover,
+popover.background.menu .view:hover, popover button.flat.combo:hover,
+popover.background button.flat.combo:hover,
+popover.background.menu button.flat.combo:hover, popover button.flat:hover,
+popover.background button.flat:hover,
+popover.background.menu button.flat:hover {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.12);
   color: #FFFFFF;
 }
 
 popover.background modelbutton.flat:checked,
 popover.background menuitem.button.flat:checked,
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background spinbutton.vertical button:checked, popover.background row.button.flat.menuitem.activatable:checked,
 popover.background row.activatable:checked, popover.background .view:checked, popover.background button.flat.combo:checked, popover.background button.flat:checked, popover.background modelbutton.flat:active,
 popover.background menuitem.button.flat:active,
 popover.background spinbutton.vertical button:active, popover.background row.button.flat.menuitem.activatable:active,
 popover.background row.activatable:active, popover.background .view:active, popover.background button.flat.combo:active, popover.background button.flat:active {
+=======
+popover.background spinbutton.vertical button:checked,
+popover.background.menu modelbutton.flat:checked,
+popover.background.menu menuitem.button.flat:checked,
+popover.background.menu spinbutton.vertical button:checked, popover row.button.flat.menuitem.activatable:checked,
+popover row.activatable:checked,
+popover .view:checked,
+popover.background row.activatable:checked,
+popover.background .view:checked,
+popover.background.menu row.activatable:checked,
+popover.background.menu .view:checked, popover button.flat.combo:checked,
+popover.background button.flat.combo:checked,
+popover.background.menu button.flat.combo:checked, popover button.flat:checked,
+popover.background button.flat:checked,
+popover.background.menu button.flat:checked, popover modelbutton.flat:active,
+popover menuitem.button.flat:active,
+popover spinbutton.vertical button:active,
+popover.background modelbutton.flat:active,
+popover.background menuitem.button.flat:active,
+popover.background spinbutton.vertical button:active,
+popover.background.menu modelbutton.flat:active,
+popover.background.menu menuitem.button.flat:active,
+popover.background.menu spinbutton.vertical button:active, popover row.button.flat.menuitem.activatable:active,
+popover row.activatable:active,
+popover .view:active,
+popover.background row.activatable:active,
+popover.background .view:active,
+popover.background.menu row.activatable:active,
+popover.background.menu .view:active, popover button.flat.combo:active,
+popover.background button.flat.combo:active,
+popover.background.menu button.flat.combo:active, popover button.flat:active,
+popover.background button.flat:active,
+popover.background.menu button.flat:active {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   color: #FFFFFF;
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.12);
   background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.12) 10%, transparent 0%);
@@ -1947,8 +2121,25 @@ popover.background row.activatable:active, popover.background .view:active, popo
 
 popover.background modelbutton.flat:disabled,
 popover.background menuitem.button.flat:disabled,
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background spinbutton.vertical button:disabled, popover.background row.button.flat.menuitem.activatable:disabled,
 popover.background row.activatable:disabled, popover.background .view:disabled, popover.background button.flat.combo:disabled, popover.background button.flat:disabled {
+=======
+popover.background spinbutton.vertical button:disabled,
+popover.background.menu modelbutton.flat:disabled,
+popover.background.menu menuitem.button.flat:disabled,
+popover.background.menu spinbutton.vertical button:disabled, popover row.button.flat.menuitem.activatable:disabled,
+popover row.activatable:disabled,
+popover .view:disabled,
+popover.background row.activatable:disabled,
+popover.background .view:disabled,
+popover.background.menu row.activatable:disabled,
+popover.background.menu .view:disabled, popover button.flat.combo:disabled,
+popover.background button.flat.combo:disabled,
+popover.background.menu button.flat.combo:disabled, popover button.flat:disabled,
+popover.background button.flat:disabled,
+popover.background.menu button.flat:disabled {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   color: rgba(255, 255, 255, 0.3);
   background-color: transparent;
 }
@@ -1980,8 +2171,20 @@ popover.background button.combo:checked:disabled, popover.background button:chec
   background-color: rgba(86, 87, 245, 0.5);
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background .linked entry, popover.background entry,
 popover.background spinbutton:not(.vertical) {
+=======
+popover .linked entry,
+popover entry,
+popover spinbutton:not(.vertical),
+popover.background .linked entry,
+popover.background entry,
+popover.background spinbutton:not(.vertical),
+popover.background.menu .linked entry,
+popover.background.menu entry,
+popover.background.menu spinbutton:not(.vertical) {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   border-radius: 0;
   caret-color: #FFFFFF;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
@@ -1991,18 +2194,43 @@ popover.background spinbutton:not(.vertical) {
   color: #FFFFFF;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background .linked entry:focus, popover.background entry:focus,
 popover.background spinbutton:focus:not(.vertical) {
+=======
+popover .linked entry:focus,
+popover entry:focus,
+popover spinbutton:focus:not(.vertical),
+popover.background .linked entry:focus,
+popover.background entry:focus,
+popover.background spinbutton:focus:not(.vertical),
+popover.background.menu .linked entry:focus,
+popover.background.menu entry:focus,
+popover.background.menu spinbutton:focus:not(.vertical) {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background .linked entry:disabled, popover.background entry:disabled,
 popover.background spinbutton:disabled:not(.vertical) {
+=======
+popover .linked entry:disabled,
+popover entry:disabled,
+popover spinbutton:disabled:not(.vertical),
+popover.background .linked entry:disabled,
+popover.background entry:disabled,
+popover.background spinbutton:disabled:not(.vertical),
+popover.background.menu .linked entry:disabled,
+popover.background.menu entry:disabled,
+popover.background.menu spinbutton:disabled:not(.vertical) {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
   background-color: transparent;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background .linked entry, popover.background entry,
 popover.background spinbutton:not(.vertical), popover.background .linked entry label, popover.background entry label,
 popover.background spinbutton:not(.vertical) label, popover.background .linked entry image, popover.background entry image,
@@ -2021,6 +2249,95 @@ popover.background .linked entry:disabled, popover.background entry:disabled,
 popover.background spinbutton:disabled:not(.vertical), popover.background .linked entry label:disabled, popover.background entry label:disabled,
 popover.background spinbutton:not(.vertical) label:disabled, popover.background .linked entry image:disabled, popover.background entry image:disabled,
 popover.background spinbutton:not(.vertical) image:disabled {
+=======
+popover .linked entry,
+popover entry,
+popover spinbutton:not(.vertical),
+popover.background .linked entry,
+popover.background entry,
+popover.background spinbutton:not(.vertical),
+popover.background.menu .linked entry,
+popover.background.menu entry,
+popover.background.menu spinbutton:not(.vertical),
+popover .linked entry label,
+popover entry label,
+popover spinbutton:not(.vertical) label,
+popover.background .linked entry label,
+popover.background entry label,
+popover.background spinbutton:not(.vertical) label,
+popover.background.menu .linked entry label,
+popover.background.menu entry label,
+popover.background.menu spinbutton:not(.vertical) label,
+popover .linked entry image,
+popover entry image,
+popover spinbutton:not(.vertical) image,
+popover.background .linked entry image,
+popover.background entry image,
+popover.background spinbutton:not(.vertical) image,
+popover.background.menu .linked entry image,
+popover.background.menu entry image,
+popover.background.menu spinbutton:not(.vertical) image {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+popover .linked entry:focus,
+popover entry:focus,
+popover spinbutton:focus:not(.vertical),
+popover.background .linked entry:focus,
+popover.background entry:focus,
+popover.background spinbutton:focus:not(.vertical),
+popover.background.menu .linked entry:focus,
+popover.background.menu entry:focus,
+popover.background.menu spinbutton:focus:not(.vertical),
+popover .linked entry label:focus,
+popover entry label:focus,
+popover spinbutton:not(.vertical) label:focus,
+popover.background .linked entry label:focus,
+popover.background entry label:focus,
+popover.background spinbutton:not(.vertical) label:focus,
+popover.background.menu .linked entry label:focus,
+popover.background.menu entry label:focus,
+popover.background.menu spinbutton:not(.vertical) label:focus,
+popover .linked entry image:focus,
+popover entry image:focus,
+popover spinbutton:not(.vertical) image:focus,
+popover.background .linked entry image:focus,
+popover.background entry image:focus,
+popover.background spinbutton:not(.vertical) image:focus,
+popover.background.menu .linked entry image:focus,
+popover.background.menu entry image:focus,
+popover.background.menu spinbutton:not(.vertical) image:focus {
+  color: #FFFFFF;
+}
+
+popover .linked entry:disabled,
+popover entry:disabled,
+popover spinbutton:disabled:not(.vertical),
+popover.background .linked entry:disabled,
+popover.background entry:disabled,
+popover.background spinbutton:disabled:not(.vertical),
+popover.background.menu .linked entry:disabled,
+popover.background.menu entry:disabled,
+popover.background.menu spinbutton:disabled:not(.vertical),
+popover .linked entry label:disabled,
+popover entry label:disabled,
+popover spinbutton:not(.vertical) label:disabled,
+popover.background .linked entry label:disabled,
+popover.background entry label:disabled,
+popover.background spinbutton:not(.vertical) label:disabled,
+popover.background.menu .linked entry label:disabled,
+popover.background.menu entry label:disabled,
+popover.background.menu spinbutton:not(.vertical) label:disabled,
+popover .linked entry image:disabled,
+popover entry image:disabled,
+popover spinbutton:not(.vertical) image:disabled,
+popover.background .linked entry image:disabled,
+popover.background entry image:disabled,
+popover.background spinbutton:not(.vertical) image:disabled,
+popover.background.menu .linked entry image:disabled,
+popover.background.menu entry image:disabled,
+popover.background.menu spinbutton:not(.vertical) image:disabled {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -2042,7 +2359,16 @@ popover.background:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background image:disabled, popover.background label:disabled {
+=======
+popover image:disabled,
+popover label:disabled,
+popover.background image:disabled,
+popover.background label:disabled,
+popover.background.menu image:disabled,
+popover.background.menu label:disabled {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -2064,8 +2390,24 @@ popover.background > toolbar {
   background-color: transparent;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background list, popover.background row, popover.background .view, popover.background textview.view > text {
   color: rgba(255, 255, 255, 0.8);
+=======
+popover list,
+popover row,
+popover .view,
+popover textview.view > text,
+popover.background list,
+popover.background row,
+popover.background .view,
+popover.background textview.view > text,
+popover.background.menu list,
+popover.background.menu row,
+popover.background.menu .view,
+popover.background.menu textview.view > text {
+  color: rgba(255, 255, 255, 0.7);
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   background-color: #3d3e43;
   border-color: rgba(255, 255, 255, 0.12);
 }
@@ -2141,8 +2483,18 @@ popover.background button.radio:hover {
   border-radius: 4px;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background.menu button, popover.background button.model {
   border-radius: 4px;
+=======
+popover.menu button,
+popover button.model,
+popover.background.menu button,
+popover.background button.model,
+popover.background.menu.menu button,
+popover.background.menu button.model {
+  border-radius: 7px;
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
 }
 
 popover.background button.suggested-action {
@@ -2221,12 +2573,23 @@ popover.background button.destructive-action.flat:checked {
   background-color: rgba(255, 82, 82, 0.3);
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background check, popover.background radio {
   color: rgba(255, 255, 255, 0.8);
+=======
+popover check,
+popover radio,
+popover.background check,
+popover.background radio,
+popover.background.menu check,
+popover.background.menu radio {
+  color: rgba(255, 255, 255, 0.7);
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   transition: none;
   animation: none;
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 popover.background check:hover, popover.background radio:hover {
   color: #FFFFFF;
 }
@@ -2240,6 +2603,51 @@ popover.background check:checked, popover.background check:indeterminate, popove
 }
 
 popover.background check:checked:disabled, popover.background check:indeterminate:disabled, popover.background radio:checked:disabled, popover.background radio:indeterminate:disabled {
+=======
+popover check:hover,
+popover radio:hover,
+popover.background check:hover,
+popover.background radio:hover,
+popover.background.menu check:hover,
+popover.background.menu radio:hover {
+  color: #FFFFFF;
+}
+
+popover check:disabled,
+popover radio:disabled,
+popover.background check:disabled,
+popover.background radio:disabled,
+popover.background.menu check:disabled,
+popover.background.menu radio:disabled {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+popover check:checked, popover check:indeterminate,
+popover radio:checked,
+popover radio:indeterminate,
+popover.background check:checked,
+popover.background check:indeterminate,
+popover.background radio:checked,
+popover.background radio:indeterminate,
+popover.background.menu check:checked,
+popover.background.menu check:indeterminate,
+popover.background.menu radio:checked,
+popover.background.menu radio:indeterminate {
+  color: #7C4DFF;
+}
+
+popover check:checked:disabled, popover check:indeterminate:disabled,
+popover radio:checked:disabled,
+popover radio:indeterminate:disabled,
+popover.background check:checked:disabled,
+popover.background check:indeterminate:disabled,
+popover.background radio:checked:disabled,
+popover.background radio:indeterminate:disabled,
+popover.background.menu check:checked:disabled,
+popover.background.menu check:indeterminate:disabled,
+popover.background.menu radio:checked:disabled,
+popover.background.menu radio:indeterminate:disabled {
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   color: rgba(124, 77, 255, 0.5);
 }
 
@@ -2574,8 +2982,8 @@ scrollbar {
 }
 
 * {
-  -GtkScrollbar-has-backward-stepper: false;
-  -GtkScrollbar-has-forward-stepper: false;
+  -gtkscrollbar-has-backward-stepper: false;
+  -gtkscrollbar-has-forward-stepper: false;
 }
 
 scrollbar.top {
@@ -3529,7 +3937,8 @@ list row {
   padding: 2px;
 }
 
-.budgie-menu button, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view, filechooser stack.view scrolledwindow treeview.view, .view, iconview, treeview.view header button, row.activatable {
+.budgie-menu button, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view, filechooser stack.view scrolledwindow treeview.view,
+.view, iconview, treeview.view header button, row.activatable {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), background-color 0, color 0, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 600ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: inset 0 0 0 9999px transparent;
   background-image: radial-gradient(circle farthest-corner at center, transparent 10%, transparent 0%);
@@ -3538,12 +3947,15 @@ list row {
   background-size: 1000% 1000%;
 }
 
-.budgie-menu button:hover, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:hover, filechooser stack.view scrolledwindow treeview.view:hover, .view:hover, iconview:hover, treeview.view header button:hover, row.activatable:hover {
+.budgie-menu button:hover, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:hover, filechooser stack.view scrolledwindow treeview.view:hover,
+.view:hover, iconview:hover, treeview.view header button:hover, row.activatable:hover {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), background-color 0, color 0, box-shadow 0, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 600ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.05);
 }
 
-.budgie-menu button.has-open-popup, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.has-open-popup.view, filechooser stack.view scrolledwindow treeview.has-open-popup.view, .has-open-popup.view, iconview.has-open-popup, treeview.view header button.has-open-popup, .budgie-menu button:active, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:active, filechooser stack.view scrolledwindow treeview.view:active, .view:active, iconview:active, treeview.view header button:active, row.activatable.has-open-popup, row.activatable:active {
+.budgie-menu button.has-open-popup, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.has-open-popup.view, filechooser stack.view scrolledwindow treeview.has-open-popup.view,
+.has-open-popup.view, iconview.has-open-popup, treeview.view header button.has-open-popup, .budgie-menu button:active, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:active, filechooser stack.view scrolledwindow treeview.view:active,
+.view:active, iconview:active, treeview.view header button:active, row.activatable.has-open-popup, row.activatable:active {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), background-color 0, color 0, background-size 0, background-image 0;
   animation: ripple_effect 225ms cubic-bezier(0, 0, 0.2, 1) forwards;
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.15);
@@ -3660,8 +4072,16 @@ messagedialog .titlebar:backdrop {
   color: rgba(255, 255, 255, 0.3);
 }
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark-solid.css
 messagedialog list, messagedialog row, messagedialog .view, messagedialog textview.view > text {
   color: rgba(255, 255, 255, 0.8);
+=======
+messagedialog list,
+messagedialog row,
+messagedialog .view,
+messagedialog textview.view > text {
+  color: rgba(255, 255, 255, 0.7);
+>>>>>>> af563b5 (reformatted):src/gtk/gtk-dark-solid.css
   background-color: #3d3e43;
   border-color: rgba(255, 255, 255, 0.12);
 }
@@ -3898,7 +4318,8 @@ placessidebar row:selected {
   color: #5657f5;
 }
 
-placessidebar row:selected image.sidebar-icon, placessidebar row:selected label.sidebar-label {
+placessidebar row:selected image.sidebar-icon,
+placessidebar row:selected label.sidebar-label {
   color: #9e9ff9;
 }
 
@@ -3929,7 +4350,8 @@ placessidebar row.sidebar-placeholder-row {
   background-clip: content-box;
 }
 
-placessidebar row.sidebar-new-bookmark-row, placessidebar row.sidebar-new-bookmark-row image.sidebar-icon {
+placessidebar row.sidebar-new-bookmark-row,
+placessidebar row.sidebar-new-bookmark-row image.sidebar-icon {
   color: #7C4DFF;
 }
 
@@ -4344,17 +4766,26 @@ headerbar.default-decoration button.titlebutton.close:hover, headerbar.default-d
   box-shadow: none;
 }
 
-.budgie-menu button:checked, text:selected, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view selection, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:selected, .view selection, .view:selected, iconview selection, iconview:selected, flowbox flowboxchild:selected, entry selection, modelbutton.flat:selected,
+.budgie-menu button:checked, text:selected, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view selection, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:selected,
+.view selection,
+.view:selected, iconview selection, iconview:selected, flowbox flowboxchild:selected,
+entry selection, modelbutton.flat:selected,
 .menuitem.button.flat:selected, spinbutton:not(.vertical) selection, row:selected, calendar:selected, filechooser stack.view scrolledwindow treeview.view selection, filechooser stack.view scrolledwindow treeview.view:selected {
   background-color: #5657f5;
 }
 
-row:selected label, label:selected, .budgie-menu button:checked, text:selected, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view selection, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:selected, .view selection, .view:selected, iconview selection, iconview:selected, flowbox flowboxchild:selected, entry selection, modelbutton.flat:selected,
+row:selected label, label:selected, .budgie-menu button:checked, text:selected, .nemo-window .nemo-window-pane widget.entry:selected:focus, .nemo-window .nemo-window-pane widget.entry:selected, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view selection, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:selected,
+.view selection,
+.view:selected, iconview selection, iconview:selected, flowbox flowboxchild:selected,
+entry selection, modelbutton.flat:selected,
 .menuitem.button.flat:selected, spinbutton:not(.vertical) selection, row:selected, calendar:selected, filechooser stack.view scrolledwindow treeview.view selection, filechooser stack.view scrolledwindow treeview.view:selected {
   color: #FFFFFF;
 }
 
-row:selected label:disabled, label:disabled:selected, .budgie-menu button:disabled:checked, text:disabled:selected, .nemo-window .nemo-window-pane widget.entry:disabled:selected, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view selection:disabled, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:disabled:selected, .view selection:disabled, .view:disabled:selected, iconview selection:disabled, iconview:disabled:selected, flowbox flowboxchild:disabled:selected, entry selection:disabled, modelbutton.flat:disabled:selected,
+row:selected label:disabled, label:disabled:selected, .budgie-menu button:disabled:checked, text:disabled:selected, .nemo-window .nemo-window-pane widget.entry:disabled:selected, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view selection:disabled, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:disabled:selected,
+.view selection:disabled,
+.view:disabled:selected, iconview selection:disabled, iconview:disabled:selected, flowbox flowboxchild:disabled:selected,
+entry selection:disabled, modelbutton.flat:disabled:selected,
 .menuitem.button.flat:disabled:selected, spinbutton:not(.vertical) selection:disabled, row:disabled:selected, calendar:disabled:selected, filechooser stack.view scrolledwindow treeview.view selection:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -4383,8 +4814,8 @@ cursor-handle.bottom:dir(ltr), cursor-handle.top:dir(rtl) {
 }
 
 cursor-handle.insertion-cursor:dir(ltr), cursor-handle.insertion-cursor:dir(rtl) {
-  -GtkWidget-text-handle-width: 24;
-  -GtkWidget-text-handle-height: 30;
+  -gtkwidget-text-handle-width: 24;
+  -gtkwidget-text-handle-height: 30;
   -gtk-icon-source: -gtk-scaled(url("assets/scale-horz-marks-before-slider-dark.png"), url("assets/scale-horz-marks-before-slider-dark@2.png"));
 }
 
