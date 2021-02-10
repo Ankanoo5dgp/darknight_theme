@@ -1002,7 +1002,7 @@ StScrollBar StButton#hhandle:active {
 >>>>>>> 18c450e (attempts to fix flashing panel):src/gnome-shell/gnome-shell.css
   font-weight: bold;
   height: 28px;
-  transition-duration: 500ms;
+  transition-duration: 600ms;
 }
 
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {

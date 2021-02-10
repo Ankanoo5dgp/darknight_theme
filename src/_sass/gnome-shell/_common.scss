@@ -936,13 +936,12 @@ StScrollBar {
   /* transition from solid to transparent */
   font-weight: bold;
   height: $menuitem_size;
-  transition-duration: 600ms;
+  transition-duration: 250ms;
 
   &:overview,
   &.unlock-screen,
   &.login-screen,
   &.lock-screen {
-    transition-duration: 250ms;
     background-color: if(
       $titlebar == "light",
       rgba($panel_bg_color, 0.5),
@@ -957,7 +956,7 @@ StScrollBar {
   }
 
   .panel-corner {
-    -panel-corner-radius: $panel-corner-radius;
+    -panel-corner-radius: 0;
     -panel-corner-background-color: $panel_bg_color;
     -panel-corner-border-width: 2px;
     -panel-corner-border-color: transparent;
