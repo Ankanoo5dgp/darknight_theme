@@ -13,7 +13,7 @@ fi
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
 THEME_NAME=Akamayan
-COLOR_VARIANTS=('' '-light' '-dark')
+COLOR_VARIANTS=('' '-darker' '-dark')
 SOLID_VARIANTS=('' '-solid')
 
 if [[ "$(command -v gnome-shell)" ]]; then
