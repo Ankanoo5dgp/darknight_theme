@@ -122,7 +122,7 @@ XfdesktopIconView.view .rubberband,
 .content-view .rubberband,
 treeview.view rubberband,
 flowbox rubberband {
-  border: 1px solid #5C6BC0;
+  border: 1px solid #5c6bc0;
   background-color: rgba(92, 107, 192, 0.3);
 }
 
@@ -756,7 +756,7 @@ button:disabled {
 button:checked {
   background-color: #5657f5;
   color: #FFFFFF;
-  background-image: linear-gradient(to bottom, #6C6AF2, #4648FB);
+  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1576,7 +1576,7 @@ headerbar button:not(.suggested-action):not(.destructive-action):checked {
   border-image: none;
   background-color: #5657f5;
   color: #FFFFFF;
-  background-image: linear-gradient(to bottom, #6C6AF2, #4648FB);
+  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4308,7 +4308,7 @@ progressbar trough {
 
 progressbar progress {
   border-radius: 9999px;
-  background-color: #5D7DFB;
+  background-color: #5d7dfb;
   background-image: linear-gradient(to left, #BA68C8, #7E57C2);
   background-size: auto auto;
   background-position: center center;
@@ -5637,7 +5637,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window {
-  background-image: linear-gradient(to bottom, #6C6AF2, #4648FB);
+  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
   background-size: 48px auto;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -5745,7 +5745,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window headerbar .path-bar-box {
-  background-image: linear-gradient(to bottom, #6C6AF2, #4648FB);
+  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -7358,7 +7358,7 @@ window.background.csd.unified.fullscreen > decoration-overlay {
   border-image: none;
   background-color: #5657f5;
   color: #FFFFFF;
-  background-image: linear-gradient(to bottom, #6C6AF2, #4648FB);
+  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -8378,7 +8378,7 @@ MatePanelAppletFrameDBus {
 
 PanelApplet.wnck-applet .wnck-pager {
   background-color: transparent;
-  color: #5C6BC0;
+  color: #5c6bc0;
 }
 
 PanelApplet.wnck-applet .wnck-pager:hover {
@@ -8973,7 +8973,7 @@ popover.background.places-menu row {
 }
 
 .budgie-panel.transparent {
-  background-color: rgba(37, 37, 45, 0.85);
+  background-color: #25252d;
 }
 
 .budgie-panel button {
@@ -9928,7 +9928,7 @@ FIXME this is really an API */
 @define-color text_view_bg #232329;
 @define-color budgie_tasklist_indicator_color #7C4DFF;
 @define-color budgie_tasklist_indicator_color_active #7C4DFF;
-@define-color budgie_tasklist_indicator_color_active_window rgba(90, 62, 174, 0.931);
+@define-color budgie_tasklist_indicator_color_active_window #543b9e;
 @define-color budgie_tasklist_indicator_color_attention #FF6D00;
 @define-color STRAWBERRY_100 #FF9262;
 @define-color STRAWBERRY_300 #FF793E;
