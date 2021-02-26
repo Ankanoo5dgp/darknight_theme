@@ -25,7 +25,7 @@
 stage {
   font-size: 9.75pt;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* WIDGETS */
@@ -46,7 +46,7 @@ stage {
 }
 
 .button:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -55,7 +55,7 @@ stage {
 }
 
 .button:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.3);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -73,22 +73,88 @@ stage {
 }
 
 .button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: none;
   icon-shadow: none;
   box-shadow: 0 0 transparent;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+=======
+.modal-dialog-linked-button {
+  min-height: 40px;
+  padding: 0 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-right-width: 0;
+  font-size: 9.75pt;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 transparent;
+  text-shadow: none;
+  icon-shadow: none;
+}
+
+.modal-dialog-linked-button:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: transparent;
+  box-shadow: 0 0 transparent;
+  text-shadow: none;
+  icon-shadow: none;
+}
+
+.modal-dialog-linked-button:active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: transparent;
+  box-shadow: 0 0 transparent;
+  text-shadow: none;
+  icon-shadow: none;
+}
+
+.modal-dialog-linked-button:insensitive {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 transparent;
+  text-shadow: none;
+  icon-shadow: none;
+}
+
+.modal-dialog-linked-button:focus {
+  color: #ffffff;
+  text-shadow: none;
+  icon-shadow: none;
+  box-shadow: 0 0 transparent;
+}
+
+.modal-dialog-linked-button:first-child {
+  border-radius: 0px 0px 0px 5px;
+}
+
+.modal-dialog-linked-button:last-child {
+  border-right-width: 0px;
+  border-radius: 0px 0px 5px 0px;
+}
+
+.modal-dialog-linked-button:first-child:last-child {
+  border-right-width: 0px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 /* Entries */
 StEntry {
   min-height: 32px;
   padding: 0 8px;
   border-radius: 0;
   border-width: 0;
-  color: #FFFFFF;
-  caret-color: #FFFFFF;
+  color: #ffffff;
+  caret-color: #ffffff;
   selection-background-color: #5657f5;
-  selected-color: #FFFFFF;
+  selected-color: #ffffff;
   font-size: 11.25pt;
   font-weight: 400;
   background-color: rgba(68, 69, 75, 0.01);
@@ -109,7 +175,7 @@ StEntry:insensitive {
 
 StEntry StIcon.capslock-warning {
   icon-size: 16px;
-  warning-color: #FF6D00;
+  warning-color: #ff6d00;
   padding: 0 0;
 }
 
@@ -161,7 +227,7 @@ StScrollBar StButton#hhandle:hover {
 
 StScrollBar StButton#vhandle:active,
 StScrollBar StButton#hhandle:active {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #screenShieldNotifications StScrollBar StBin#trough {
@@ -194,18 +260,22 @@ StScrollBar StButton#hhandle:active {
 #screenShieldNotifications StScrollBar StButton#vhandle:active, #overview StScrollBar StButton#vhandle:active,
 #screenShieldNotifications StScrollBar StButton#hhandle:active,
 #overview StScrollBar StButton#hhandle:active {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
 >>>>>>> 18c450e (attempts to fix flashing panel):src/gnome-shell/gnome-shell.css
   background-color: #FFFFFF;
+=======
+  background-color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 /* Slider */
 .slider {
   height: 20px;
-  color: #7C4DFF;
+  color: #7c4dff;
   -slider-height: 2px;
   -slider-background-color: rgba(255, 255, 255, 0.2);
   -slider-border-color: transparent;
-  -slider-active-background-color: #7C4DFF;
+  -slider-active-background-color: #7c4dff;
   -slider-active-border-color: transparent;
   -slider-border-width: 0;
   -slider-handle-radius: 7px;
@@ -214,9 +284,9 @@ StScrollBar StButton#hhandle:active {
   -barlevel-height: 2px;
   -barlevel-background-color: rgba(255, 255, 255, 0.2);
   -barlevel-border-color: transparent;
-  -barlevel-active-background-color: #7C4DFF;
+  -barlevel-active-background-color: #7c4dff;
   -barlevel-active-border-color: transparent;
-  -barlevel-overdrive-color: #FF5252;
+  -barlevel-overdrive-color: #ff5252;
   -barlevel-overdrive-border-color: transparent;
   -barlevel-overdrive-separator-width: 2px;
   -barlevel-border-width: 0;
@@ -335,8 +405,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   border-radius: 13px;
   color: #FFFFFF;
+=======
+  border-radius: 5px;
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
   background-color: #44454b;
   border: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
@@ -498,7 +573,7 @@ StScrollBar StButton#hhandle:active {
 
 .end-session-dialog-warning {
   width: 28em;
-  color: #FF6D00;
+  color: #ff6d00;
   padding-top: 6px;
 }
 
@@ -554,6 +629,80 @@ StScrollBar StButton#hhandle:active {
   font-size: 1em;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+=======
+/* ShellMountOperation Dialogs */
+.shell-mount-operation-icon {
+  icon-size: 48px;
+}
+
+.mount-dialog {
+  spacing: 24px;
+}
+
+.mount-dialog .message-dialog-title {
+  padding-top: 10px;
+  padding-left: 17px;
+  padding-bottom: 6px;
+  max-width: 34em;
+}
+
+.mount-dialog .message-dialog-title:rtl {
+  padding-left: 0px;
+  padding-right: 17px;
+}
+
+.mount-dialog .message-dialog-body {
+  padding-left: 17px;
+  width: 28em;
+}
+
+.mount-dialog .message-dialog-body:rtl {
+  padding-left: 0px;
+  padding-right: 17px;
+}
+
+.mount-dialog-app-list {
+  max-height: 200px;
+  padding-top: 24px;
+  padding-left: 49px;
+  padding-right: 32px;
+}
+
+.mount-dialog-app-list:rtl {
+  padding-right: 49px;
+  padding-left: 32px;
+}
+
+.mount-dialog-app-list-item {
+  color: #ffffff;
+}
+
+.mount-dialog-app-list-item:hover {
+  color: #ffffff;
+}
+
+.mount-dialog-app-list-item:ltr {
+  padding-right: 1em;
+}
+
+.mount-dialog-app-list-item:rtl {
+  padding-left: 1em;
+}
+
+.mount-dialog-app-list-item-icon:ltr {
+  padding-right: 17px;
+}
+
+.mount-dialog-app-list-item-icon:rtl {
+  padding-left: 17px;
+}
+
+.mount-dialog-app-list-item-name {
+  font-size: 1em;
+}
+
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 /* Password or Authentication Dialog */
 .prompt-dialog {
   width: 34em;
@@ -572,7 +721,7 @@ StScrollBar StButton#hhandle:active {
 .prompt-dialog .message-dialog-title {
   font-size: 15pt;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .prompt-dialog-description:rtl {
@@ -586,7 +735,7 @@ StScrollBar StButton#hhandle:active {
 
 .prompt-dialog-error-label {
   font-size: 1em;
-  color: #DD2C00;
+  color: #dd2c00;
   padding-bottom: 8px;
 }
 
@@ -616,7 +765,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .polkit-dialog-user-root-label {
-  color: #FF6D00;
+  color: #ff6d00;
 }
 
 .polkit-dialog-user-icon {
@@ -694,14 +843,20 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-menu-item:checked {
+<<<<<<< HEAD
   background-color: #5657f5 !important;
   color: #FFFFFF !important;
+=======
+  background-color: #5657f5;
+  color: #ffffff;
+>>>>>>> 3244798 (replaced ellipse with manjaro logo)
   box-shadow: none;
   border: none;
   font-weight: normal;
   border-radius: 0 !important;
 }
 
+<<<<<<< HEAD
 .popup-menu .popup-menu-item:checked:hover, .popup-menu .popup-menu-item:checked:focus, .popup-menu .popup-menu-item:checked.selected {
   background-color: #6f70f7 !important;
   color: #FFFFFF !important;
@@ -710,15 +865,36 @@ StScrollBar StButton#hhandle:active {
 .popup-menu .popup-menu-item:checked:active {
   background-color: #8989f8 !important;
   color: #FFFFFF !important;
+=======
+.popup-menu .popup-menu-item:checked.selected {
+  background-color: #6f70f7;
+  color: #ffffff;
+}
+
+.popup-menu .popup-menu-item:checked:active {
+  background-color: #8989f8;
+  color: #ffffff !important;
+>>>>>>> 3244798 (replaced ellipse with manjaro logo)
 }
 
 .popup-menu .popup-menu-item:checked:insensitive {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+<<<<<<< HEAD
 .popup-menu .popup-menu-item:hover, .popup-menu .popup-menu-item:focus, .popup-menu .popup-menu-item.selected {
   background-color: rgba(255, 255, 255, 0.08) !important;
   color: #FFFFFF !important;
+=======
+.popup-menu .popup-menu-item.selected {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
+>>>>>>> 3244798 (replaced ellipse with manjaro logo)
   transition-duration: 0ms;
   box-shadow: none;
   border: none;
@@ -726,13 +902,27 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-menu-item:active {
+<<<<<<< HEAD
   background-color: rgba(255, 255, 255, 0.2) !important;
   color: #FFFFFF !important;
+=======
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+=======
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
+>>>>>>> 3244798 (replaced ellipse with manjaro logo)
   transition-duration: 225ms;
 }
 
 .popup-menu .popup-menu-item.selected:active {
+<<<<<<< HEAD
   color: #FFFFFF !important;
+=======
+  color: #ffffff;
+>>>>>>> 3244798 (replaced ellipse with manjaro logo)
 }
 
 .popup-menu .popup-menu-item:insensitive {
@@ -887,11 +1077,11 @@ StScrollBar StButton#hhandle:active {
   height: 4px;
   border-radius: 2px;
   background-color: rgba(86, 87, 245, 0.3);
-  color: #FFFFFF;
+  color: #ffffff;
   -barlevel-height: 4px;
   -barlevel-background-color: transparent;
-  -barlevel-active-background-color: #00C853;
-  -barlevel-overdrive-color: #FF5252;
+  -barlevel-active-background-color: #00c853;
+  -barlevel-overdrive-color: #ff5252;
   -barlevel-overdrive-separator-width: 2px;
   -barlevel-border-width: 0;
 }
@@ -937,13 +1127,18 @@ StScrollBar StButton#hhandle:active {
 .switcher-list .item-box:outlined {
   padding: 8px;
   border: none;
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
   color: #FFFFFF;
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .switcher-list .item-box:selected {
   background-color: #5657f5;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .switcher-list .thumbnail-box {
@@ -966,7 +1161,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .switcher-arrow:highlighted {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .input-source-switcher-symbol {
@@ -998,7 +1193,7 @@ StScrollBar StButton#hhandle:active {
 .ws-switcher-active-down {
   height: 48px;
   background-color: #5657f5;
-  color: #FFFFFF;
+  color: #ffffff;
   background-size: 32px;
   border-radius: 13px;
 }
@@ -1013,7 +1208,7 @@ StScrollBar StButton#hhandle:active {
 .osd-window,
 .resize-popup,
 .switcher-list, .workspace-switcher-container {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #44454b;
   border: none;
   box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22);
@@ -1161,27 +1356,27 @@ StScrollBar StButton#hhandle:active {
 }
 
 #panel .screencast-indicator {
-  color: #FF6D00;
+  color: #ff6d00;
 }
 
 #panel .remote-access-indicator {
-  color: #FF6D00;
+  color: #ff6d00;
 }
 
 #panel #panelActivities.panel-button > * {
   background-image: url("assets/activities.svg");
-  background-position: center top;
+  background-position: center;
   width: 24px;
   height: 24px;
   background-color: transparent !important;
   background-gradient-direction: none !important;
   border: none;
   color: transparent;
+  background-size: contain;
 }
 
 #panel #panelActivities.panel-button:active, #panel #panelActivities.panel-button:overview, #panel #panelActivities.panel-button:focus, #panel #panelActivities.panel-button:checked {
   background-color: rgba(37, 37, 45, 0.01);
-  box-shadow: inset 0 -2px 0px #5657f5;
   color: rgba(255, 255, 255, 0.8);
   border: none;
 }
@@ -1230,6 +1425,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .datemenu-calendar-column:hover, .datemenu-calendar-column:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -1237,6 +1433,15 @@ StScrollBar StButton#hhandle:active {
 .datemenu-calendar-column:active {
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.datemenu-calendar-column:active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .datemenu-calendar-column:ltr {
@@ -1272,6 +1477,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .datemenu-today-button:hover, .datemenu-today-button:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -1279,6 +1485,15 @@ StScrollBar StButton#hhandle:active {
 .datemenu-today-button:active {
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.datemenu-today-button:active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .calendar-month-label {
@@ -1293,8 +1508,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-month-label:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .pager-button {
@@ -1307,6 +1527,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .pager-button:hover, .pager-button:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -1314,6 +1535,15 @@ StScrollBar StButton#hhandle:active {
 .pager-button:active {
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.pager-button:active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .calendar-change-month-back {
@@ -1360,8 +1590,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-day-base:selected {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
   border-color: transparent;
 }
 
@@ -1392,7 +1627,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-nonwork-day {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .calendar-today {
@@ -1463,15 +1698,25 @@ StScrollBar StButton#hhandle:active {
 .weather-button:focus,
 .events-button:hover,
 .events-button:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.08);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .world-clocks-button:active,
 .weather-button:active,
 .events-button:active {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .world-clocks-header,
@@ -1667,7 +1912,7 @@ StScrollBar StButton#hhandle:active {
 .message-title {
   min-height: 18px;
   padding-top: 2px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   font-size: 1em;
 }
@@ -1688,6 +1933,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .message-close-button:hover, .message-close-button:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -1695,6 +1941,15 @@ StScrollBar StButton#hhandle:active {
 .message-close-button:active {
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.message-close-button:active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .message-close-button:insensitive {
@@ -1713,6 +1968,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .message-media-control:hover, .message-media-control:focus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.08);
 }
@@ -1720,6 +1976,15 @@ StScrollBar StButton#hhandle:active {
 .message-media-control:active {
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.2);
+=======
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.message-media-control:active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .message-media-control:insensitive {
@@ -1754,6 +2019,75 @@ StScrollBar StButton#hhandle:active {
   color: rgba(255, 255, 255, 0.5);
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+=======
+.system-switch-user-submenu-icon.user-icon {
+  icon-size: 20px;
+  padding: 0 2px;
+}
+
+.system-switch-user-submenu-icon.default-icon {
+  icon-size: 16px;
+  padding: 0 4px;
+}
+
+#appMenu {
+  spinner-image: url("process-working.svg");
+  spacing: 4px;
+}
+
+#appMenu .label-shadow {
+  color: transparent;
+}
+
+.aggregate-menu {
+  min-width: 21em;
+}
+
+.aggregate-menu .popup-menu-icon {
+  padding: 0 0;
+  margin: 0 0;
+  -st-icon-style: symbolic;
+}
+
+.aggregate-menu .popup-sub-menu .popup-menu-item :first-child:ltr {
+  /* 8px spacing + 2*4px padding */
+  padding-left: 10px;
+  margin-left: 1.2307692308em;
+}
+
+.aggregate-menu .popup-sub-menu .popup-menu-item :first-child:rtl {
+  /* 8px spacing + 2*4px padding */
+  padding-right: 10px;
+  margin-right: 1.2307692308em;
+}
+
+.system-menu-action {
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 100px;
+  /* wish we could do 50% */
+  padding: 11px;
+  border: none;
+  -st-icon-style: symbolic;
+}
+
+.system-menu-action:hover, .system-menu-action:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border: none;
+  padding: 11px;
+}
+
+.system-menu-action:active {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+.system-menu-action > StIcon {
+  icon-size: 16px;
+}
+
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 .ripple-box {
   width: 48px;
   height: 48px;
@@ -1803,7 +2137,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .nm-dialog-airplane-text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nm-dialog-header-icon {
@@ -1838,7 +2172,7 @@ StScrollBar StButton#hhandle:active {
 
 .nm-dialog-item:selected {
   background-color: #5657f5;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nm-dialog-icons {
@@ -1857,18 +2191,100 @@ StScrollBar StButton#hhandle:active {
   spacing: 12px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+=======
+/* OVERVIEW */
+#overview {
+  spacing: 24px;
+}
+
+#overview .app-view-controls {
+  width: 320px;
+  padding-bottom: 32px;
+}
+
+#overview .app-view-control {
+  padding: 0 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#overview .app-view-control:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+#overview .app-view-control:active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+#overview .app-view-control:checked {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.01) !important;
+  box-shadow: inset 0 2px #5657f5;
+}
+
+#overview .app-view-control:first-child {
+  border-right-width: 0;
+  border-radius: 7px;
+}
+
+#overview .app-view-control:first-child:checked {
+  border-radius: 0 0 7px 7px;
+}
+
+#overview .app-view-control:last-child {
+  border-radius: 7px;
+}
+
+#overview .app-view-control:last-child:checked {
+  border-radius: 0 0 7px 7px;
+}
+
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 .overview-controls {
   padding-bottom: 32px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+=======
+.window-picker {
+  -horizontal-spacing: 16px;
+  -vertical-spacing: 16px;
+  padding: 0 16px 32px;
+}
+
+.window-picker.external-monitor {
+  padding: 16px;
+}
+
+.window-clone-border {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+.window-caption {
+  spacing: 25px;
+  color: #ffffff;
+  background-color: #5657f5;
+  border-radius: 5px;
+  border: none;
+  padding: 4px 8px;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 .search-entry {
   width: 304px;
   padding: 0 8px;
   border-radius: 0;
   color: rgba(255, 255, 255, 0.5);
-  caret-color: #FFFFFF;
+  caret-color: #ffffff;
   selection-background-color: rgba(255, 255, 255, 0.3);
-  selected-color: #FFFFFF;
+  selected-color: #ffffff;
   background-color: rgba(37, 37, 45, 0.01);
   border-color: transparent;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
@@ -1879,7 +2295,7 @@ StScrollBar StButton#hhandle:active {
   box-shadow: inset 0 -2px #5657f5;
   padding: 0 8px;
   border-width: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .search-entry .search-entry-icon {
@@ -1889,7 +2305,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .search-entry:hover .search-entry-icon, .search-entry:focus .search-entry-icon {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .search-entry StLabel.hint-text {
@@ -1930,7 +2346,7 @@ StScrollBar StButton#hhandle:active {
 .list-search-result-title {
   font-size: 11.25pt;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   spacing: 12px;
 }
 
@@ -1952,6 +2368,7 @@ StScrollBar StButton#hhandle:active {
   padding: 15px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
 .app-well-app .overview-icon,
 .show-apps .overview-icon,
 .grid-search-result .overview-icon, .search-provider-icon,
@@ -1962,6 +2379,65 @@ StScrollBar StButton#hhandle:active {
   border: none;
   transition-duration: 225ms;
   text-align: center;
+=======
+/* DASHBOARD */
+#dash {
+  font-size: 1em;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 3px 0;
+  border: none;
+  border-left: 0px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#dash:rtl {
+  border-radius: 5px 0 0 5px;
+}
+
+#dash .placeholder {
+  background-image: url("assets/dash-placeholder.svg");
+  background-size: contain;
+  height: 24px;
+}
+
+#dash .empty-dash-drop-target {
+  width: 24px;
+  height: 24px;
+}
+
+.dash-item-container > StWidget {
+  padding: 3px 6px;
+}
+
+.dash-label {
+  border-radius: 5px;
+  padding: 7px 8px;
+  color: #ffffff;
+  background-color: #44454b;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  -x-offset: 8px;
+}
+
+/* App Vault/Grid */
+.icon-grid {
+  spacing: 30px;
+  -shell-grid-horizontal-item-size: 136px;
+  -shell-grid-vertical-item-size: 136px;
+}
+
+.icon-grid .overview-icon {
+  icon-size: 96px;
+}
+
+.system-action-icon {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  background-color: #212121;
+  color: #ffffff;
+  border-radius: 99px;
+  icon-size: 48px;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .search-provider-icon:focus, .search-provider-icon:selected, .search-provider-icon:hover,
@@ -2009,10 +2485,23 @@ StScrollBar StButton#hhandle:active {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
 StWidget.focused .app-well-app-running-dot {
   width: 24px;
   height: 2px;
   background-color: #5657f5 !important;
+=======
+.search-provider-icon,
+.list-search-result, .app-well-app .overview-icon,
+.show-apps .overview-icon,
+.grid-search-result .overview-icon {
+  color: #ffffff;
+  border-radius: 100px;
+  padding: 6px;
+  border: none;
+  transition-duration: 225ms;
+  text-align: center;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .show-apps .show-apps-icon {
@@ -2023,7 +2512,7 @@ StWidget.focused .app-well-app-running-dot {
 .show-apps:active .show-apps-icon,
 .show-apps:checked .show-apps-icon,
 .show-apps:focus .show-apps-icon {
-  color: #FFFFFF;
+  color: #ffffff;
   transition-duration: 225ms;
 }
 
@@ -2085,7 +2574,7 @@ StWidget.focused .app-well-app-running-dot {
   padding: 0;
   border: none;
   box-shadow: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   transition-duration: 0ms;
 }
 
@@ -2166,7 +2655,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .app-folder-dialog .folder-name-container .edit-folder-button:hover, .app-folder-dialog .folder-name-container .edit-folder-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -2175,7 +2664,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .app-folder-dialog .folder-name-container .edit-folder-button:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.3);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -2236,6 +2725,39 @@ StWidget.focused .app-well-app-running-dot {
   max-width: 27.25em;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+=======
+.workspace-thumbnails {
+  visible-width: 32px;
+  spacing: 12px;
+  padding: 12px;
+  border-radius: 5px 0 0 5px;
+}
+
+.workspace-thumbnails:rtl {
+  border-radius: 0 5px 5px 0;
+}
+
+.workspace-thumbnail-indicator {
+  border: 0 solid #5657f5;
+  border-left-width: 2px;
+  padding: 6px;
+  border-radius: 0;
+}
+
+.search-display > StBoxLayout,
+.all-apps,
+.frequent-apps > StBoxLayout {
+  padding: 0px 88px 10px 88px;
+}
+
+.workspace-thumbnails {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 .search-statustext, .no-frequent-applications-label {
   font-size: 45px;
   font-weight: 400;
@@ -2252,8 +2774,13 @@ StWidget.focused .app-well-app-running-dot {
   width: 34em;
   min-height: 56px;
   margin: 5px;
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   border-radius: 13px;
   color: #FFFFFF;
+=======
+  border-radius: 5px;
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
   background-color: #44454b;
   border: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
@@ -2304,6 +2831,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .notification-banner .notification-button:hover, .notification-banner .notification-buttonfocus {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
   color: #FFFFFF;
 }
@@ -2311,6 +2839,15 @@ StWidget.focused .app-well-app-running-dot {
 .notification-banner .notification-button:active {
   background-color: rgba(255, 255, 255, 0.2);
   color: #FFFFFF;
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+.notification-banner .notification-button:active {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .summary-source-counter {
@@ -2321,8 +2858,8 @@ StWidget.focused .app-well-app-running-dot {
   -shell-counter-overlap-x: 3px;
   -shell-counter-overlap-y: 3px;
   background-color: #5657f5;
-  color: #FFFFFF;
-  border: 2px solid #FFFFFF;
+  color: #ffffff;
+  border: 2px solid #ffffff;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 0.9em;
 }
@@ -2340,7 +2877,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .chat-log-message {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .chat-new-group {
@@ -2378,6 +2915,64 @@ StWidget.focused .app-well-app-running-dot {
   padding-right: 4px;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+=======
+.hotplug-transient-box {
+  spacing: 6px;
+  padding: 2px 72px 2px 12px;
+}
+
+.hotplug-notification-item {
+  padding: 2px 10px;
+}
+
+.hotplug-notification-item:focus {
+  padding: 1px 71px 1px 11px;
+}
+
+.hotplug-notification-item-icon {
+  icon-size: 24px;
+  padding: 2px 5px;
+}
+
+.hotplug-resident-box {
+  spacing: 8px;
+}
+
+.hotplug-resident-mount {
+  spacing: 8px;
+  border-radius: 5px;
+}
+
+.hotplug-resident-mount:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.hotplug-resident-mount:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hotplug-resident-mount-label {
+  color: inherit;
+  padding-left: 6px;
+}
+
+.hotplug-resident-mount-icon {
+  icon-size: 24px;
+  padding-left: 6px;
+}
+
+.hotplug-resident-eject-icon {
+  icon-size: 16px;
+}
+
+.hotplug-resident-eject-button {
+  padding: 7px;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 .magnifier-zoom-region {
   border: 2px solid #5657f5;
 }
@@ -2430,18 +3025,18 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .keyboard-key:focus, .keyboard-key:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #4c4c56;
 }
 
 .keyboard-key:checked, .keyboard-key:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #646471;
 }
 
 .keyboard-key:grayed {
   background-color: rgba(66, 66, 73, 0.85);
-  color: #FFFFFF;
+  color: #ffffff;
   border-color: rgba(66, 66, 73, 0.85);
 }
 
@@ -2462,16 +3057,16 @@ StWidget.focused .app-well-app-running-dot {
 
 .keyboard-key.enter-key {
   background-color: #5657f5;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .keyboard-key.enter-key:focus, .keyboard-key.enter-key:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #6e6ff6;
 }
 
 .keyboard-key.enter-key:checked, .keyboard-key.enter-key:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #2627f2;
 }
 
@@ -2518,6 +3113,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .candidate-box:hover {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   background-color: rgba(255, 255, 255, 0.08);
   color: #FFFFFF;
 }
@@ -2525,11 +3121,20 @@ StWidget.focused .app-well-app-running-dot {
 .candidate-box:active {
   background-color: rgba(255, 255, 255, 0.2);
   color: #FFFFFF;
+=======
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+.candidate-box:active {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .candidate-box:selected {
   background-color: #5657f5;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .candidate-box:last-child {
@@ -2568,13 +3173,18 @@ StWidget.focused .app-well-app-running-dot {
 .framed-user-icon {
   background-size: contain;
   border: none;
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   color: #FFFFFF;
   border-radius: 13px;
+=======
+  color: #ffffff;
+  border-radius: 5px;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .framed-user-icon:hover {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .login-dialog-banner-view {
@@ -2588,9 +3198,9 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog StEntry {
-  color: #FFFFFF;
+  color: #ffffff;
   selection-background-color: rgba(255, 255, 255, 0.3);
-  selected-color: #FFFFFF;
+  selected-color: #ffffff;
   background-color: rgba(37, 37, 45, 0.01);
   border-color: transparent;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
@@ -2598,7 +3208,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .login-dialog StEntry:focus {
   border-color: transparent;
-  box-shadow: inset 0 -2px #FFFFFF;
+  box-shadow: inset 0 -2px #ffffff;
 }
 
 .login-dialog StEntry:insensitive {
@@ -2623,7 +3233,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog .modal-dialog-button:hover, .login-dialog .modal-dialog-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -2632,7 +3242,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog .modal-dialog-button:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.3);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -2651,7 +3261,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .login-dialog .modal-dialog-button:default {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #7C4DFF;
+  background-color: #7c4dff;
   border-color: transparent;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1);
   text-shadow: none;
@@ -2659,8 +3269,8 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus {
-  color: #FFFFFF;
-  background-color: #7C4DFF;
+  color: #ffffff;
+  background-color: #7c4dff;
   border-color: transparent;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
   text-shadow: none;
@@ -2668,7 +3278,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog .modal-dialog-button:default:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #a382ff;
   border-color: transparent;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
@@ -2698,7 +3308,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog-message-warning {
-  color: #FF6D00;
+  color: #ff6d00;
 }
 
 .login-dialog-message-hint {
@@ -2715,7 +3325,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog-not-listed-button:focus .login-dialog-not-listed-label, .login-dialog-not-listed-button:hover .login-dialog-not-listed-label {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-not-listed-label {
@@ -2726,7 +3336,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog-not-listed-label:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-not-listed-label:focus {
@@ -2745,21 +3355,21 @@ StWidget.focused .app-well-app-running-dot {
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:selected {
   background-color: rgba(255, 255, 255, 0.12);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:hover {
   background-color: rgba(255, 255, 255, 0.12);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:active {
   background-color: rgba(255, 255, 255, 0.3);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {
-  border-right: 2px solid #FFFFFF;
+  border-right: 2px solid #ffffff;
 }
 
 .login-dialog-user-list-item {
@@ -2778,27 +3388,27 @@ StWidget.focused .app-well-app-running-dot {
 
 .login-dialog-user-list-item:hover {
   background-color: rgba(255, 255, 255, 0.12);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-user-list-item:active {
   background-color: rgba(255, 255, 255, 0.3);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-user-list-item .login-dialog-timed-login-indicator {
   height: 2px;
   margin: 2px 0 0 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .login-dialog-user-list-item:focus .login-dialog-timed-login-indicator {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .login-dialog-username,
 .user-widget-label {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 15pt;
   font-weight: 500;
   text-align: left;
@@ -2835,11 +3445,11 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .login-dialog-session-list-button:hover, .login-dialog-session-list-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .login-dialog-session-list-button:active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #lockDialogGroup {
@@ -2881,8 +3491,13 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #LookingGlassDialog .notebook-tab:hover {
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   box-shadow: inset 0 -2px 0px rgba(255, 255, 255, 0.2);
   color: #FFFFFF;
+=======
+  box-shadow: inset 0 -2px 0px rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
   text-shadow: none;
 }
 
@@ -2891,7 +3506,7 @@ StWidget.focused .app-well-app-running-dot {
   border-color: transparent;
   background-color: rgba(68, 69, 75, 0.01);
   box-shadow: inset 0 -2px 0px #5657f5;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: none;
 }
 
@@ -2906,7 +3521,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .lg-dialog StEntry {
   selection-background-color: #5657f5;
-  selected-color: #FFFFFF;
+  selected-color: #ffffff;
 }
 
 .lg-dialog .shell-link {
@@ -2942,7 +3557,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .lg-obj-inspector-button:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -2951,7 +3566,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .lg-obj-inspector-button:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.3);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -2969,7 +3584,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .lg-obj-inspector-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: none;
   icon-shadow: none;
   box-shadow: 0 0 transparent;
@@ -3315,8 +3930,162 @@ StWidget.focused .app-well-app-running-dot {
   background-color: transparent !important;
 }
 
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
 #dashtodockContainer.opaque.extended:overview #dash .dash-background, #dashtodockContainer.transparent.extended:overview #dash .dash-background {
   background-color: rgba(255, 255, 255, 0.12);
+=======
+#dashtodockContainer.left .dash-item-container > StWidget.running1.focused {
+  background-image: url("assets/dash/left-running1-focused.svg");
+}
+
+#dashtodockContainer.left .dash-item-container > StWidget.running2 {
+  background-image: url("assets/dash/left-running2.svg");
+}
+
+#dashtodockContainer.left .dash-item-container > StWidget.running2.focused {
+  background-image: url("assets/dash/left-running2-focused.svg");
+}
+
+#dashtodockContainer.left .dash-item-container > StWidget.running3 {
+  background-image: url("assets/dash/left-running3.svg");
+}
+
+#dashtodockContainer.left .dash-item-container > StWidget.running3.focused {
+  background-image: url("assets/dash/left-running3-focused.svg");
+}
+
+#dashtodockContainer.left .dash-item-container > StWidget.running4 {
+  background-image: url("assets/dash/left-running4.svg");
+}
+
+#dashtodockContainer.left .dash-item-container > StWidget.running4.focused {
+  background-image: url("assets/dash/left-running4-focused.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running1 {
+  background-image: url("assets/dash/right-running1.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running1.focused {
+  background-image: url("assets/dash/right-running1-focused.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running2 {
+  background-image: url("assets/dash/right-running2.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running2.focused {
+  background-image: url("assets/dash/right-running2-focused.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running3 {
+  background-image: url("assets/dash/right-running3.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running3.focused {
+  background-image: url("assets/dash/right-running3-focused.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running4 {
+  background-image: url("assets/dash/right-running4.svg");
+}
+
+#dashtodockContainer.right .dash-item-container > StWidget.running4.focused {
+  background-image: url("assets/dash/right-running4-focused.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running1 {
+  background-image: url("assets/dash/top-running1.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running1.focused {
+  background-image: url("assets/dash/top-running1-focused.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running2 {
+  background-image: url("assets/dash/top-running2.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running2.focused {
+  background-image: url("assets/dash/top-running2-focused.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running3 {
+  background-image: url("assets/dash/top-running3.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running3.focused {
+  background-image: url("assets/dash/top-running3-focused.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running4 {
+  background-image: url("assets/dash/top-running4.svg");
+}
+
+#dashtodockContainer.top .dash-item-container > StWidget.running4.focused {
+  background-image: url("assets/dash/top-running4-focused.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running1 {
+  background-image: url("assets/dash/bottom-running1.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running1.focused {
+  background-image: url("assets/dash/bottom-running1-focused.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running2 {
+  background-image: url("assets/dash/bottom-running2.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running2.focused {
+  background-image: url("assets/dash/bottom-running2-focused.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running3 {
+  background-image: url("assets/dash/bottom-running3.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running3.focused {
+  background-image: url("assets/dash/bottom-running3-focused.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running4 {
+  background-image: url("assets/dash/bottom-running4.svg");
+}
+
+#dashtodockContainer.bottom .dash-item-container > StWidget.running4.focused {
+  background-image: url("assets/dash/bottom-running4-focused.svg");
+}
+
+/* Simple Dock */
+#dash:desktop {
+  background-color: rgba(33, 33, 33, 0.5);
+}
+
+/* GPaste */
+.popup-menu .search-entry {
+  color: #ffffff;
+  selection-background-color: #5657f5;
+  selected-color: #ffffff;
+  background-color: rgba(68, 69, 75, 0.01);
+  border-color: transparent;
+  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
+}
+
+.popup-menu .search-entry:focus {
+  border-color: transparent;
+  box-shadow: inset 0 -2px #5657f5;
+  color: #ffffff;
+}
+
+.popup-menu .search-entry .search-entry-icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.popup-menu .search-entry:hover .search-entry-icon, .popup-menu .search-entry:focus .search-entry-icon {
+  color: #ffffff;
+>>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gnome-shell/gnome-shell-dark.css
 }
 
 .openweather-button, .openweather-button-action, .openweather-menu-button-container, .openweather-button-box {
@@ -3335,7 +4104,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .openweather-provider:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -3344,14 +4113,14 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .openweather-provider:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: none;
   icon-shadow: none;
   box-shadow: 0 0 transparent;
 }
 
 .openweather-provider:active {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.3);
   border-color: transparent;
   box-shadow: 0 0 transparent;
@@ -3361,7 +4130,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .openweather-current-icon, .openweather-current-summary, .openweather-current-summarybox {
   background: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .openweather-current-databox-values {
