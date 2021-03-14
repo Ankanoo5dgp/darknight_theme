@@ -11,6 +11,11 @@
   @return mix($c, $blue_grey_900, 50%);
 }
 
+//My colors
+
+$primary_color_dark: #333538;
+$secondary_color_dark: #c9ddfc80;
+
 // Foreground colors
 $dark_fg_color: rgba($black, 0.87);
 $light_fg_color: $white;
@@ -159,8 +164,8 @@ $opaque_panel_bg_color: if(
 $gdm_bg_color: if($variant == "light", $blue_grey_800, $blue_grey_900);
 
 $menu_bg_color: if(
-  $titlebar == "light" and $variant == "light",
-  $base_color,
+  $titlebar == "darker" and $variant == "darker",
+  $primary_color_dark,
   $blue_grey_850
 );
 $menu_fg_color: if(

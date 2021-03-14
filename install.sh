@@ -36,7 +36,7 @@ usage() {
   printf "\n%s\n" "OPTIONS:"
   printf "  %-25s%s\n" "-d, --dest DIR" "Specify theme destination directory (Default: ${DEST_DIR})"
   printf "  %-25s%s\n" "-n, --name NAME" "Specify theme name (Default: ${THEME_NAME})"
-  printf "  %-25s%s\n" "-c, --color VARIANTS" "Specify theme color variant(s) [standard|light|dark] (Default: All variants)"
+  printf "  %-25s%s\n" "-c, --color VARIANTS" "Specify theme color variant(s) [darker|dark] (Default: All variants)"
   printf "  %-25s%s\n" "-s, --solid VARIANTS" "Specify theme solid variant(s) [standard|solid] (Default: All variants)"
   printf "  %-25s%s\n" "-h, --help" "Show this help"
 }
@@ -48,7 +48,7 @@ install() {
   local solid=${4}
 
   [[ ${color} == '-dark' ]] && local ELSE_DARK=${color}
-  [[ ${color} == '-darker' ]] && local ELSE_LIGHT=${color}
+  [[ ${color} == '-light' ]] && local ELSE_LIGHT=${color}
 
   local THEME_DIR=${dest}/${name}${color}${solid}
 
@@ -82,7 +82,7 @@ install() {
 
   mkdir -p                                                                           ${THEME_DIR}/gtk-2.0
   cp -ur ${SRC_DIR}/src/gtk-2.0/{apps.rc,hacks.rc,main.rc,panel.rc}                  ${THEME_DIR}/gtk-2.0
-  cp -ur ${SRC_DIR}/src/gtk-2.0/assets${ELSE_DARK}                                   ${THEME_DIR}/gtk-2.0/assets
+  cp -ur ${SRC_DIR}/src/gtk-2.0/assets-dark                                 ${THEME_DIR}/gtk-2.0/assets
   cp -ur ${SRC_DIR}/src/gtk-2.0/gtkrc${color}                                        ${THEME_DIR}/gtk-2.0/gtkrc
 
   cp -ur ${SRC_DIR}/src/gtk/assets                                                   ${THEME_DIR}/gtk-assets
