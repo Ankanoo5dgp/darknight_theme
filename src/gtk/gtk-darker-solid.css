@@ -1284,7 +1284,7 @@ headerbar {
   min-height: 38px;
   padding: 0 4px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0), inset 0 -1px rgba(0, 0, 0, 0.08);
-  background-color: #ffffff;
+  background-color: #31313a;
   color: rgba(0, 0, 0, 0.75);
 }
 
@@ -1604,8 +1604,8 @@ headerbar.titlebar.default-decoration, .csd headerbar.titlebar.default-decoratio
 }
 
 box headerbar:not(:only-child):first-child, box headerbar:not(:only-child):last-child {
-  border-left-color: #ffffff;
-  border-right-color: #ffffff;
+  border-left-color: #31313a;
+  border-right-color: #31313a;
 }
 
 .titlebar,
@@ -1668,7 +1668,7 @@ window.csd > .titlebar:not(headerbar) {
 }
 
 .titlebar:not(headerbar) > separator {
-  background-color: #ffffff;
+  background-color: #31313a;
 }
 
 /************
@@ -1855,7 +1855,7 @@ menubar,
   -gtkwidget-window-dragging: true;
   padding: 0;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.08);
-  background-color: #ffffff;
+  background-color: #31313a;
   color: rgba(0, 0, 0, 0.54);
 }
 
@@ -1903,11 +1903,11 @@ menu,
 .context-menu {
   margin: 4px 0;
   padding: 4px;
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.06);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.06);
   background-color: #3c3c46;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .csd menu, .csd .menu, .csd .context-menu {
@@ -1924,7 +1924,7 @@ menu menuitem,
   padding: 4px 8px;
   font: initial;
   text-shadow: none;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
 }
 
@@ -1945,7 +1945,7 @@ menu menuitem:hover accelerator,
 menu menuitem:disabled,
 .menu menuitem:disabled,
 .context-menu menuitem:disabled {
-  color: rgba(0, 0, 0, 0.26);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 menu menuitem arrow,
@@ -1984,14 +1984,14 @@ menu > arrow,
   min-width: 16px;
   padding: 4px;
   background-color: #3c3c46;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 menu > arrow.top,
 .menu > arrow.top,
 .context-menu > arrow.top {
   margin: -4px -3px 0 -3px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 7px 7px 0 0;
   -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
 }
@@ -2000,7 +2000,7 @@ menu > arrow.bottom,
 .menu > arrow.bottom,
 .context-menu > arrow.bottom {
   margin: 8px -3px -12px -3px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 0 0 7px 7px;
   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
@@ -2029,11 +2029,11 @@ menu separator,
 }
 
 menuitem accelerator {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 menuitem:disabled accelerator {
-  color: rgba(0, 0, 0, 0.26);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .popup:not(.csd) menu {
@@ -3416,7 +3416,7 @@ menu menuitem check:dir(rtl), menu menuitem radio:dir(rtl) {
 }
 
 menu menuitem check:not(:checked):not(:indeterminate):not(:disabled), menu menuitem radio:not(:checked):not(:indeterminate):not(:disabled) {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 menu menuitem check, menu menuitem check:hover, menu menuitem check:disabled, menu menuitem radio, menu menuitem radio:hover, menu menuitem radio:disabled {
@@ -4745,7 +4745,7 @@ messagedialog.csd decoration {
   border-radius: 0;
   border: none;
   box-shadow: none;
-  background-color: #ffffff;
+  background-color: #31313a;
 }
 
 /*****************
@@ -5054,7 +5054,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window.csd.background {
-  background-color: #ffffff;
+  background-color: #31313a;
   border-radius: 0 0 5px 5px;
 }
 
@@ -5133,7 +5133,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window headerbar {
-  background-color: #ffffff;
+  background-color: #31313a;
   background-image: url("assets/scalable/header-icon.svg");
   background-size: 48px auto;
   background-position: left bottom;
@@ -6530,7 +6530,7 @@ dialog.background.csd > box.dialog-vbox stack scrolledwindow viewport.frame.view
   transition: background-color 100ms cubic-bezier(0, 0, 0.2, 1), color 225ms cubic-bezier(0, 0, 0.2, 1);
   padding: 0 6px;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.08);
-  background-color: #ffffff;
+  background-color: #31313a;
   color: rgba(0, 0, 0, 0.75);
   border: none;
 }
@@ -6933,7 +6933,7 @@ window.background.chromium > textview.view {
 }
 
 window.background.chromium > menubar {
-  background-color: #ffffff;
+  background-color: #31313a;
 }
 
 window.background.chromium > menu {
@@ -7286,7 +7286,7 @@ window.thunar .sidebar {
 }
 
 window.thunar toolbar#location-toolbar {
-  background-color: #ffffff;
+  background-color: #31313a;
   color: rgba(0, 0, 0, 0.75);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
@@ -7362,7 +7362,7 @@ UnityDecoration .top {
   border-style: none;
   border-radius: 5px 5px 0 0;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-  background-color: #ffffff;
+  background-color: #31313a;
   color: rgba(0, 0, 0, 0.75);
 }
 

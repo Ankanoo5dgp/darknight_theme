@@ -707,10 +707,13 @@ StScrollBar {
   -arrow-base: 48px;
   -arrow-rise: 0;
   -arrow-box-shadow: none; //dreaming. bug #689995
+  .popup-menu-content {
     margin: 5px 8px 12px 12px;
   background-color: rgba($menu_bg_color, 0.95);
   border-radius: $windows_radius;
-  box-shadow: $shadow_3;
+  box-shadow: none;
+  border-color: 1px solid $lighter_bg_color;
+  }
 }
 
 .popup-separator-menu-item {
@@ -908,9 +911,9 @@ StScrollBar {
 
 %osd-panel {
   color: $fg_color;
-  background-color: $lighter_bg_color;
-  border: none;
-  box-shadow: $shadow_4;
+  background-color: $menu_bg_color;
+  border: 1px solid $lighter_bg_color;
+  box-shadow: none;
   border-radius: $windows_radius;
   padding: 12px;
 }
@@ -2814,14 +2817,6 @@ $keyboard_active_bg_color: if(
 // IBus Candidate Popup
 .candidate-popup-boxpointer {
   @extend .popup-menu-boxpointer;
-    .popup-menu-content {
-    margin: 5px 8px 12px 12px;
-    background-color: transparent;
-    //full opacity
-    background-color: rgba($menu_bg_color, 1);
-    border-radius: $windows_radius;
-    box-shadow: $shadow_3;
-  }
 }
 
 .candidate-popup-content {
