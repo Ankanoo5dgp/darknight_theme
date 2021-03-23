@@ -939,7 +939,11 @@ StScrollBar {
 /* TOP BAR */
 
 #panel {
-  background-color: $panel_bg_color;
+  background-color: if(
+    $titlebar == "dark",
+    $panel_bg_color,
+    $primary_color_dark
+  );
   /* transition from solid to transparent */
   font-weight: bold;
   height: $menuitem_size;
@@ -951,11 +955,7 @@ StScrollBar {
   &.login-screen,
   &.lock-screen {
     transition-duration: 250ms;
-    background-color: if(
-      $titlebar == "light",
-      rgba($panel_bg_color, 0.5),
-      transparent
-    );
+    background-color: transparent;
   }
 
   #panelLeft,

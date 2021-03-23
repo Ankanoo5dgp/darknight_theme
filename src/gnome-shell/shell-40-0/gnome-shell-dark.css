@@ -999,7 +999,7 @@ StScrollBar StButton#hhandle:active {
   -arrow-rise: 0;
   -arrow-box-shadow: none;
   margin: 5px 8px 12px 12px;
-  background-color: rgba(51, 53, 56, 0.95);
+  background-color: rgba(30, 30, 30, 0.95);
   border-radius: 5px;
   box-shadow: none;
   border-color: 1px solid #44454b;
@@ -1008,7 +1008,7 @@ StScrollBar StButton#hhandle:active {
 .popup-menu-boxpointer .popup-menu-content {
   margin: 5px 8px 12px 12px;
   background-color: transparent;
-  background-color: #333538;
+  background-color: #1e1e1e;
   border-radius: 5px;
   box-shadow: 0 0px 1px rgba(250, 250, 250, 0.19);
   border-color: 5px solid #44454b;
@@ -1212,12 +1212,16 @@ StScrollBar StButton#hhandle:active {
 .switcher-list, .workspace-switcher-container {
   color: #ffffff;
 <<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   background-color: #44454b;
   border: none;
   box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22);
   border-radius: 13px;
 =======
   background-color: #3c3c46;
+=======
+  background-color: #1e1e1e;
+>>>>>>> c27cc51 (changed top bar's bg in darker mode):src/gnome-shell/gnome-shell.css
   border: 1px solid #44454b;
   box-shadow: none;
   border-radius: 5px;
@@ -1246,6 +1250,7 @@ StScrollBar StButton#hhandle:active {
 /* TOP BAR */
 #panel {
 <<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   background-color: rgba(37, 37, 45, 0.85);
 <<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   transition-duration: 250ms;
@@ -1253,6 +1258,9 @@ StScrollBar StButton#hhandle:active {
 =======
   background-color: #25252d;
 >>>>>>> 3605b56 (topbar is now solid):src/gnome-shell/gnome-shell.css
+=======
+  background-color: #1e1e1e;
+>>>>>>> c27cc51 (changed top bar's bg in darker mode):src/gnome-shell/gnome-shell.css
   /* transition from solid to transparent */
 >>>>>>> 18c450e (attempts to fix flashing panel):src/gnome-shell/gnome-shell.css
   font-weight: bold;
