@@ -4449,7 +4449,7 @@ placessidebar row.sidebar-new-bookmark-row image.sidebar-icon {
 }
 
 placessidebar row:drop(active):not(:disabled) {
-  box-shadow: inset 0 0 0 2px #7c4dff;
+  box-shadow: none;
 }
 
 placesview .server-list-button > image {
