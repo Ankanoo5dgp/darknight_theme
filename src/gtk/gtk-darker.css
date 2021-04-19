@@ -587,7 +587,7 @@ button:disabled {
 button:checked {
   background-color: #5657f5;
   color: #ffffff;
-  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
+  background-image: linear-gradient(to bottom, #333333, #252526);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1358,7 +1358,7 @@ headerbar button:not(.suggested-action):not(.destructive-action):checked {
   border-image: none;
   background-color: #5657f5;
   color: #ffffff;
-  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
+  background-image: linear-gradient(to bottom, #333333, #252526);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -5047,7 +5047,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window {
-  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
+  background-image: linear-gradient(to bottom, #333333, #252526);
   background-size: 48px auto;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -5133,7 +5133,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window headerbar {
-  background-color: rgba(30, 30, 30, 0.97);
+  background-color: #1e1e1e;
   background-image: url("assets/scalable/header-icon.svg");
   background-size: 48px auto;
   background-position: left bottom;
@@ -5143,7 +5143,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window headerbar .path-bar-box {
-  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
+  background-image: linear-gradient(to bottom, #333333, #252526);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6588,7 +6588,7 @@ dialog.background.csd > box.dialog-vbox stack scrolledwindow viewport.frame.view
   border-image: none;
   background-color: #5657f5;
   color: #ffffff;
-  background-image: linear-gradient(to bottom, #6c6af2, #4648fb);
+  background-image: linear-gradient(to bottom, #333333, #252526);
   background-size: auto auto;
   background-position: center center;
   background-repeat: no-repeat;

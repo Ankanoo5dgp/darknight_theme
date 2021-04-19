@@ -15,7 +15,8 @@
 
 //$primary_color_dark: #333538;
 $primary_color_dark: #1e1e1e;
-$secondary_color_dark: #c9ddfc80;
+$secondary_color_dark: #252526;
+$tertiary_color_dark: #333333;
 
 // Foreground colors
 $dark_fg_color: rgba($black, 0.87);
@@ -195,8 +196,8 @@ $accent_color: $deep_purple_A200;
 $disabled_accent_color: rgba($accent_color, 0.5);
 
 $theme_color_top: #716ffb;
-$theme_color_middle: #6c6af2;
-$theme_color_bottom: #4648fb;
+$theme_color_middle: if($variant == "dark", #6c6af2, $tertiary_color_dark);
+$theme_color_bottom: if($variant == "dark", #4648fb, $secondary_color_dark);
 $theme_image: linear-gradient(
   to bottom,
   $theme_color_middle,

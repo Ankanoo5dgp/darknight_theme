@@ -153,11 +153,7 @@ $nautilus_bg_color: if(
         // font-weight: bold;
 
         label.sidebar-label {
-          color: if(
-            $variant == "light",
-            $primary_color,
-            lighten($primary_color, 15%)
-          );
+          color: lighten($primary_color, 15%);
           background-color: rgba($divider_color, 0.06);
         }
 
@@ -179,11 +175,7 @@ $nautilus_bg_color: if(
   );
 
   headerbar {
-    background-color: if(
-      $solid == "false",
-      rgba($titlebar_bg_color, 0.97),
-      $titlebar_bg_color
-    );
+    background-color: $titlebar_bg_color;
     background-image: url("assets/scalable/header-icon.svg");
     background-size: 48px auto;
     background-position: left bottom;

@@ -5733,7 +5733,7 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window headerbar {
-  background-color: rgba(49, 49, 58, 0.97);
+  background-color: #31313a;
   background-image: url("assets/scalable/header-icon.svg");
   background-size: 48px auto;
   background-position: left bottom;
