@@ -5134,10 +5134,10 @@ button.emoji-section:last-child {
 
 .nautilus-window headerbar {
   background-color: #1e1e1e;
-  background-image: url("assets/scalable/header-icon.svg");
+  background-image: url("assets/scalable/header-icon-dark.svg");
   background-size: 48px auto;
-  background-position: left bottom;
   background-repeat: no-repeat;
+  background-position: left bottom;
   padding-left: 54px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
 }
