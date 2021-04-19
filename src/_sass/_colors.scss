@@ -190,9 +190,9 @@ $row_fill_color: gtkalpha(currentColor, 0.05);
 // Misc colors
 $primary_color: if($variant == "dark", #5657f5, #3c3c3c);
 $alt_primary_color: #5c6bc0;
-$progress_color: #5d7dfb;
+$progress_color: if($variant == "dark", #5d7dfb, $secondary_color_dark);
 $sidebar_color: #f5f6fa;
-$accent_color: $deep_purple_A200;
+$accent_color: if($variant == "dark", $deep_purple_A200, #3c3c3c);
 $disabled_accent_color: rgba($accent_color, 0.5);
 
 $theme_color_top: #716ffb;
