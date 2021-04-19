@@ -14,7 +14,6 @@ SRC_DIR=$(cd $(dirname $0) && pwd)
 
 THEME_NAME=Akamayan
 COLOR_VARIANTS=('' '-darker' '-dark')
-SOLID_VARIANTS=('' '-solid')
 
 if [[ "$(command -v gnome-shell)" ]]; then
   gnome-shell --version
@@ -37,7 +36,6 @@ usage() {
   printf "  %-25s%s\n" "-d, --dest DIR" "Specify theme destination directory (Default: ${DEST_DIR})"
   printf "  %-25s%s\n" "-n, --name NAME" "Specify theme name (Default: ${THEME_NAME})"
   printf "  %-25s%s\n" "-c, --color VARIANTS" "Specify theme color variant(s) [darker|dark] (Default: All variants)"
-  printf "  %-25s%s\n" "-s, --solid VARIANTS" "Specify theme solid variant(s) [standard|solid] (Default: All variants)"
   printf "  %-25s%s\n" "-h, --help" "Show this help"
 }
 
@@ -45,12 +43,10 @@ install() {
   local dest=${1}
   local name=${2}
   local color=${3}
-  local solid=${4}
-
   [[ ${color} == '-dark' ]] && local ELSE_DARK='-dark'
   [[ ${color} == '-light' ]] && local ELSE_LIGHT=${color}
 
-  local THEME_DIR=${dest}/${name}${color}${solid}
+  local THEME_DIR=${dest}/${name}${color}
 
   [[ -d ${THEME_DIR} ]] && rm -rf ${THEME_DIR}
 
@@ -62,13 +58,13 @@ install() {
 
   echo "[Desktop Entry]" >> ${THEME_DIR}/index.theme
   echo "Type=X-GNOME-Metatheme" >> ${THEME_DIR}/index.theme
-  echo "Name=${name}${color}${solid}" >> ${THEME_DIR}/index.theme
+  echo "Name=${name}${color}" >> ${THEME_DIR}/index.theme
   echo "Comment=An Flat Gtk+ theme based on Material Design" >> ${THEME_DIR}/index.theme
   echo "Encoding=UTF-8" >> ${THEME_DIR}/index.theme
   echo "" >> ${THEME_DIR}/index.theme
   echo "[X-GNOME-Metatheme]" >> ${THEME_DIR}/index.theme
-  echo "GtkTheme=${name}${color}${solid}" >> ${THEME_DIR}/index.theme
-  echo "MetacityTheme=${name}${color}${solid}" >> ${THEME_DIR}/index.theme
+  echo "GtkTheme=${name}${color}" >> ${THEME_DIR}/index.theme
+  echo "MetacityTheme=${name}${color}" >> ${THEME_DIR}/index.theme
   echo "IconTheme=Tela${ELSE_DARK}" >> ${THEME_DIR}/index.theme
   echo "CursorTheme=Adwaita" >> ${THEME_DIR}/index.theme
   echo "ButtonLayout=menu:minimize,maximize,close" >> ${THEME_DIR}/index.theme
@@ -89,15 +85,15 @@ install() {
 
   mkdir -p                                                                           ${THEME_DIR}/gtk-3.0
   ln -sf ../gtk-assets                                                               ${THEME_DIR}/gtk-3.0/assets
-  cp -ur ${SRC_DIR}/src/gtk/3.0/gtk${color}${solid}.css                              ${THEME_DIR}/gtk-3.0/gtk.css
+  cp -ur ${SRC_DIR}/src/gtk/3.0/gtk${color}.css                              ${THEME_DIR}/gtk-3.0/gtk.css
   [[ ${color} != '-dark' ]] && \
-  cp -ur ${SRC_DIR}/src/gtk/3.0/gtk-dark${solid}.css                                 ${THEME_DIR}/gtk-3.0/gtk-dark.css
+  cp -ur ${SRC_DIR}/src/gtk/3.0/gtk-dark.css                                 ${THEME_DIR}/gtk-3.0/gtk-dark.css
 
   mkdir -p                                                                           ${THEME_DIR}/gtk-4.0
   ln -sf ../gtk-assets                                                               ${THEME_DIR}/gtk-4.0/assets
-  cp -ur ${SRC_DIR}/src/gtk/4.0/gtk${color}${solid}.css                              ${THEME_DIR}/gtk-4.0/gtk.css
+  cp -ur ${SRC_DIR}/src/gtk/4.0/gtk${color}.css                              ${THEME_DIR}/gtk-4.0/gtk.css
   [[ ${color} != '-dark' ]] && \
-  cp -ur ${SRC_DIR}/src/gtk/4.0/gtk-dark${solid}.css                                 ${THEME_DIR}/gtk-4.0/gtk-dark.css
+  cp -ur ${SRC_DIR}/src/gtk/4.0/gtk-dark.css                                 ${THEME_DIR}/gtk-4.0/gtk-dark.css
 
   mkdir -p                                                                           ${THEME_DIR}/xfwm4
   cp -ur ${SRC_DIR}/src/xfwm4/assets${ELSE_LIGHT}/*.png                              ${THEME_DIR}/xfwm4
@@ -149,26 +145,6 @@ while [[ $# -gt 0 ]]; do
       ;;
     -s|--solid)
       shift
-      for solid in "${@}"; do
-        case "${solid}" in
-          standard)
-            solids+=("${SOLID_VARIANTS[0]}")
-            shift
-            ;;
-          solid)
-            solids+=("${SOLID_VARIANTS[1]}")
-            shift
-            ;;
-          -*|--*)
-            break
-            ;;
-          *)
-            echo "ERROR: Unrecognized solid variant '$1'."
-            echo "Try '$0 --help' for more information."
-            exit 1
-            ;;
-        esac
-      done
       ;;
     -h|--help)
       usage
