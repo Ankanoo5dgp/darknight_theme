@@ -188,7 +188,7 @@ $semi_fill_color: gtkalpha(currentColor, $lower_opacity / 2);
 $row_fill_color: gtkalpha(currentColor, 0.05);
 
 // Misc colors
-$primary_color: #5657f5;
+$primary_color: if($variant == "dark", #5657f5, #3c3c3c);
 $alt_primary_color: #5c6bc0;
 $progress_color: #5d7dfb;
 $sidebar_color: #f5f6fa;
