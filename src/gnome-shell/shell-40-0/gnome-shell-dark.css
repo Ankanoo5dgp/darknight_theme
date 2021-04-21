@@ -1324,6 +1324,7 @@ StScrollBar StButton#hhandle:active {
   text-shadow: none;
   transition-duration: 225ms;
   border-radius: 0;
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
   border: none;
 }
 
@@ -1332,6 +1333,8 @@ StScrollBar StButton#hhandle:active {
   box-shadow: none;
   border: none;
   border-radius: 0;
+=======
+>>>>>>> 5aded38 (Finally got rid of obnoxius border):src/gnome-shell/gnome-shell.css
 }
 
 #panel .panel-button .app-menu-icon {
@@ -1344,6 +1347,10 @@ StScrollBar StButton#hhandle:active {
 #panel .panel-button .app-menu-icon > StIcon,
 #panel .panel-button .popup-menu-arrow {
   icon-shadow: none;
+}
+
+#panel .panel-button StLabel {
+  border-radius: 0;
 }
 
 #panel .panel-button:hover {

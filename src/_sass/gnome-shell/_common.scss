@@ -1019,6 +1019,10 @@ StScrollBar {
       icon-shadow: none;
     }
 
+    StLabel {
+      border-radius: 0;
+    }
+
     &:hover {
       color: $panel_fg_color;
       background-color: $inverse_divider_color;
@@ -1063,17 +1067,6 @@ StScrollBar {
     icon-size: 16px;
     padding: 5px;
     margin: 0 4px;
-  }
-  .panel-button.clock-display {
-    &:active,
-    &:overview,
-    &:focus,
-    &:checked {
-      .clock {
-        background: none;
-        box-shadow: none;
-      }
-    }
   }
 
   .panel-status-indicators-box .system-status-icon,
