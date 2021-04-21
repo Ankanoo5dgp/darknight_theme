@@ -824,7 +824,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-sub-menu {
-  background-color: #34343b;
+  background-color: #252526;
   box-shadow: none;
   border-color: rgba(0, 0, 0, 0.08);
   border-radius: 0 !important;

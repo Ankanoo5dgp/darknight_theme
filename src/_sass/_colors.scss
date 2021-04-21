@@ -133,11 +133,15 @@ $lighter_bg_color: if(
   $secondary_color_dark
 );
 $alt_lighter_bg_color: if(
-  $variant == "light",
-  $blue_grey_100,
-  fade($blue_grey_800)
+  $variant == "dark",
+  fade($blue_grey_800),
+  $secondary_color_dark
 ); // for gnome-shell sub menu
-$darker_bg_color: if($variant == "light", $blue_grey_200, fade($blue_grey_900));
+$darker_bg_color: if(
+  $variant == "dark",
+  fade($blue_grey_900),
+  $secondary_color_dark
+);
 $keyboard_bg_color: if(
   $variant == "light",
   $blue_grey_50,
