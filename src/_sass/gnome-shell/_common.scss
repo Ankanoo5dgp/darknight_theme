@@ -214,26 +214,50 @@ StScrollBar {
   width: 40px;
   height: 20px;
   background-size: contain;
-  background-image: url("assets/toggle-off.svg");
+  background-image: url(if(
+    $variant == "dark",
+    "assets/toggle-off.svg",
+    "assets/toggle-off-dark.svg"
+  ));
 
   &:checked {
-    background-image: url("assets/toggle-on.svg");
+    background-image: url(if(
+      $variant == "dark",
+      "assets/toggle-on.svg",
+      "assets/toggle-on-dark.svg"
+    ));
   }
 
   .popup-menu-item.selected & {
-    background-image: url("assets/toggle-off.svg");
+    background-image: url(if(
+      $variant == "dark",
+      "assets/toggle-off.svg",
+      "assets/toggle-off-dark.svg"
+    ));
 
     &:checked {
-      background-image: url("assets/toggle-on.svg");
+      background-image: url(if(
+        $variant == "dark",
+        "assets/toggle-on.svg",
+        "assets/toggle-on-dark.svg"
+      ));
     }
   }
 }
 
 @each $v in us, intl {
   .toggle-switch-#{$v} {
-    background-image: url("assets/toggle-off.svg");
+    background-image: url(if(
+      $variant == "dark",
+      "assets/toggle-off.svg",
+      "assets/toggle-off-dark.svg"
+    ));
     &:checked {
-      background-image: url("assets/toggle-on.svg");
+      background-image: url(if(
+        $variant == "dark",
+        "assets/toggle-on.svg",
+        "assets/toggle-on-dark.svg"
+      ));
     }
   }
 }
