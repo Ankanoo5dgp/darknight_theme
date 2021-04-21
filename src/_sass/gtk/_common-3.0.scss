@@ -4359,7 +4359,7 @@ filechooserbutton:drop(active) {
 
 .sidebar {
   border-style: none;
-  background-color: red;
+  background-color: $lighter_bg_color;
 
   @at-root %sidebar_left,
     &:dir(ltr),
