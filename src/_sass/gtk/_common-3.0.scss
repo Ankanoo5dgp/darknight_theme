@@ -43,7 +43,11 @@ notebook:focus tab,
  ***************/
 .background {
   // without this headerbar transparency doesn't seem to work
-  background-color: rgba($bg_color, 0.999);
+  background-color: if(
+    $variant == "dark",
+    rgba($bg_color, 0.999),
+    $primary_color_dark
+  );
   color: $fg_color;
 
   &.csd {
@@ -4355,7 +4359,7 @@ filechooserbutton:drop(active) {
 
 .sidebar {
   border-style: none;
-  background-color: $lighter_bg_color;
+  background-color: red;
 
   @at-root %sidebar_left,
     &:dir(ltr),

@@ -127,7 +127,11 @@ $alt_base_color: if(
   darken($bg_color, 3%),
   lighten($bg_color, 3%)
 );
-$lighter_bg_color: if($variant == "light", $blue_grey_50, $blue_grey_750);
+$lighter_bg_color: if(
+  $variant == "dark",
+  $blue_grey_750,
+  $secondary_color_dark
+);
 $alt_lighter_bg_color: if(
   $variant == "light",
   $blue_grey_100,

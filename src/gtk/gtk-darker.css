@@ -46,7 +46,7 @@ notebook:focus tab,
  * Base States *
  ***************/
 .background {
-  background-color: rgba(52, 52, 59, 0.999);
+  background-color: #1e1e1e;
   color: #ffffff;
 }
 
@@ -229,7 +229,7 @@ entry {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1);
   border-image: none;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1);
-  background-color: #44454b;
+  background-color: #252526;
   color: #ffffff;
 }
 
@@ -552,7 +552,7 @@ button {
   font-weight: 500;
   transition: 100ms, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 600ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), inset 0 0 0 9999px transparent;
-  background-color: #44454b;
+  background-color: #252526;
   background-image: radial-gradient(circle farthest-corner at center, transparent 10%, transparent 0%);
   background-repeat: no-repeat;
   background-position: center;
@@ -2365,7 +2365,7 @@ popover.background.menu {
   transition: box-shadow 100ms cubic-bezier(0, 0, 0.2, 1);
   padding: 2px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
-  background-color: rgba(68, 69, 75, 0.95);
+  background-color: rgba(37, 37, 38, 0.95);
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -2430,7 +2430,7 @@ popover.background.menu row,
 popover.background.menu .view,
 popover.background.menu textview.view > text {
   color: rgba(255, 255, 255, 0.7);
-  background-color: #3d3e43;
+  background-color: #1d1d1e;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -2449,7 +2449,7 @@ popover.background.menu scrolledwindow {
 popover scrollbar,
 popover.background scrollbar,
 popover.background.menu scrollbar {
-  background-color: rgba(56, 57, 62, 0.65);
+  background-color: rgba(24, 24, 25, 0.65);
   border-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -2480,13 +2480,13 @@ popover.background.menu scrollbar slider:disabled {
 popover scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
 popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
 popover.background.menu scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
-  border: 1px solid rgba(56, 57, 62, 0.3);
+  border: 1px solid rgba(24, 24, 25, 0.3);
 }
 
 popover scrollbar.overlay-indicator:not(.dragging):not(.hovering) button,
 popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) button,
 popover.background.menu scrollbar.overlay-indicator:not(.dragging):not(.hovering) button {
-  border: 1px solid rgba(56, 57, 62, 0.3);
+  border: 1px solid rgba(24, 24, 25, 0.3);
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -2501,7 +2501,7 @@ popover.background scrollbar.overlay-indicator.dragging,
 popover.background scrollbar.overlay-indicator.hovering,
 popover.background.menu scrollbar.overlay-indicator.dragging,
 popover.background.menu scrollbar.overlay-indicator.hovering {
-  background-color: rgba(56, 57, 62, 0.9);
+  background-color: rgba(24, 24, 25, 0.9);
 }
 
 popover button.radio,
@@ -3211,7 +3211,7 @@ switch slider {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1);
-  background-color: #44454b;
+  background-color: #252526;
   color: transparent;
   background-position: center;
   background-repeat: no-repeat;
@@ -4157,14 +4157,14 @@ messagedialog {
 }
 
 messagedialog.background {
-  background-color: rgba(68, 69, 75, 0.95);
+  background-color: rgba(37, 37, 38, 0.95);
 }
 
 messagedialog .titlebar {
   min-height: 20px;
   border-style: none;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-  background-color: rgba(68, 69, 75, 0.95);
+  background-color: rgba(37, 37, 38, 0.95);
   color: rgba(255, 255, 255, 0.7);
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -4179,7 +4179,7 @@ messagedialog row,
 messagedialog .view,
 messagedialog textview.view > text {
   color: rgba(255, 255, 255, 0.7);
-  background-color: #3d3e43;
+  background-color: #1d1d1e;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -4324,7 +4324,7 @@ stacksidebar .frame list:dir(rtl) {
 
 .sidebar {
   border-style: none;
-  background-color: #44454b;
+  background-color: red;
 }
 
 stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:dir(ltr), .sidebar.left {
@@ -4562,7 +4562,7 @@ tooltip {
 tooltip.background.csd {
   border-radius: 7px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-  background-color: rgba(68, 69, 75, 0.9);
+  background-color: rgba(37, 37, 38, 0.9);
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -5334,7 +5334,7 @@ dialog.background > box.dialog-vbox.vertical > grid.horizontal > box.horizontal:
 }
 
 .gedit-document-panel {
-  background-color: #44454b;
+  background-color: #252526;
 }
 
 .gedit-document-panel row button.flat {
@@ -5460,7 +5460,7 @@ paned.titlebar.horizontal headerbar {
   *  Gnome Tweak Tool  *
   **********************/
 .tweak-categories {
-  background-image: image(#44454b);
+  background-image: image(#252526);
 }
 
 .csd .tweak-categories {
@@ -5593,7 +5593,7 @@ entry.preferences-search {
 }
 
 preferences stacksidebar.sidebar list {
-  background-color: #44454b;
+  background-color: #252526;
 }
 
 preferences stacksidebar.sidebar:dir(ltr) list, preferences stacksidebar.sidebar:dir(rtl) list {
@@ -5920,11 +5920,11 @@ overlay grid.horizontal > revealer > scrolledwindow.frame:dir(rtl) {
 }
 
 .side-panel .view {
-  background-image: image(#44454b);
+  background-image: image(#252526);
 }
 
 .side-panel .view:hover {
-  background-image: image(#4d4e54);
+  background-image: image(#303031);
 }
 
 .side-panel .view:selected {
@@ -6402,7 +6402,7 @@ box.dialog-vbox scrolledwindow.related {
 }
 
 list.categories {
-  background-image: image(#44454b);
+  background-image: image(#252526);
 }
 
 /*********
@@ -6674,7 +6674,7 @@ overlay > revealer.right > scrolledwindow.frame {
 
 .terminix-session-sidebar,
 .tilix-session-sidebar {
-  background-image: image(#44454b);
+  background-image: image(#252526);
 }
 
 .terminix-session-sidebar button.tilix-sidebar-close-button,
@@ -7838,7 +7838,7 @@ box.vertical > stack > box.vertical .raven-background > viewport.frame list > ro
 }
 
 .budgie-popover {
-  border-color: #44454b;
+  border-color: #252526;
   border-radius: 6px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
   background-color: #1e1e1e;
@@ -8759,7 +8759,7 @@ box.vertical > stack > box.vertical .raven-background > viewport.frame list > ro
   padding: 3px;
   border-radius: 7px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: rgba(68, 69, 75, 0.95);
+  background-color: rgba(37, 37, 38, 0.95);
 }
 
 .drop-shadow .linked > button {
@@ -8769,7 +8769,7 @@ box.vertical > stack > box.vertical .raven-background > viewport.frame list > ro
 .budgie-run-dialog, .budgie-polkit-dialog,
 .budgie-session-dialog {
   border-radius: 7px;
-  background-color: #44454b;
+  background-color: #252526;
 }
 
 .budgie-run-dialog decoration, .budgie-polkit-dialog decoration,
@@ -8995,7 +8995,7 @@ headerbar .budgie-run-dialog list .subtitle, .budgie-run-dialog list .budgie-not
   margin: 8px;
   border-radius: 7px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #44454b;
+  background-color: #252526;
 }
 
 #content_frame {
