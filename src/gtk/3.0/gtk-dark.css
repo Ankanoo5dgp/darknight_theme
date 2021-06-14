@@ -1765,27 +1765,32 @@ headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.des
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action):active, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):active {
 =======
 
-headerbar .linked.path-bar:not(.vertical) > button,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button {
+headerbar .linked:not(.vertical).path-bar > button,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button {
   padding-left: 8px;
   padding-right: 8px;
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 0%, transparent 0%) 0 0 0/0 0 0;
 }
 
 
-headerbar .linked.path-bar:not(.vertical) > button label,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button label {
+headerbar .linked:not(.vertical).path-bar > button label,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button label {
   padding-left: 8px;
   padding-right: 8px;
 }
 
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 headerbar .linked.path-bar:not(.vertical) > button:active,
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:active {
 <<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: #FFFFFF;
 =======
+=======
+headerbar .linked:not(.vertical).path-bar > button:active,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active {
+>>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   color: #ffffff;
 >>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   background-color: transparent;
@@ -1800,12 +1805,17 @@ headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.des
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action):checked, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):checked {
 =======
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 headerbar .linked.path-bar:not(.vertical) > button:checked,
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:checked {
 <<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: #FFFFFF;
 =======
+=======
+headerbar .linked:not(.vertical).path-bar > button:checked,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked {
+>>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   color: #ffffff;
 >>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   background-color: transparent;
@@ -1820,11 +1830,18 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.sugge
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action):active:backdrop, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):checked:backdrop, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):active:backdrop {
 =======
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 headerbar .linked.path-bar:not(.vertical) > button:checked:backdrop,
 headerbar .linked.path-bar:not(.vertical) > button:active:backdrop,
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:checked:backdrop,
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:active:backdrop {
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
+=======
+headerbar .linked:not(.vertical).path-bar > button:checked:backdrop,
+headerbar .linked:not(.vertical).path-bar > button:active:backdrop,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked:backdrop,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active:backdrop {
+>>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   color: rgba(255, 255, 255, 0.7);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), rgba(255, 255, 255, 0.5) 100%, transparent 0%) 0 0 2/0 0 2px;
 }
@@ -1834,9 +1851,14 @@ headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.des
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action).text-button.image-button label, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action).text-button.image-button label {
 =======
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 headerbar .linked.path-bar:not(.vertical) > button.text-button.image-button label,
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button.text-button.image-button label {
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
+=======
+headerbar .linked:not(.vertical).path-bar > button.text-button.image-button label,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button.text-button.image-button label {
+>>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   padding-left: 0;
   padding-right: 0;
 }
@@ -1846,9 +1868,14 @@ headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.des
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action).text-button.image-button image, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action).text-button.image-button image {
 =======
 
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 headerbar .linked.path-bar:not(.vertical) > button.text-button.image-button image,
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button.text-button.image-button image {
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
+=======
+headerbar .linked:not(.vertical).path-bar > button.text-button.image-button image,
+headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button.text-button.image-button image {
+>>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   padding-left: 0;
   padding-right: 0;
 }
@@ -2261,7 +2288,7 @@ menu menuitem {
   font: initial;
   text-shadow: none;
   color: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
+  border-radius: 0;
 }
 
 menu menuitem:hover {
@@ -5185,6 +5212,7 @@ colorswatch:drop(active) {
 }
 
 <<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
+<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 colorswatch:drop(active).light overlay {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7C4DFF;
 }
@@ -5200,6 +5228,13 @@ colorswatch.dark:drop(active) overlay {
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7C4DFF;
 =======
+=======
+colorswatch:drop(active).light overlay {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7c4dff;
+}
+
+colorswatch:drop(active).dark overlay {
+>>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7c4dff;
 >>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
 }

@@ -881,7 +881,11 @@ StScrollBar StButton#hhandle:active {
 =======
 =======
 <<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+<<<<<<< HEAD
 >>>>>>> 740c52b (changed primary)
+=======
+<<<<<<< HEAD:src/gnome-shell/shell-40-0/gnome-shell-dark.css
+>>>>>>> 0f0175d (finally fixed gtk apps with weird bg)
 .popup-menu .popup-menu-item:checked.selected {
   background-color: #6f70f7;
 =======
@@ -890,6 +894,9 @@ StScrollBar StButton#hhandle:active {
   background-color: #595959;
 >>>>>>> c446cac (changed primary):src/gnome-shell/gnome-shell.css
 =======
+=======
+.popup-menu .popup-menu-item:checked.selected {
+>>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gnome-shell/gnome-shell.css
   background-color: #9f9eab;
 >>>>>>> 0742e87 (fixed problem with contrast):src/gnome-shell/gnome-shell.css
   color: #ffffff;
