@@ -2092,19 +2092,15 @@ menu {
     font: initial;
     text-shadow: none;
     color: $menu_fg_color;
-    border-radius: $menu_radius - 3px;
+    border-radius: 0;
 
     &:hover {
       transition: none;
-      background-color: if(
-        $titlebar == "light",
-        rgba($alt_primary_color, 0.1),
-        rgba($menu_fg_color, 0.08)
-      );
-      color: if($titlebar == "light", $alt_primary_color, white);
+      background-color: rgba($menu_fg_color, 0.08);
+      color: white;
 
       accelerator {
-        color: if($titlebar == "light", $alt_primary_color, white);
+        color: white;
       }
     }
 
