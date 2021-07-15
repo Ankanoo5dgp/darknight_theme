@@ -157,7 +157,7 @@ $panel_divider_color: if(
 );
 
 // Background colors
-$bg_color: if($variant == "dark", fade($blue_grey_800), $primary_color);
+$bg_color: if($variant == "dark", fade($blue_grey_800), $secondary_color_dark);
 $base_color: if($variant == "dark", fade($blue_grey_850), $primary_color_dark);
 $alt_base_color: lighten($bg_color, 3%);
 $lighter_bg_color: if(
