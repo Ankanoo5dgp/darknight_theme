@@ -18,6 +18,43 @@ $primary_color_dark: #1e1e1e;
 $secondary_color_dark: #252526;
 $tertiary_color_dark: #333333;
 
+// Misc colors
+$primary_color: if($variant == "dark", #5657f5, #8e8d9c);
+$alt_primary_color: #5c6bc0;
+$progress_color: if($variant == "dark", #5d7dfb, $secondary_color_dark);
+$sidebar_color: #f5f6fa;
+$accent_color: if($variant == "dark", $deep_purple_A200, #484663);
+$disabled_accent_color: rgba($accent_color, 0.5);
+
+$theme_color_top: #716ffb;
+$theme_color_middle: if($variant == "dark", #6c6af2, $tertiary_color_dark);
+$theme_color_bottom: if($variant == "dark", #4648fb, $secondary_color_dark);
+$theme_image: linear-gradient(
+  to bottom,
+  $theme_color_middle,
+  $theme_color_bottom
+);
+$header_theme_image: linear-gradient(
+  to bottom,
+  $theme_color_top,
+  $theme_color_middle
+);
+
+$link_color: $primary_color;
+$visited_link_color: $purple_A200;
+
+$warning_color: $orange_A700;
+$error_color: $deep_orange_A700;
+$success_color: $green_A700;
+
+$suggested_color: $accent_color;
+$destructive_color: $red_A200;
+
+$info_bg_color: $green_400;
+$question_bg_color: $blue_400;
+$warning_bg_color: $orange_400;
+$error_bg_color: $red_400;
+
 // Foreground colors
 $dark_fg_color: rgba($black, 0.87);
 $light_fg_color: $white;
@@ -120,13 +157,9 @@ $panel_divider_color: if(
 );
 
 // Background colors
-$bg_color: if($variant == "light", $blue_grey_50, fade($blue_grey_800));
+$bg_color: if($variant == "dark", fade($blue_grey_800), $primary_color);
 $base_color: if($variant == "dark", fade($blue_grey_850), $primary_color_dark);
-$alt_base_color: if(
-  $variant == "light",
-  darken($bg_color, 3%),
-  lighten($bg_color, 3%)
-);
+$alt_base_color: lighten($bg_color, 3%);
 $lighter_bg_color: if(
   $variant == "dark",
   $blue_grey_750,
@@ -194,43 +227,6 @@ $popover_border: rgba($white, 0.12);
 $fill_color: gtkalpha(currentColor, $lower_opacity);
 $semi_fill_color: gtkalpha(currentColor, $lower_opacity / 2);
 $row_fill_color: gtkalpha(currentColor, 0.05);
-
-// Misc colors
-$primary_color: if($variant == "dark", #5657f5, #8e8d9c);
-$alt_primary_color: #5c6bc0;
-$progress_color: if($variant == "dark", #5d7dfb, $secondary_color_dark);
-$sidebar_color: #f5f6fa;
-$accent_color: if($variant == "dark", $deep_purple_A200, #484663);
-$disabled_accent_color: rgba($accent_color, 0.5);
-
-$theme_color_top: #716ffb;
-$theme_color_middle: if($variant == "dark", #6c6af2, $tertiary_color_dark);
-$theme_color_bottom: if($variant == "dark", #4648fb, $secondary_color_dark);
-$theme_image: linear-gradient(
-  to bottom,
-  $theme_color_middle,
-  $theme_color_bottom
-);
-$header_theme_image: linear-gradient(
-  to bottom,
-  $theme_color_top,
-  $theme_color_middle
-);
-
-$link_color: $primary_color;
-$visited_link_color: $purple_A200;
-
-$warning_color: $orange_A700;
-$error_color: $deep_orange_A700;
-$success_color: $green_A700;
-
-$suggested_color: $accent_color;
-$destructive_color: $red_A200;
-
-$info_bg_color: $green_400;
-$question_bg_color: $blue_400;
-$warning_bg_color: $orange_400;
-$error_bg_color: $red_400;
 
 $suggested_image: linear-gradient(to bottom, $light_blue_300, $blue_400);
 $destructive_image: linear-gradient(to bottom, $red_400, $red_A200);
