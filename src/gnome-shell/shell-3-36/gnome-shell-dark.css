@@ -2572,7 +2572,18 @@ StScrollBar StButton#hhandle:active {
 }
 
 <<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
+<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell-dark.css
 =======
+=======
+.dash-background {
+  background-color: red;
+}
+
+.vertical-overview {
+  background-color: purple;
+}
+
+>>>>>>> 0f67ea4 (compiled):src/gnome-shell/gnome-shell-dark.css
 /* App Vault/Grid */
 .icon-grid {
   spacing: 30px;

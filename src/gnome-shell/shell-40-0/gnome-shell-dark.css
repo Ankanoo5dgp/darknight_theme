@@ -2490,6 +2490,14 @@ StScrollBar StButton#hhandle:active {
   -x-offset: 8px;
 }
 
+.dash-background {
+  background-color: red;
+}
+
+.vertical-overview {
+  background-color: purple;
+}
+
 /* App Vault/Grid */
 .icon-grid {
   spacing: 30px;
