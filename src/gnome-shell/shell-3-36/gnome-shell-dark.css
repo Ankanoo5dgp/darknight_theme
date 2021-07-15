@@ -2535,7 +2535,7 @@ StScrollBar StButton#hhandle:active {
 #dash {
   font-size: 1em;
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: transparent;
   padding: 3px 0;
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell-dark.css
   border: none;
@@ -2576,11 +2576,7 @@ StScrollBar StButton#hhandle:active {
 =======
 =======
 .dash-background {
-  background-color: red;
-}
-
-.vertical-overview {
-  background-color: purple;
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 >>>>>>> 0f67ea4 (compiled):src/gnome-shell/gnome-shell-dark.css

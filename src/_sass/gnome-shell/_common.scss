@@ -2190,6 +2190,10 @@ StScrollBar {
   -x-offset: 8px;
 }
 
+.dash-background {
+  background-color: $inverse_divider_color;
+}
+
 /* App Vault/Grid */
 .icon-grid {
   spacing: 30px;

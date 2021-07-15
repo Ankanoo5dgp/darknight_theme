@@ -1,5 +1,4 @@
-
-@import 'common';
+@import "common";
 
 // app icons
 .icon-grid {
@@ -70,6 +69,8 @@ $dash_border_radius: $dash_padding + $icon_radius;
 #dash {
   margin-top: $container_padding * 2;
   padding: 0 $dash_padding;
+  color: $inverse_fg_color;
+  background-color: transparent;
 
   .placeholder {
     background-image: none;
@@ -91,7 +92,8 @@ $dash_border_radius: $dash_padding + $icon_radius;
 }
 
 // Dash Items
-.dash-item-container .app-well-app, .show-apps {
+.dash-item-container .app-well-app,
+.show-apps {
   padding: $dash_padding $dash_spacing $dash_padding + $dash_bottom_margin;
 }
 
@@ -115,7 +117,8 @@ $dash_border_radius: $dash_padding + $icon_radius;
 }
 
 // Overview
-.controls-manager, .secondary-monitor-workspaces {
+.controls-manager,
+.secondary-monitor-workspaces {
   spacing: $container_padding * 2;
 }
 
@@ -127,10 +130,16 @@ $dash_border_radius: $dash_padding + $icon_radius;
 }
 
 #unlockDialogNotifications {
-  StButton#vhandle, StButton#hhandle {
+  StButton#vhandle,
+  StButton#hhandle {
     background-color: transparentize($gdm_bg_color, 0.7);
-    &:hover, &:focus { background-color: transparentize($gdm_bg_color, 0.5); }
-    &:active { background-color: transparentize($primary_color, 0.5); }
+    &:hover,
+    &:focus {
+      background-color: transparentize($gdm_bg_color, 0.5);
+    }
+    &:active {
+      background-color: transparentize($primary_color, 0.5);
+    }
   }
 }
 
@@ -160,11 +169,12 @@ $window_close_button_padding: 3px;
 .window-close {
   background-color: rgba($destructive_color, 1);
   color: white;
-  border-radius: $window_close_button_size * 0.5 + $window_close_button_padding * 2;
+  border-radius: $window_close_button_size * 0.5 + $window_close_button_padding *
+    2;
   padding: $window_close_button_padding;
   height: $window_close_button_size;
   width: $window_close_button_size;
-  box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.5);
   transition-duration: 300ms;
 
   StIcon {
