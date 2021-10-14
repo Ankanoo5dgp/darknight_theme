@@ -170,7 +170,7 @@ for color in "${colors[@]}"; do
   for solid in "${solids[@]}"; do
     install "${dest:-${DEST_DIR}}" "${name:-${THEME_NAME}}" "${color}" "${solid}"
   done
-done
+}
 
 echo
 echo Done.

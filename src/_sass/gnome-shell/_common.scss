@@ -324,10 +324,18 @@ StScrollBar {
   box-shadow: none !important;
   @include font(button);
   @include button(flat-normal);
-  &:hover { @include button(flat-hover); }
-  &:active { @include button(flat-active); }
-  &:insensitive { @include button(flat-insensitive); }
-  &:focus { @include button(flat-focus); }
+  &:hover {
+    @include button(flat-hover);
+  }
+  &:active {
+    @include button(flat-active);
+  }
+  &:insensitive {
+    @include button(flat-insensitive);
+  }
+  &:focus {
+    @include button(flat-focus);
+  }
 
   &:first-child {
     border-radius: 0px 0px 0px $windows_radius;
@@ -573,7 +581,11 @@ StScrollBar {
 .audio-selection-device {
   border: 1px solid $border_color;
   border-radius: $windows_radius;
-  &:active,&:hover,&:focus { background-color: $primary_color; }
+  &:active,
+  &:hover,
+  &:focus {
+    background-color: $primary_color;
+  }
 }
 
 .audio-selection-device-box {
@@ -584,7 +596,6 @@ StScrollBar {
 .audio-selection-device-icon {
   icon-size: 64px;
 }
-
 
 //
 // Popovers/Menus
@@ -705,10 +716,15 @@ StScrollBar {
       color: $fg_color;
     }
 
-    .search-entry-icon { color: $hint_fg_color; }
+    .search-entry-icon {
+      color: $hint_fg_color;
+    }
 
-    &:hover, &:focus {
-      .search-entry-icon { color: $fg_color; }
+    &:hover,
+    &:focus {
+      .search-entry-icon {
+        color: $fg_color;
+      }
     }
 
     StLabel.hint-text {
@@ -764,7 +780,9 @@ StScrollBar {
   spinner-image: url("process-working.svg");
   spacing: 4px;
 
-  .label-shadow { color: transparent; }
+  .label-shadow {
+    color: transparent;
+  }
 
   .panel-status-menu-box {
     padding: 0 6px;
@@ -1020,7 +1038,11 @@ StScrollBar {
     border: none;
 
     &.clock-display {
-      &, &:active, &:overview, &:focus, &:checked {
+      &,
+      &:active,
+      &:overview,
+      &:focus,
+      &:checked {
         .clock {
           background: none;
           box-shadow: none;
@@ -1730,7 +1752,6 @@ StScrollBar {
   icon-size: em(16px);
 }
 
-
 /* NETWORK DIALOGS */
 .nm-dialog {
   max-height: 34em;
@@ -1898,18 +1919,25 @@ StScrollBar {
   caret-color: $inverse_fg_color;
   selection-background-color: $inverse_track_color;
   selected-color: $inverse_fg_color;
-  @include entry(normal,$fc:$inverse_track_color);
+  @include entry(normal, $fc: $inverse_track_color);
   &:focus {
-    @include entry(focus,$fc:$primary_color);
+    @include entry(focus, $fc: $primary_color);
     padding: 0 8px;
     border-width: 0;
     color: $inverse_fg_color;
   }
 
-  .search-entry-icon { icon-size: 16px; padding: 0 0; color: $inverse_hint_fg_color; }
+  .search-entry-icon {
+    icon-size: 16px;
+    padding: 0 0;
+    color: $inverse_hint_fg_color;
+  }
 
-  &:hover, &:focus {
-    .search-entry-icon { color: $inverse_fg_color; }
+  &:hover,
+  &:focus {
+    .search-entry-icon {
+      color: $inverse_fg_color;
+    }
   }
 
   StLabel.hint-text {
@@ -1926,26 +1954,50 @@ StScrollBar {
   spacing: 16px;
 }
 
-.search-section { spacing: 16px; } // This should be equal to #searchResultsContent spacing
+.search-section {
+  spacing: 16px;
+} // This should be equal to #searchResultsContent spacing
 .search-section-content {
   spacing: 32px;
   background: none;
   border: none;
   box-shadow: none;
 }
-.search-statustext { // "no results"
+.search-statustext {
+  // "no results"
   @extend %status_text;
 }
-.list-search-results { spacing: 3px; }
+.list-search-results {
+  spacing: 3px;
+}
 
-.search-section-separator { height: 1px; background-color: $inverse_divider_color; }
+.search-section-separator {
+  height: 1px;
+  background-color: $inverse_divider_color;
+}
 
-.list-search-result-content { spacing: 30px; }
-.list-search-result-title { @include font(subheading); color: $inverse_fg_color; spacing: 12px; }
-.list-search-result-description { color: $inverse_secondary_fg_color; }
-.list-search-provider-details { width: 150px; color: $inverse_secondary_fg_color; margin-top: 0.24em; }
-.list-search-provider-content { spacing: 20px; }
-.search-provider-icon { padding: 15px; }
+.list-search-result-content {
+  spacing: 30px;
+}
+.list-search-result-title {
+  @include font(subheading);
+  color: $inverse_fg_color;
+  spacing: 12px;
+}
+.list-search-result-description {
+  color: $inverse_secondary_fg_color;
+}
+.list-search-provider-details {
+  width: 150px;
+  color: $inverse_secondary_fg_color;
+  margin-top: 0.24em;
+}
+.list-search-provider-content {
+  spacing: 20px;
+}
+.search-provider-icon {
+  padding: 15px;
+}
 
 %icon_tile {
   color: $inverse_fg_color;
@@ -1961,12 +2013,15 @@ StScrollBar {
 .list-search-result {
   @extend %icon_tile;
 
-  &:focus, &:selected, &:hover {
+  &:focus,
+  &:selected,
+  &:hover {
     background-color: $inverse_divider_color;
     transition-duration: 0ms;
   }
 
-  &:active, &:checked {
+  &:active,
+  &:checked {
     background-color: $inverse_track_color;
     transition-duration: $longer_duration;
   }
@@ -1996,7 +2051,8 @@ StScrollBar {
   }
 }
 
-.app-well-app-running-dot { //running apps indicator
+.app-well-app-running-dot {
+  //running apps indicator
   width: 8px;
   height: 2px;
   background-color: $inverse_secondary_fg_color;
@@ -2090,7 +2146,9 @@ StScrollBar {
   }
 }
 
-.no-frequent-applications-label { @extend %status_text; }
+.no-frequent-applications-label {
+  @extend %status_text;
+}
 
 .app-well-app .overview-icon.overview-icon-with-label,
 .grid-search-result .overview-icon.overview-icon-with-label {
@@ -2136,23 +2194,37 @@ StScrollBar {
       color: $inverse_secondary_fg_color;
     }
 
-    & .folder-name-entry { width: 300px; color: $inverse_secondary_fg_color; }
+    & .folder-name-entry {
+      width: 300px;
+      color: $inverse_secondary_fg_color;
+    }
 
     /* FIXME: this is to keep the label in sync with the entry */
-    & .folder-name-label { padding: 5px 7px; }
+    & .folder-name-label {
+      padding: 5px 7px;
+    }
 
     & .edit-folder-button {
       @include button(flat-normal, $tc: $inverse_fg_color);
-      &:hover, &:focus { @include button(flat-hover, $tc: $inverse_fg_color); }
-      &:active { @include button(flat-active, $tc: $inverse_fg_color); }
-      &:insensitive { @include button(flat-insensitive, $tc: $inverse_fg_color); }
+      &:hover,
+      &:focus {
+        @include button(flat-hover, $tc: $inverse_fg_color);
+      }
+      &:active {
+        @include button(flat-active, $tc: $inverse_fg_color);
+      }
+      &:insensitive {
+        @include button(flat-insensitive, $tc: $inverse_fg_color);
+      }
 
       padding: 0;
       width: 36px;
       height: 36px;
       border-radius: $circular_radius;
 
-      & > StIcon { icon-size: 16px }
+      & > StIcon {
+        icon-size: 16px;
+      }
     }
   }
 
@@ -2516,7 +2588,9 @@ StScrollBar {
 
   & StButton#vhandle,
   & StButton#vhandle:hover,
-  & StButton#vhandle:active { background-color: transparent; }
+  & StButton#vhandle:active {
+    background-color: transparent;
+  }
 }
 
 .app-folder-dialog-container {
@@ -2529,7 +2603,10 @@ StScrollBar {
 .rename-folder-popup {
   .rename-folder-popup-item {
     spacing: $container_padding;
-    &:ltr, &:rtl { padding: 0 $container_padding * 2; }
+    &:ltr,
+    &:rtl {
+      padding: 0 $container_padding * 2;
+    }
   }
 }
 
@@ -2552,7 +2629,9 @@ StScrollBar {
 
 /* NOTIFICATIONS & MESSAGE TRAY */
 
-.url-highlighter { link-color: $link_color; }
+.url-highlighter {
+  link-color: $link_color;
+}
 
 // Banners
 .notification-banner {
@@ -2565,12 +2644,23 @@ StScrollBar {
   background-color: $lighter_bg_color;
   border: none;
   box-shadow: $shadow_2;
-  &:hover { background-color: $lighter_bg_color; }
-  &:focus { background-color: $lighter_bg_color; }
+  &:hover {
+    background-color: $lighter_bg_color;
+  }
+  &:focus {
+    background-color: $lighter_bg_color;
+  }
 
-  .notification-icon { padding: 5px; }
-  .notification-content { padding: 5px; spacing: 5px; }
-  .secondary-icon { icon-size: em(16px); }
+  .notification-icon {
+    padding: 5px;
+  }
+  .notification-content {
+    padding: 5px;
+    spacing: 5px;
+  }
+  .secondary-icon {
+    icon-size: em(16px);
+  }
   .notification-actions {
     background-color: transparent;
     padding-top: 0;
@@ -2584,36 +2674,61 @@ StScrollBar {
     background-color: transparent;
     color: $secondary_fg_color;
     font-weight: 500;
-    &:first-child { border-radius: 0 0 0 $buttons_radius; }
-    &:last-child { border-radius: 0 0 $buttons_radius 0; }
-    &:hover, &focus { background-color: $divider_color; color: $fg_color; }
-    &:active { background-color: $track_color; color: $fg_color; }
+    &:first-child {
+      border-radius: 0 0 0 $buttons_radius;
+    }
+    &:last-child {
+      border-radius: 0 0 $buttons_radius 0;
+    }
+    &:hover,
+    &focus {
+      background-color: $divider_color;
+      color: $fg_color;
+    }
+    &:active {
+      background-color: $track_color;
+      color: $fg_color;
+    }
   }
 }
 
 .summary-source-counter {
   font-size: 1em;
   font-weight: bold;
-  height: 1.6em; width: 1.6em;
+  height: 1.6em;
+  width: 1.6em;
   -shell-counter-overlap-x: 3px;
   -shell-counter-overlap-y: 3px;
   background-color: $primary_color;
   color: $inverse_fg_color;
   border: 2px solid $inverse_fg_color;
-  box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 0.9em; // should be 0.8 but whatever; wish I could do 50%;
 }
 
-.secondary-icon { icon-size: em(16px); }
+.secondary-icon {
+  icon-size: em(16px);
+}
 
 //chat bubbles
-.chat-body { spacing: 5px; }
-.chat-response { margin: 5px; }
-.chat-log-message { color: $fg_color; }
-.chat-new-group { padding-top: 1em; }
+.chat-body {
+  spacing: 5px;
+}
+.chat-response {
+  margin: 5px;
+}
+.chat-log-message {
+  color: $fg_color;
+}
+.chat-new-group {
+  padding-top: 1em;
+}
 .chat-received {
   padding-left: 4px;
-  &:rtl { padding-left: 0px; padding-right: 4px; }
+  &:rtl {
+    padding-left: 0px;
+    padding-right: 4px;
+  }
 }
 
 .chat-sent {
@@ -2633,58 +2748,6 @@ StScrollBar {
     padding-left: 0;
     padding-right: 4px;
   }
-}
-
-//hotplug
-.hotplug-transient-box {
-  spacing: 6px;
-  padding: 2px 72px 2px 12px;
-}
-.hotplug-notification-item {
-  padding: 2px 10px;
-  &:focus {
-    padding: 1px 71px 1px 11px;
-  }
-}
-
-.hotplug-notification-item-icon {
-  icon-size: 24px;
-  padding: 2px 5px;
-}
-
-.hotplug-resident-box {
-  spacing: 8px;
-}
-
-.hotplug-resident-mount {
-  spacing: 8px;
-  border-radius: $windows_radius;
-  &:hover {
-    background-color: $divider_color;
-  }
-  &:active {
-    background-color: $track_color;
-  }
-}
-
-.hotplug-resident-mount-label {
-  color: inherit;
-  padding-left: 6px;
-}
-
-.hotplug-resident-mount-icon {
-  icon-size: 24px;
-  padding-left: 6px;
-}
-
-.hotplug-resident-eject-icon {
-  icon-size: 16px;
-}
-
-.hotplug-resident-eject-button {
-  padding: 7px;
-  border-radius: $buttons_radius;
-  color: $fg_color;
 }
 
 // Eeeky things
@@ -2843,7 +2906,7 @@ $keyboard_active_bg_color: if(
 .candidate-popup-content {
   background-color: $menu_bg_color;
   border-radius: $buttons_radius;
-  box-shadow: 3px 5px 10px rgba(black, 0.18);;
+  box-shadow: 3px 5px 10px rgba(black, 0.18);
   margin: ($container_padding / 2) 15px 17px 8px;
   padding: $container_padding;
   spacing: $container_padding;
@@ -2855,25 +2918,47 @@ $keyboard_active_bg_color: if(
   padding: 0.3em 0.5em 0.3em 0.5em;
   margin-right: $container_padding / 2;
   border-radius: $buttons_radius - $container_padding;
-  &:hover { background-color: $divider_color; color: $fg_color; }
-  &:active { background-color: $track_color; color: $fg_color; }
-  &:selected { background-color: $primary_color; color: $inverse_fg_color; }
-  &:last-child { margin-right: 0; }
+  &:hover {
+    background-color: $divider_color;
+    color: $fg_color;
+  }
+  &:active {
+    background-color: $track_color;
+    color: $fg_color;
+  }
+  &:selected {
+    background-color: $primary_color;
+    color: $inverse_fg_color;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .candidate-page-button-box {
   height: 2em;
-  .vertical & { padding-top: 0.5em; }
-  .horizontal & { padding-left: 0.5em; }
+  .vertical & {
+    padding-top: 0.5em;
+  }
+  .horizontal & {
+    padding-left: 0.5em;
+  }
 }
 
 .candidate-page-button {
   padding: 4px;
 }
 
-.candidate-page-button-previous { border-radius: $buttons_radius 0px 0px $buttons_radius; border-right-width: 0; }
-.candidate-page-button-next { border-radius: 0px $buttons_radius $buttons_radius 0px;  }
-.candidate-page-button-icon { icon-size: 1em; }
+.candidate-page-button-previous {
+  border-radius: $buttons_radius 0px 0px $buttons_radius;
+  border-right-width: 0;
+}
+.candidate-page-button-next {
+  border-radius: 0px $buttons_radius $buttons_radius 0px;
+}
+.candidate-page-button-icon {
+  icon-size: 1em;
+}
 
 // Auth Dialogs & Screen Shield
 .framed-user-icon {
@@ -2981,34 +3066,63 @@ $keyboard_active_bg_color: if(
   font-weight: bold;
   color: $inverse_secondary_fg_color;
   padding-top: 1em;
-  &:hover { color: $inverse_fg_color; }
-  &:focus { background-color: $inverse_divider_color; }
+  &:hover {
+    color: $inverse_fg_color;
+  }
+  &:focus {
+    background-color: $inverse_divider_color;
+  }
 }
 
-.login-dialog-user-list-view { -st-vfade-offset: 1em; }
+.login-dialog-user-list-view {
+  -st-vfade-offset: 1em;
+}
 .login-dialog-user-list {
   spacing: 12px;
-  padding: .2em;
+  padding: 0.2em;
   width: 23em;
-  &:expanded .login-dialog-user-list-item:selected { background-color: $inverse_divider_color; color: $inverse_fg_color; }
-  &:expanded .login-dialog-user-list-item:hover { background-color: $inverse_divider_color; color: $inverse_fg_color; }
-  &:expanded .login-dialog-user-list-item:active { background-color: $inverse_track_color; color: $inverse_fg_color; }
-  &:expanded .login-dialog-user-list-item:logged-in { border-right: 2px solid $inverse_fg_color; }
+  &:expanded .login-dialog-user-list-item:selected {
+    background-color: $inverse_divider_color;
+    color: $inverse_fg_color;
+  }
+  &:expanded .login-dialog-user-list-item:hover {
+    background-color: $inverse_divider_color;
+    color: $inverse_fg_color;
+  }
+  &:expanded .login-dialog-user-list-item:active {
+    background-color: $inverse_track_color;
+    color: $inverse_fg_color;
+  }
+  &:expanded .login-dialog-user-list-item:logged-in {
+    border-right: 2px solid $inverse_fg_color;
+  }
 }
 .login-dialog-user-list-item {
   border-radius: $buttons_radius;
   padding: 4px 4px 0;
   color: $inverse_secondary_fg_color;
-  &:ltr { padding-right: 1em; }
-  &:rtl { padding-left: 1em; }
-  &:hover { background-color: $inverse_divider_color; color: $inverse_fg_color; }
-  &:active { background-color: $inverse_track_color; color: $inverse_fg_color; }
+  &:ltr {
+    padding-right: 1em;
+  }
+  &:rtl {
+    padding-left: 1em;
+  }
+  &:hover {
+    background-color: $inverse_divider_color;
+    color: $inverse_fg_color;
+  }
+  &:active {
+    background-color: $inverse_track_color;
+    color: $inverse_fg_color;
+  }
   .login-dialog-timed-login-indicator {
     height: 2px;
     margin: 2px 0 0 0;
     background-color: $inverse_fg_color;
   }
-  &:focus .login-dialog-timed-login-indicator { background-color: $inverse_fg_color; }
+  &:focus .login-dialog-timed-login-indicator {
+    background-color: $inverse_fg_color;
+  }
 }
 
 .login-dialog-username,
@@ -3018,10 +3132,14 @@ $keyboard_active_bg_color: if(
   text-align: left;
   padding-left: 15px;
 }
-  .user-widget-label {
-    &:ltr { padding-left: 18px; }
-    &:rtl { padding-right: 18px; }
+.user-widget-label {
+  &:ltr {
+    padding-left: 18px;
   }
+  &:rtl {
+    padding-right: 18px;
+  }
+}
 
 .login-dialog-prompt-layout {
   padding-top: 24px;
@@ -3042,8 +3160,13 @@ $keyboard_active_bg_color: if(
 
 .login-dialog-session-list-button {
   color: $inverse_secondary_fg_color;
-  &:hover,&:focus { color: $inverse_fg_color; }
-  &:active { color: $inverse_fg_color; }
+  &:hover,
+  &:focus {
+    color: $inverse_fg_color;
+  }
+  &:active {
+    color: $inverse_fg_color;
+  }
 }
 
 #lockDialogGroup {

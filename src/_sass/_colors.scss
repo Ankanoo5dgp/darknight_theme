@@ -283,3 +283,8 @@ $placeholder_text_color: if(
   mix($black, $base_color, percentage(0.54)),
   mix($white, $base_color, percentage(0.7))
 );
+
+$popover_bg: if($variant == "light", $grey_850, $lighter_bg_color);
+$popover_fg: rgba($white, 0.7);
+$popover_disabled_fg: rgba($white, 0.3);
+$popover_border: rgba($white, 0.12);
