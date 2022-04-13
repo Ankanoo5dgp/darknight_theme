@@ -2586,12 +2586,6 @@ StScrollBar {
   padding: 0px 88px 10px 88px;
 }
 
-  & StButton#vhandle,
-  & StButton#vhandle:hover,
-  & StButton#vhandle:active {
-    background-color: transparent;
-  }
-}
 
 .app-folder-dialog-container {
   padding: 12px;

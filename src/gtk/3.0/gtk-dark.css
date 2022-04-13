@@ -163,8 +163,8 @@ tab label:disabled, button label:disabled {
   color: inherit;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .dim-label, .budgie-notification .notification-body, .budgie-switcher .notification-body, headerbar .subtitle, label.separator {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: rgba(255, 255, 255, 0.5);
 =======
@@ -172,6 +172,8 @@ tab label:disabled, button label:disabled {
 .dim-label, .budgie-notification .notification-body, .budgie-switcher .notification-body,
 headerbar .subtitle, label.separator {
 >>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
+=======
+>>>>>>> e998b1c (fixing rebase wreakage)
   opacity: 0.6;
 >>>>>>> 47b438a (pulled new version and generated css with it)
 }
@@ -191,22 +193,14 @@ assistant .sidebar label.highlight {
   color: #ffffff;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-.nautilus-window .floating-bar, .osd .scale-popup, .app-notification, popover.background.touch-selection, popover.background.magnifier, popover.background.osd, .osd {
-=======
 .nautilus-window .floating-bar, .osd .scale-popup, .app-notification, popover.touch-selection, popover.magnifier, popover.osd,
 popover.background.touch-selection,
 popover.background.magnifier,
 popover.background.osd,
 popover.background.menu.touch-selection,
 popover.background.menu.magnifier,
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background.menu.osd, .osd {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 popover.background.menu.osd,
 .osd {
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
   opacity: 0.9;
 }
 
@@ -264,26 +258,10 @@ entry:disabled {
 
 #login_window entry, .raven .raven-background spinbutton:not(.vertical), .budgie-popover entry,
 .budgie-popover spinbutton:not(.vertical), window#whiskermenu-window entry, editortweak entry.search, layoutpane entry.search, entry.preferences-search, colorchooser .popover.osd spinbutton:not(.vertical), messagedialog entry, notebook > stack:not(:only-child) entry:not(.search),
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-notebook > stack:not(:only-child) spinbutton:not(.vertical), popover.background .linked entry, popover.background entry,
-popover.background spinbutton:not(.vertical), spinbutton.flat:not(.vertical), entry.flat {
-  border-radius: 0;
-  transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 0%, transparent 0%) 0 0 0/0 0 0px;
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
-=======
-notebook > stack:not(:only-child) spinbutton:not(.vertical), popover .linked entry, popover entry,
-=======
 notebook > stack:not(:only-child) spinbutton:not(.vertical), popover .linked entry,
 popover entry,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
 popover spinbutton:not(.vertical),
 popover.background .linked entry,
-=======
-notebook > stack:not(:only-child) spinbutton:not(.vertical), popover.background .linked entry,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background entry,
 popover.background spinbutton:not(.vertical),
 popover.background.menu .linked entry,
@@ -294,34 +272,16 @@ entry.flat {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 0%, transparent 0%) 0 0 0/0 0 0px;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
-<<<<<<< HEAD
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   color: #ffffff;
 }
 
 #login_window entry:focus, .raven .raven-background spinbutton:focus:not(.vertical), .budgie-popover entry:focus,
 .budgie-popover spinbutton:focus:not(.vertical), window#whiskermenu-window entry:focus, editortweak entry.search:focus, layoutpane entry.search:focus, entry.preferences-search:focus, colorchooser .popover.osd spinbutton:focus:not(.vertical), messagedialog entry:focus, notebook > stack:not(:only-child) entry:focus:not(.search),
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-notebook > stack:not(:only-child) spinbutton:focus:not(.vertical), popover.background .linked entry:focus, popover.background entry:focus,
-popover.background spinbutton:focus:not(.vertical), spinbutton.flat:focus:not(.vertical), entry.flat:focus {
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
-=======
-notebook > stack:not(:only-child) spinbutton:focus:not(.vertical), popover .linked entry:focus, popover entry:focus,
-=======
 notebook > stack:not(:only-child) spinbutton:focus:not(.vertical), popover .linked entry:focus,
 popover entry:focus,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
 popover spinbutton:focus:not(.vertical),
 popover.background .linked entry:focus,
-=======
-notebook > stack:not(:only-child) spinbutton:focus:not(.vertical), popover.background .linked entry:focus,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background entry:focus,
 popover.background spinbutton:focus:not(.vertical),
 popover.background.menu .linked entry:focus,
@@ -330,31 +290,14 @@ popover.background.menu spinbutton:focus:not(.vertical), spinbutton.flat:focus:n
 entry.flat:focus {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
-<<<<<<< HEAD
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 }
 
 #login_window entry:disabled, .raven .raven-background spinbutton:disabled:not(.vertical), .budgie-popover entry:disabled,
 .budgie-popover spinbutton:disabled:not(.vertical), window#whiskermenu-window entry:disabled, editortweak entry.search:disabled, layoutpane entry.search:disabled, entry.preferences-search:disabled, colorchooser .popover.osd spinbutton:disabled:not(.vertical), messagedialog entry:disabled, notebook > stack:not(:only-child) entry:disabled:not(.search),
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-notebook > stack:not(:only-child) spinbutton:disabled:not(.vertical), popover.background .linked entry:disabled, popover.background entry:disabled,
-popover.background spinbutton:disabled:not(.vertical), spinbutton.flat:disabled:not(.vertical), entry.flat:disabled {
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
-=======
-notebook > stack:not(:only-child) spinbutton:disabled:not(.vertical), popover .linked entry:disabled, popover entry:disabled,
-=======
 notebook > stack:not(:only-child) spinbutton:disabled:not(.vertical), popover .linked entry:disabled,
 popover entry:disabled,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
 popover spinbutton:disabled:not(.vertical),
 popover.background .linked entry:disabled,
-=======
-notebook > stack:not(:only-child) spinbutton:disabled:not(.vertical), popover.background .linked entry:disabled,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background entry:disabled,
 popover.background spinbutton:disabled:not(.vertical),
 popover.background.menu .linked entry:disabled,
@@ -362,10 +305,6 @@ popover.background.menu entry:disabled,
 popover.background.menu spinbutton:disabled:not(.vertical), spinbutton.flat:disabled:not(.vertical),
 entry.flat:disabled {
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
-<<<<<<< HEAD
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -401,15 +340,7 @@ entry image.right {
 spinbutton:not(.vertical) undershoot.left,
 entry undershoot.left {
   background-color: transparent;
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.2) 50%);
-=======
   background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.3) 50%);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.3) 50%);
->>>>>>> 478fdbf (Fixed merge problems)
   padding-left: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -420,15 +351,7 @@ entry undershoot.left {
 spinbutton:not(.vertical) undershoot.right,
 entry undershoot.right {
   background-color: transparent;
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.2) 50%);
-=======
   background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.3) 50%);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  background-image: linear-gradient(to top, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.3) 50%);
->>>>>>> 478fdbf (Fixed merge problems)
   padding-right: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -473,23 +396,9 @@ entry.error.flat:focus {
   box-shadow: inset 0 -1px #dd2c00;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-spinbutton.error.flat:disabled:not(.vertical), entry.error.flat:disabled {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
-=======
-=======
-spinbutton.error.flat:disabled:not(.vertical),
-entry.error.flat:disabled {
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 spinbutton.error.flat:disabled:not(.vertical),
 entry.error.flat:disabled {
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -547,23 +456,9 @@ entry.warning.flat:focus {
   box-shadow: inset 0 -1px #ff6d00;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-spinbutton.warning.flat:disabled:not(.vertical), entry.warning.flat:disabled {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
-=======
-=======
-spinbutton.warning.flat:disabled:not(.vertical),
-entry.warning.flat:disabled {
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 spinbutton.warning.flat:disabled:not(.vertical),
 entry.warning.flat:disabled {
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -658,9 +553,8 @@ treeview entry {
   }
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-.budgie-panel button, PanelToplevel.horizontal > grid > button, .mate-panel-menu-bar button, .nemo-window .toolbar button, .nemo-window toolbar.primary-toolbar > toolitem > box > button, layouttabbar button, infobar.info > revealer > box button, infobar.info:backdrop > revealer > box button, infobar.question > revealer > box button, infobar.question:backdrop > revealer > box button, infobar.warning > revealer > box button, infobar.warning:backdrop > revealer > box button, infobar.error > revealer > box button, infobar.error:backdrop > revealer > box button, .app-notification button, actionbar > revealer > box button:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button, .caja-pathbar :not(headerbar) button, :not(headerbar) .path-bar button,
-headerbar button:not(.suggested-action):not(.destructive-action), toolbar button, button.flat {
+.budgie-panel button, PanelToplevel.horizontal > grid > button, .mate-panel-menu-bar button, .nemo-window .toolbar button, .nemo-window toolbar.primary-toolbar > toolitem > box > button, layouttabbar button, infobar.info button, infobar.question button, infobar.warning button, infobar.error button, .app-notification button, actionbar > revealer > box button:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button, .caja-pathbar :not(headerbar) button, :not(headerbar) .path-bar button,
+headerbar button:not(.suggested-action):not(.destructive-action), toolbar button {
   transition: 100ms, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 600ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: inset 0 0 0 9999px transparent;
   background-color: transparent;
@@ -671,39 +565,46 @@ headerbar button:not(.suggested-action):not(.destructive-action), toolbar button
   color: rgba(255, 255, 255, 0.7);
 }
 
+<<<<<<< HEAD
 .budgie-panel button:hover, PanelToplevel.horizontal > grid > button:hover, .mate-panel-menu-bar button:hover, .nemo-window .toolbar button:hover, .nemo-window toolbar.primary-toolbar > toolitem > box > button:hover, layouttabbar button:hover, infobar.info > revealer > box button:hover, infobar.question > revealer > box button:hover, infobar.warning > revealer > box button:hover, infobar.error > revealer > box button:hover, .app-notification button:hover, actionbar > revealer > box button:hover:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:hover, .caja-pathbar :not(headerbar) button:hover, :not(headerbar) .path-bar button:hover,
 headerbar button:hover:not(.suggested-action):not(.destructive-action), toolbar button:hover, button.flat:hover {
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.15);
   color: #FFFFFF;
+=======
+.budgie-panel button:hover, PanelToplevel.horizontal > grid > button:hover, .mate-panel-menu-bar button:hover, .nemo-window .toolbar button:hover, .nemo-window toolbar.primary-toolbar > toolitem > box > button:hover, layouttabbar button:hover, infobar.info button:hover, infobar.question button:hover, infobar.warning button:hover, infobar.error button:hover, .app-notification button:hover, actionbar > revealer > box button:hover:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:hover, .caja-pathbar :not(headerbar) button:hover, :not(headerbar) .path-bar button:hover,
+headerbar button:hover:not(.suggested-action):not(.destructive-action), toolbar button:hover {
+  box-shadow: inset 0 0 0 9999px alpha(currentColor, 0.15);
+  color: #ffffff;
+>>>>>>> e998b1c (fixing rebase wreakage)
 }
 
-.budgie-panel button:active, PanelToplevel.horizontal > grid > button:active, .mate-panel-menu-bar button:active, .nemo-window .toolbar button:active, .nemo-window toolbar.primary-toolbar > toolitem > box > button:active, layouttabbar button:active, infobar.info > revealer > box button:active, infobar.question > revealer > box button:active, infobar.warning > revealer > box button:active, infobar.error > revealer > box button:active, .app-notification button:active, actionbar > revealer > box button:active:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:active, .caja-pathbar :not(headerbar) button:active, :not(headerbar) .path-bar button:active,
-headerbar button:active:not(.suggested-action):not(.destructive-action), toolbar button:active, button.flat:active {
+.budgie-panel button:active, PanelToplevel.horizontal > grid > button:active, .mate-panel-menu-bar button:active, .nemo-window .toolbar button:active, .nemo-window toolbar.primary-toolbar > toolitem > box > button:active, layouttabbar button:active, infobar.info button:active, infobar.question button:active, infobar.warning button:active, infobar.error button:active, .app-notification button:active, actionbar > revealer > box button:active:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:active, .caja-pathbar :not(headerbar) button:active, :not(headerbar) .path-bar button:active,
+headerbar button:active:not(.suggested-action):not(.destructive-action), toolbar button:active {
   transition: 100ms, border-image 225ms cubic-bezier(0, 0, 0.2, 1), background-size 0, background-image 0;
   animation: ripple_effect 100ms cubic-bezier(0, 0, 0.2, 1) forwards;
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.15);
   background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.15) 10%, transparent 0%);
   background-size: 0% 0%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.budgie-panel button:disabled, PanelToplevel.horizontal > grid > button:disabled, .mate-panel-menu-bar button:disabled, .nemo-window .toolbar button:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box > button:disabled, layouttabbar button:disabled, infobar.info > revealer > box button:disabled, infobar.question > revealer > box button:disabled, infobar.warning > revealer > box button:disabled, infobar.error > revealer > box button:disabled, .app-notification button:disabled, actionbar > revealer > box button:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:disabled, .caja-pathbar :not(headerbar) button:disabled, :not(headerbar) .path-bar button:disabled,
-headerbar button:disabled:not(.suggested-action):not(.destructive-action), toolbar button:disabled, button.flat:disabled {
+.budgie-panel button:disabled, PanelToplevel.horizontal > grid > button:disabled, .mate-panel-menu-bar button:disabled, .nemo-window .toolbar button:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box > button:disabled, layouttabbar button:disabled, infobar.info button:disabled, infobar.question button:disabled, infobar.warning button:disabled, infobar.error button:disabled, .app-notification button:disabled, actionbar > revealer > box button:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:disabled, .caja-pathbar :not(headerbar) button:disabled, :not(headerbar) .path-bar button:disabled,
+headerbar button:disabled:not(.suggested-action):not(.destructive-action), toolbar button:disabled {
   box-shadow: none;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.budgie-panel button:checked, PanelToplevel.horizontal > grid > button:checked, .mate-panel-menu-bar button:checked, .nemo-window .toolbar button:checked, .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked, layouttabbar button:checked, infobar.info > revealer > box button:checked, infobar.question > revealer > box button:checked, infobar.warning > revealer > box button:checked, infobar.error > revealer > box button:checked, .app-notification button:checked, actionbar > revealer > box button:checked:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked, .caja-pathbar :not(headerbar) button:checked, :not(headerbar) .path-bar button:checked,
-headerbar button:checked:not(.suggested-action):not(.destructive-action), toolbar button:checked, button.flat:checked {
-  background-color: rgba(255, 255, 255, 0.2);
+.budgie-panel button:checked, PanelToplevel.horizontal > grid > button:checked, .mate-panel-menu-bar button:checked, .nemo-window .toolbar button:checked, .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked, layouttabbar button:checked, infobar.info button:checked, infobar.question button:checked, infobar.warning button:checked, infobar.error button:checked, .app-notification button:checked, actionbar > revealer > box button:checked:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked, .caja-pathbar :not(headerbar) button:checked, :not(headerbar) .path-bar button:checked,
+headerbar button:checked:not(.suggested-action):not(.destructive-action), toolbar button:checked {
+  background-color: rgba(255, 255, 255, 0.3);
   background-image: radial-gradient(circle farthest-corner at center, transparent 10%, transparent 0%);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.budgie-panel button:checked:disabled, PanelToplevel.horizontal > grid > button:checked:disabled, .mate-panel-menu-bar button:checked:disabled, .nemo-window .toolbar button:checked:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked:disabled, layouttabbar button:checked:disabled, infobar.info > revealer > box button:checked:disabled, infobar.question > revealer > box button:checked:disabled, infobar.warning > revealer > box button:checked:disabled, infobar.error > revealer > box button:checked:disabled, .app-notification button:checked:disabled, actionbar > revealer > box button:checked:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked:disabled, .caja-pathbar :not(headerbar) button:checked:disabled, :not(headerbar) .path-bar button:checked:disabled,
-headerbar button:checked:disabled:not(.suggested-action):not(.destructive-action), toolbar button:checked:disabled, button.flat:checked:disabled {
-  background-color: rgba(255, 255, 255, 0.08);
+.budgie-panel button:checked:disabled, PanelToplevel.horizontal > grid > button:checked:disabled, .mate-panel-menu-bar button:checked:disabled, .nemo-window .toolbar button:checked:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked:disabled, layouttabbar button:checked:disabled, infobar.info button:checked:disabled, infobar.question button:checked:disabled, infobar.warning button:checked:disabled, infobar.error button:checked:disabled, .app-notification button:checked:disabled, actionbar > revealer > box button:checked:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked:disabled, .caja-pathbar :not(headerbar) button:checked:disabled, :not(headerbar) .path-bar button:checked:disabled,
+headerbar button:checked:disabled:not(.suggested-action):not(.destructive-action), toolbar button:checked:disabled {
+  background-color: rgba(255, 255, 255, 0.12);
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -725,8 +626,13 @@ radio, scrollbar button, notebook > header > tabs > arrow, spinbutton.vertical b
 .budgie-session-dialog .linked.horizontal > button:hover, .drop-shadow button:hover, .raven .raven-header.top stackswitcher button:hover, .raven .raven-header:not(.top) button:hover, .raven stackswitcher.linked > button:hover, .budgie-popover button:hover, .budgie-settings-window buttonbox.inline-toolbar button:hover, #mate-menu button:hover, popover.messagepopover .popover-action-area button:hover, .gedit-search-slider button:hover, placessidebar row button.sidebar-button:hover, messagedialog .dialog-action-area button:hover, calendar.button:hover, check:hover,
 radio:hover, scrollbar button:hover, notebook > header > tabs > arrow:hover, spinbutton.vertical button:hover, spinbutton:not(.vertical) button:hover, modelbutton.flat:hover,
 .menuitem.button.flat:hover {
+<<<<<<< HEAD
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.15);
   color: #FFFFFF;
+=======
+  box-shadow: inset 0 0 0 9999px alpha(currentColor, 0.15);
+  color: #ffffff;
+>>>>>>> e998b1c (fixing rebase wreakage)
 }
 
 .lightdm-gtk-greeter button:active, .budgie-polkit-dialog .linked.horizontal > button:active,
@@ -738,7 +644,7 @@ radio:active, scrollbar button:active, notebook > header > tabs > arrow:active, 
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.15);
   background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.15) 10%, transparent 0%);
   background-size: 0% 0%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .lightdm-gtk-greeter button:disabled, .budgie-polkit-dialog .linked.horizontal > button:disabled,
@@ -750,41 +656,38 @@ radio:disabled, scrollbar button:disabled, notebook > header > tabs > arrow:disa
   color: rgba(255, 255, 255, 0.3);
 }
 
-.raven-mpris button.image-button, infobar.info > revealer > box button, infobar.info:backdrop > revealer > box button, infobar.question > revealer > box button, infobar.question:backdrop > revealer > box button, infobar.warning > revealer > box button, infobar.warning:backdrop > revealer > box button, infobar.error > revealer > box button, infobar.error:backdrop > revealer > box button, row:selected button, row:selected button.flat {
+.raven-mpris button.image-button, infobar.info button, infobar.question button, infobar.warning button, infobar.error button {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.raven-mpris button.image-button:hover, infobar.info > revealer > box button:hover, infobar.question > revealer > box button:hover, infobar.warning > revealer > box button:hover, infobar.error > revealer > box button:hover, row:selected button:hover, .raven-mpris button.image-button:active, infobar.info > revealer > box button:active, infobar.question > revealer > box button:active, infobar.warning > revealer > box button:active, infobar.error > revealer > box button:active, row:selected button:active {
-  color: #FFFFFF;
+.raven-mpris button.image-button:hover, infobar.info button:hover, infobar.question button:hover, infobar.warning button:hover, infobar.error button:hover, .raven-mpris button.image-button:active, infobar.info button:active, infobar.question button:active, infobar.warning button:active, infobar.error button:active {
+  color: #ffffff;
 }
 
-.raven-mpris button.image-button:disabled, infobar.info > revealer > box button:disabled, infobar.question > revealer > box button:disabled, infobar.warning > revealer > box button:disabled, infobar.error > revealer > box button:disabled, row:selected button:disabled {
+.raven-mpris button.image-button:disabled, infobar.info button:disabled, infobar.question button:disabled, infobar.warning button:disabled, infobar.error button:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.raven-mpris button.image-button:checked, infobar.info > revealer > box button:checked, infobar.question > revealer > box button:checked, infobar.warning > revealer > box button:checked, infobar.error > revealer > box button:checked, row:selected button:checked {
+.raven-mpris button.image-button:checked, infobar.info button:checked, infobar.question button:checked, infobar.warning button:checked, infobar.error button:checked {
   background-color: rgba(255, 255, 255, 0.3);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.raven-mpris button.image-button:checked:disabled, infobar.info > revealer > box button:checked:disabled, infobar.question > revealer > box button:checked:disabled, infobar.warning > revealer > box button:checked:disabled, infobar.error > revealer > box button:checked:disabled, row:selected button:checked:disabled {
+.raven-mpris button.image-button:checked:disabled, infobar.info button:checked:disabled, infobar.question button:checked:disabled, infobar.warning button:checked:disabled, infobar.error button:checked:disabled {
   background-color: rgba(255, 255, 255, 0.12);
   color: rgba(255, 255, 255, 0.5);
 }
 
-.raven-mpris button.image-button:disabled, infobar.info > revealer > box button:disabled, infobar.question > revealer > box button:disabled, infobar.warning > revealer > box button:disabled, infobar.error > revealer > box button:disabled, row:selected button:disabled {
+.raven-mpris button.image-button:disabled, infobar.info button:disabled, infobar.question button:disabled, infobar.warning button:disabled, infobar.error button:disabled {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.3);
 }
-=======
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 
 button {
   min-height: 24px;
   min-width: 16px;
   padding: 4px 8px;
   border-radius: 7px;
-  font-weight: 500;
   transition: 100ms, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 600ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), inset 0 0 0 9999px transparent;
   background-color: #44454b;
@@ -795,12 +698,10 @@ button {
   color: rgba(255, 255, 255, 0.8);
 }
 
-
 button:hover {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06), inset 0 0 0 9999px transparent;
   color: #ffffff;
 }
-
 
 button:active {
   transition: 100ms, background-size 0, background-image 0;
@@ -811,13 +712,11 @@ button:active {
   color: #ffffff;
 }
 
-
 button:disabled {
   box-shadow: none;
   background-color: #3b3b43;
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 button:checked {
   background-color: #5657f5;
@@ -828,22 +727,17 @@ button:checked {
   background-repeat: no-repeat;
 }
 
-
 button:checked:disabled {
   background-color: rgba(86, 87, 245, 0.3);
   color: rgba(86, 87, 245, 0.5);
   background-image: none;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
 .lightdm-gtk-greeter button, .budgie-polkit-dialog .linked.horizontal > button,
 .budgie-session-dialog .linked.horizontal > button, .drop-shadow button, .raven .raven-header.top stackswitcher button, .raven .raven-header:not(.top) button, .raven stackswitcher.linked > button, .budgie-popover button, .budgie-settings-window buttonbox.inline-toolbar button, #mate-menu button, popover.messagepopover .popover-action-area button, .gedit-search-slider button, placessidebar row button.sidebar-button, messagedialog.csd .dialog-action-area button, messagedialog .dialog-action-area button, calendar.button, check,
 radio, scrollbar button, notebook > header > tabs > arrow, spinbutton.vertical button, spinbutton:not(.vertical) button, modelbutton.flat,
-.menuitem.button.flat, .budgie-panel button, PanelToplevel.horizontal > grid > button, .mate-panel-menu-bar button, .nemo-window .toolbar button, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button, layouttabbar button, infobar.info button, infobar.question button, infobar.warning button, infobar.error button, .app-notification button, actionbar > revealer > box button:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button, .caja-pathbar :not(headerbar) button, :not(headerbar) .path-bar button,
-headerbar button:not(.suggested-action):not(.destructive-action), toolbar button,
-button.flat {
+.menuitem.button.flat, .budgie-panel button, PanelToplevel.horizontal > grid > button, .mate-panel-menu-bar button, .nemo-window .toolbar button, .nemo-window toolbar.primary-toolbar > toolitem > box > button, layouttabbar button, infobar.info button, infobar.question button, infobar.warning button, infobar.error button, .app-notification button, actionbar > revealer > box button:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button, .caja-pathbar :not(headerbar) button, :not(headerbar) .path-bar button,
+headerbar button:not(.suggested-action):not(.destructive-action), toolbar button, button.flat {
   transition: 100ms, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 600ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: inset 0 0 0 9999px transparent;
   background-color: transparent;
@@ -857,10 +751,8 @@ button.flat {
 .lightdm-gtk-greeter button:hover, .budgie-polkit-dialog .linked.horizontal > button:hover,
 .budgie-session-dialog .linked.horizontal > button:hover, .drop-shadow button:hover, .raven .raven-header.top stackswitcher button:hover, .raven .raven-header:not(.top) button:hover, .raven stackswitcher.linked > button:hover, .budgie-popover button:hover, .budgie-settings-window buttonbox.inline-toolbar button:hover, #mate-menu button:hover, popover.messagepopover .popover-action-area button:hover, .gedit-search-slider button:hover, placessidebar row button.sidebar-button:hover, messagedialog .dialog-action-area button:hover, calendar.button:hover, check:hover,
 radio:hover, scrollbar button:hover, notebook > header > tabs > arrow:hover, spinbutton.vertical button:hover, spinbutton:not(.vertical) button:hover, modelbutton.flat:hover,
-.menuitem.button.flat:hover, .budgie-panel button:hover, PanelToplevel.horizontal > grid > button:hover, .mate-panel-menu-bar button:hover, .nemo-window .toolbar button:hover, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:hover,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:hover, layouttabbar button:hover, infobar.info button:hover, infobar.question button:hover, infobar.warning button:hover, infobar.error button:hover, .app-notification button:hover, actionbar > revealer > box button:hover:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:hover, .caja-pathbar :not(headerbar) button:hover, :not(headerbar) .path-bar button:hover,
-headerbar button:hover:not(.suggested-action):not(.destructive-action), toolbar button:hover,
-button.flat:hover {
+.menuitem.button.flat:hover, .budgie-panel button:hover, PanelToplevel.horizontal > grid > button:hover, .mate-panel-menu-bar button:hover, .nemo-window .toolbar button:hover, .nemo-window toolbar.primary-toolbar > toolitem > box > button:hover, layouttabbar button:hover, infobar.info button:hover, infobar.question button:hover, infobar.warning button:hover, infobar.error button:hover, .app-notification button:hover, actionbar > revealer > box button:hover:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:hover, .caja-pathbar :not(headerbar) button:hover, :not(headerbar) .path-bar button:hover,
+headerbar button:hover:not(.suggested-action):not(.destructive-action), toolbar button:hover, button.flat:hover {
   box-shadow: inset 0 0 0 9999px alpha(currentColor, 0.15);
   color: #ffffff;
 }
@@ -868,10 +760,8 @@ button.flat:hover {
 .lightdm-gtk-greeter button:active, .budgie-polkit-dialog .linked.horizontal > button:active,
 .budgie-session-dialog .linked.horizontal > button:active, .drop-shadow button:active, .raven .raven-header.top stackswitcher button:active, .raven .raven-header:not(.top) button:active, .raven stackswitcher.linked > button:active, .budgie-popover button:active, .budgie-settings-window buttonbox.inline-toolbar button:active, #mate-menu button:active, popover.messagepopover .popover-action-area button:active, .gedit-search-slider button:active, placessidebar row button.sidebar-button:active, messagedialog .dialog-action-area button:active, calendar.button:active, check:active,
 radio:active, scrollbar button:active, notebook > header > tabs > arrow:active, spinbutton.vertical button:active, spinbutton:not(.vertical) button:active, modelbutton.flat:active,
-.menuitem.button.flat:active, .budgie-panel button:active, PanelToplevel.horizontal > grid > button:active, .mate-panel-menu-bar button:active, .nemo-window .toolbar button:active, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:active,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:active, layouttabbar button:active, infobar.info button:active, infobar.question button:active, infobar.warning button:active, infobar.error button:active, .app-notification button:active, actionbar > revealer > box button:active:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:active, .caja-pathbar :not(headerbar) button:active, :not(headerbar) .path-bar button:active,
-headerbar button:active:not(.suggested-action):not(.destructive-action), toolbar button:active,
-button.flat:active {
+.menuitem.button.flat:active, .budgie-panel button:active, PanelToplevel.horizontal > grid > button:active, .mate-panel-menu-bar button:active, .nemo-window .toolbar button:active, .nemo-window toolbar.primary-toolbar > toolitem > box > button:active, layouttabbar button:active, infobar.info button:active, infobar.question button:active, infobar.warning button:active, infobar.error button:active, .app-notification button:active, actionbar > revealer > box button:active:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:active, .caja-pathbar :not(headerbar) button:active, :not(headerbar) .path-bar button:active,
+headerbar button:active:not(.suggested-action):not(.destructive-action), toolbar button:active, button.flat:active {
   transition: 100ms, border-image 225ms cubic-bezier(0, 0, 0.2, 1), background-size 0, background-image 0;
   animation: ripple_effect 100ms cubic-bezier(0, 0, 0.2, 1) forwards;
   box-shadow: inset 0 0 0 9999px alpha(currentColor, 0.15);
@@ -883,72 +773,53 @@ button.flat:active {
 .lightdm-gtk-greeter button:disabled, .budgie-polkit-dialog .linked.horizontal > button:disabled,
 .budgie-session-dialog .linked.horizontal > button:disabled, .drop-shadow button:disabled, .raven .raven-header.top stackswitcher button:disabled, .raven .raven-header:not(.top) button:disabled, .raven stackswitcher.linked > button:disabled, .budgie-popover button:disabled, .budgie-settings-window buttonbox.inline-toolbar button:disabled, #mate-menu button:disabled, popover.messagepopover .popover-action-area button:disabled, .gedit-search-slider button:disabled, placessidebar row button.sidebar-button:disabled, messagedialog .dialog-action-area button:disabled, calendar.button:disabled, check:disabled,
 radio:disabled, scrollbar button:disabled, notebook > header > tabs > arrow:disabled, spinbutton.vertical button:disabled, spinbutton:not(.vertical) button:disabled, modelbutton.flat:disabled,
-.menuitem.button.flat:disabled, .budgie-panel button:disabled, PanelToplevel.horizontal > grid > button:disabled, .mate-panel-menu-bar button:disabled, .nemo-window .toolbar button:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:disabled,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:disabled, layouttabbar button:disabled, infobar.info button:disabled, infobar.question button:disabled, infobar.warning button:disabled, infobar.error button:disabled, .app-notification button:disabled, actionbar > revealer > box button:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:disabled, .caja-pathbar :not(headerbar) button:disabled, :not(headerbar) .path-bar button:disabled,
-headerbar button:disabled:not(.suggested-action):not(.destructive-action), toolbar button:disabled,
-button.flat:disabled {
+.menuitem.button.flat:disabled, .budgie-panel button:disabled, PanelToplevel.horizontal > grid > button:disabled, .mate-panel-menu-bar button:disabled, .nemo-window .toolbar button:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box > button:disabled, layouttabbar button:disabled, infobar.info button:disabled, infobar.question button:disabled, infobar.warning button:disabled, infobar.error button:disabled, .app-notification button:disabled, actionbar > revealer > box button:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:disabled, .caja-pathbar :not(headerbar) button:disabled, :not(headerbar) .path-bar button:disabled,
+headerbar button:disabled:not(.suggested-action):not(.destructive-action), toolbar button:disabled, button.flat:disabled {
   box-shadow: none;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.budgie-panel button:checked, PanelToplevel.horizontal > grid > button:checked, .mate-panel-menu-bar button:checked, .nemo-window .toolbar button:checked, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:checked,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:checked, layouttabbar button:checked, infobar.info button:checked, infobar.question button:checked, infobar.warning button:checked, infobar.error button:checked, .app-notification button:checked, actionbar > revealer > box button:checked:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked, .caja-pathbar :not(headerbar) button:checked, :not(headerbar) .path-bar button:checked,
-headerbar button:checked:not(.suggested-action):not(.destructive-action), toolbar button:checked,
-button.flat:checked {
+.budgie-panel button:checked, PanelToplevel.horizontal > grid > button:checked, .mate-panel-menu-bar button:checked, .nemo-window .toolbar button:checked, .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked, layouttabbar button:checked, infobar.info button:checked, infobar.question button:checked, infobar.warning button:checked, infobar.error button:checked, .app-notification button:checked, actionbar > revealer > box button:checked:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked, .caja-pathbar :not(headerbar) button:checked, :not(headerbar) .path-bar button:checked,
+headerbar button:checked:not(.suggested-action):not(.destructive-action), toolbar button:checked, button.flat:checked {
   background-color: rgba(255, 255, 255, 0.3);
+  background-image: radial-gradient(circle farthest-corner at center, transparent 10%, transparent 0%);
   color: #ffffff;
 }
 
-.budgie-panel button:checked:disabled, PanelToplevel.horizontal > grid > button:checked:disabled, .mate-panel-menu-bar button:checked:disabled, .nemo-window .toolbar button:checked:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:checked:disabled, layouttabbar button:checked:disabled, infobar.info button:checked:disabled, infobar.question button:checked:disabled, infobar.warning button:checked:disabled, infobar.error button:checked:disabled, .app-notification button:checked:disabled, actionbar > revealer > box button:checked:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked:disabled, .caja-pathbar :not(headerbar) button:checked:disabled, :not(headerbar) .path-bar button:checked:disabled,
-headerbar button:checked:disabled:not(.suggested-action):not(.destructive-action), toolbar button:checked:disabled,
-button.flat:checked:disabled {
+.budgie-panel button:checked:disabled, PanelToplevel.horizontal > grid > button:checked:disabled, .mate-panel-menu-bar button:checked:disabled, .nemo-window .toolbar button:checked:disabled, .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked:disabled, layouttabbar button:checked:disabled, infobar.info button:checked:disabled, infobar.question button:checked:disabled, infobar.warning button:checked:disabled, infobar.error button:checked:disabled, .app-notification button:checked:disabled, actionbar > revealer > box button:checked:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), :not(headerbar) .caja-pathbar button:checked:disabled, .caja-pathbar :not(headerbar) button:checked:disabled, :not(headerbar) .path-bar button:checked:disabled,
+headerbar button:checked:disabled:not(.suggested-action):not(.destructive-action), toolbar button:checked:disabled, button.flat:checked:disabled {
   background-color: rgba(255, 255, 255, 0.12);
   color: rgba(255, 255, 255, 0.5);
 }
 
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 button.text-button {
   padding-left: 16px;
   padding-right: 16px;
 }
-
 
 button.image-button {
   min-width: 24px;
   padding: 4px;
 }
 
-
-button.text-button.image-button label:first-child {
+button.image-button label:first-child, button.text-button.image-button label:first-child {
   margin-left: 12px;
 }
 
-
-button.text-button.image-button label:last-child {
+button.image-button label:last-child, button.text-button.image-button label:last-child {
   margin-right: 12px;
 }
 
-
-button.text-button.image-button image:not(:only-child) {
+button.image-button image:not(:only-child), button.text-button.image-button image:not(:only-child) {
   margin: 0 4px;
 }
 
 .linked > button.flat, .linked.vertical > button.flat {
   border-radius: 7px;
-}
-
-.linked > button.flat.image-button, .linked > button.flat.text-button.image-button, .linked.vertical > button.flat.image-button, .linked.vertical > button.flat.text-button.image-button {
-  border-radius: 7px;
   -gtk-outline-radius: 7px;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-button.osd {
-  min-height: 24px;
-  min-width: 24px;
-=======
 row:selected button:disabled {
   background-color: rgba(255, 255, 255, 0.12);
   color: rgba(255, 255, 255, 0.3);
@@ -976,23 +847,20 @@ row:selected button:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-
 button.osd {
-  padding: 7px 11px;
-}
-
-
-button.osd.image-button {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
+  min-height: 24px;
+  min-width: 24px;
   padding: 7px;
   margin: 6px;
 }
 
+button.osd.image-button {
+  padding: 7px;
+}
 
 button.osd:disabled {
   opacity: 0;
 }
-
 
 button.suggested-action {
   background-color: #7c4dff;
@@ -1003,7 +871,6 @@ button.suggested-action {
   background-repeat: no-repeat;
 }
 
-
 button.suggested-action:disabled {
   box-shadow: none;
   background-color: #3b3b43;
@@ -1011,18 +878,15 @@ button.suggested-action:disabled {
   background-image: none;
 }
 
-
 button.suggested-action:checked {
   background-color: #a382ff;
 }
-
 
 button.suggested-action.flat {
   background-color: transparent;
   color: #7c4dff;
   background-image: none;
 }
-
 
 button.suggested-action.flat:disabled {
   box-shadow: none;
@@ -1031,12 +895,10 @@ button.suggested-action.flat:disabled {
   background-image: none;
 }
 
-
 button.suggested-action.flat:checked {
   background-image: none;
   background-color: rgba(124, 77, 255, 0.3);
 }
-
 
 button.destructive-action {
   background-color: #ff5252;
@@ -1047,7 +909,6 @@ button.destructive-action {
   background-repeat: no-repeat;
 }
 
-
 button.destructive-action:disabled {
   box-shadow: none;
   background-color: #3b3b43;
@@ -1055,11 +916,9 @@ button.destructive-action:disabled {
   background-image: none;
 }
 
-
 button.destructive-action:checked {
   background-color: #ff8686;
 }
-
 
 button.destructive-action.flat {
   background-color: transparent;
@@ -1067,14 +926,12 @@ button.destructive-action.flat {
   background-image: none;
 }
 
-
 button.destructive-action.flat:disabled {
   box-shadow: none;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
   background-image: none;
 }
-
 
 button.destructive-action.flat:checked {
   background-image: none;
@@ -1118,29 +975,12 @@ button.destructive-action.flat:checked {
 }
 
 .raven .expander-button, .raven .raven-header:not(.top) button.image-button, widget > box.terminal-titlebar > button.image-button, widget > box.terminal-titlebar > button.image-button.toggle, .terminix-session-sidebar button.tilix-sidebar-close-button,
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .tilix-session-sidebar button.tilix-sidebar-close-button, .nemo-window toolbar.primary-toolbar > toolitem > box > button, .nautilus-window headerbar > revealer > button, .solid-csd headerbar:not(.default-decoration) button.titlebutton, headerbar button.titlebutton, .csd headerbar button.titlebutton, headerbar.default-decoration button.titlebutton, .csd headerbar.default-decoration button.titlebutton,
 .titlebar button.titlebutton, .csd .titlebar button.titlebutton,
 .titlebar.default-decoration button.titlebutton, .csd .titlebar.default-decoration button.titlebutton, row button.image-button, check,
-<<<<<<< HEAD
-radio, headerbar button.suggested-action, headerbar button.destructive-action,
-headerbar button:not(.suggested-action):not(.destructive-action), button.close, button.circular {
-=======
-.tilix-session-sidebar button.tilix-sidebar-close-button, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button, .nautilus-window headerbar > revealer > button, .solid-csd headerbar:not(.default-decoration) button.titlebutton, headerbar button.titlebutton, .csd headerbar button.titlebutton, .csd headerbar.default-decoration button.titlebutton,
-.titlebar button.titlebutton, .csd .titlebar button.titlebutton,
-.titlebar.default-decoration button.titlebutton, .csd .titlebar.default-decoration button.titlebutton, row button.image-button, check,
-radio,
-headerbar.default-decoration button.titlebutton,
-headerbar button.suggested-action,
-=======
 radio, headerbar button.suggested-action,
->>>>>>> 478fdbf (Fixed merge problems)
 headerbar button.destructive-action,
-headerbar button:not(.suggested-action):not(.destructive-action),
-button.close,
-button.circular {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
+headerbar button:not(.suggested-action):not(.destructive-action), button.close, button.circular {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
 }
@@ -1249,22 +1089,8 @@ button:visited {
   color: #e040fb;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-infobar.info > revealer > box *:link, infobar.info:backdrop > revealer > box *:link, infobar.question > revealer > box *:link, infobar.question:backdrop > revealer > box *:link, infobar.warning > revealer > box *:link, infobar.warning:backdrop > revealer > box *:link, infobar.error > revealer > box *:link, infobar.error:backdrop > revealer > box *:link, headerbar.selection-mode .subtitle:link, *:link:selected, *:selected *:link, button:selected:link,
-=======
-infobar.info *:link, infobar.question *:link, infobar.warning *:link, infobar.error *:link,
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar.selection-mode .subtitle:link, *:link:selected, *:selected *:link, button:selected:link,
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-headerbar.selection-mode .subtitle:link, *:link:selected, *:selected *:link,
+infobar *:link, infobar.info *:link, infobar.question *:link, infobar.warning *:link, infobar.error *:link, headerbar.selection-mode .subtitle:link, *:link:selected, *:selected *:link,
 button:selected:link,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
-=======
-infobar.info *:link, infobar.question *:link, infobar.warning *:link, infobar.error *:link, headerbar.selection-mode .subtitle:link, *:link:selected, *:selected *:link,
-button:selected:link,
->>>>>>> 478fdbf (Fixed merge problems)
 button:selected:visited, *:selected button:link,
 *:selected button:visited {
   color: #ffffff;
@@ -1421,43 +1247,19 @@ combobox:drop(active) {
   border-radius: 7px;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-#login_window #user_combobox button, .raven .raven-background button.combo, .budgie-popover button.combo, notebook > stack:not(:only-child) button.combo, popover.background button.combo {
-=======
 #login_window #user_combobox button, .raven .raven-background button.combo, .budgie-popover button.combo, notebook > stack:not(:only-child) button.combo, popover button.combo,
 popover.background button.combo,
 popover.background.menu button.combo {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   border-radius: 0;
   background-image: none;
   font-weight: inherit;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 0%, transparent 0%) 0 0 0/0 0 0px;
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
-=======
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   color: #ffffff;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-#login_window #user_combobox button:hover, .raven .raven-background button.combo:hover, .budgie-popover button.combo:hover, notebook > stack:not(:only-child) button.combo:hover, popover.background button.combo:hover {
-  box-shadow: inset 0 -2px rgba(255, 255, 255, 0.5);
-}
-
-#login_window #user_combobox button:checked, .raven .raven-background button.combo:checked, .budgie-popover button.combo:checked, notebook > stack:not(:only-child) button.combo:checked, popover.background button.combo:checked {
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
-}
-
-#login_window #user_combobox button:disabled, .raven .raven-background button.combo:disabled, .budgie-popover button.combo:disabled, notebook > stack:not(:only-child) button.combo:disabled, popover.background button.combo:disabled {
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
-=======
 #login_window #user_combobox button:hover, .raven .raven-background button.combo:hover, .budgie-popover button.combo:hover, notebook > stack:not(:only-child) button.combo:hover, popover button.combo:hover,
 popover.background button.combo:hover,
 popover.background.menu button.combo:hover {
@@ -1474,10 +1276,6 @@ popover.background.menu button.combo:checked {
 popover.background button.combo:disabled,
 popover.background.menu button.combo:disabled {
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
-<<<<<<< HEAD
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1585,48 +1383,39 @@ headerbar {
   color: #ffffff;
 }
 
-
 headerbar:disabled :not(button) > label {
   color: rgba(255, 255, 255, 0.5);
 }
-
 
 headerbar:backdrop {
   color: rgba(255, 255, 255, 0.7);
 }
 
-
 headerbar:backdrop:disabled :not(button) > label {
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 headerbar .title {
   padding: 0 12px;
   font-weight: bold;
 }
 
-
 headerbar .subtitle {
   padding: 0 12px;
   font-size: smaller;
 }
 
-
 headerbar entry {
   background-color: #3d3d48;
 }
-
 
 headerbar entry:focus {
   background-color: #444450;
 }
 
-
 headerbar .linked:not(.vertical) > entry:not(.flat) {
   border-radius: 7px;
 }
-
 
 headerbar .linked:not(.vertical) > button {
   border-radius: 7px;
@@ -1695,22 +1484,11 @@ headerbar button:not(.suggested-action):not(.destructive-action):backdrop:checke
   color: rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar button.suggested-action:disabled, headerbar button.destructive-action:disabled {
-=======
-
 headerbar button.suggested-action:disabled,
 headerbar button.destructive-action:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-headerbar button.suggested-action:disabled,
-headerbar button.destructive-action:disabled {
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: rgba(255, 255, 255, 0.12);
   color: rgba(255, 255, 255, 0.5);
 }
-
 
 headerbar.selection-mode {
   transition: background-color 0.00001s 225ms, color 225ms cubic-bezier(0, 0, 0.2, 1);
@@ -1720,113 +1498,60 @@ headerbar.selection-mode {
   color: #ffffff;
 }
 
-
 headerbar.selection-mode:backdrop {
   color: rgba(255, 255, 255, 0.7);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action) {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), currentColor 0%, transparent 0%) 0 0 0/0 0 0;
   color: #ffffff;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):hover {
   color: #ffffff;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):checked {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), currentColor 100%, transparent 0%) 0 0 2/0 0 2px;
   color: #ffffff;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):checked:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):backdrop {
   color: rgba(255, 255, 255, 0.7);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):backdrop:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):backdrop:checked {
   color: rgba(255, 255, 255, 0.7);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
-
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 headerbar.selection-mode button:not(.suggested-action):not(.destructive-action):backdrop:checked:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 headerbar.selection-mode .selection-menu {
   padding-left: 16px;
   padding-right: 16px;
 }
 
-
 headerbar.selection-mode .selection-menu arrow {
   -gtkarrow-arrow-scaling: 1;
 }
 
-
 headerbar.selection-mode .selection-menu .arrow {
   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
-
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.destructive-action),
-headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action), headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action) {
-  padding-left: 6px;
-  padding-right: 6px;
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 0%, transparent 0%) 0 0 0/0 0 0;
-}
-
-headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.destructive-action):active,
-headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action):active, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):active {
-<<<<<<< HEAD
-=======
 
 headerbar .linked:not(.vertical).path-bar > button,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button {
@@ -1835,30 +1560,15 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 0%, transparent 0%) 0 0 0/0 0 0;
 }
 
-
 headerbar .linked:not(.vertical).path-bar > button label,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button label {
   padding-left: 8px;
   padding-right: 8px;
 }
 
-
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked.path-bar:not(.vertical) > button:active,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:active {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
-=======
 headerbar .linked:not(.vertical).path-bar > button:active,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active {
->>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
-=======
-  color: #ffffff;
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.15);
   background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.15) 10%, transparent 0%);
@@ -1866,91 +1576,34 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.destructive-action):checked,
-headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action):checked, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):checked {
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked.path-bar:not(.vertical) > button:checked,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:checked {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
-=======
 headerbar .linked:not(.vertical).path-bar > button:checked,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked {
->>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
-=======
-  color: #ffffff;
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   box-shadow: none;
   background-image: none;
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.destructive-action):checked:backdrop, headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.destructive-action):active:backdrop,
-headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action):checked:backdrop,
-headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action):active:backdrop, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):checked:backdrop, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action):active:backdrop {
-=======
-
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked.path-bar:not(.vertical) > button:checked:backdrop,
-headerbar .linked.path-bar:not(.vertical) > button:active:backdrop,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:checked:backdrop,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:active:backdrop {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-headerbar .linked:not(.vertical).path-bar > button:checked:backdrop,
-headerbar .linked:not(.vertical).path-bar > button:active:backdrop,
+headerbar .linked:not(.vertical).path-bar > button:checked:backdrop, headerbar .linked:not(.vertical).path-bar > button:active:backdrop,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked:backdrop,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active:backdrop {
->>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   color: rgba(255, 255, 255, 0.7);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), rgba(255, 255, 255, 0.5) 100%, transparent 0%) 0 0 2/0 0 2px;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.destructive-action).text-button.image-button label,
-headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action).text-button.image-button label, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action).text-button.image-button label {
-=======
-
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked.path-bar:not(.vertical) > button.text-button.image-button label,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button.text-button.image-button label {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 headerbar .linked:not(.vertical).path-bar > button.text-button.image-button label,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button.text-button.image-button label {
->>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   padding-left: 0;
   padding-right: 0;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked:not(.vertical).path-bar button:not(.suggested-action):not(.destructive-action).text-button.image-button image,
-headerbar .linked:not(.vertical):not(.path-bar).stack-switcher button:not(.suggested-action):not(.destructive-action).text-button.image-button image, headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action).text-button.image-button image {
-=======
-
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-headerbar .linked.path-bar:not(.vertical) > button.text-button.image-button image,
-headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button.text-button.image-button image {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 headerbar .linked:not(.vertical).path-bar > button.text-button.image-button image,
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button.text-button.image-button image {
->>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
   padding-left: 0;
   padding-right: 0;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructive-action) {
   margin-top: 0;
   margin-bottom: 0;
@@ -1975,12 +1628,9 @@ headerbar.windowhandle viewswitcher button:not(.suggested-action):not(.destructi
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-=======
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 .tiled headerbar, .tiled-top headerbar, .tiled-right headerbar, .tiled-bottom headerbar, .tiled-left headerbar, .maximized headerbar, .fullscreen headerbar {
   border-radius: 0;
 }
-
 
 headerbar.default-decoration {
   min-height: 20px;
@@ -1991,7 +1641,6 @@ headerbar.default-decoration {
 .tiled headerbar.default-decoration, .maximized headerbar.default-decoration, .fullscreen headerbar.default-decoration {
   box-shadow: none;
 }
-
 
 headerbar.default-decoration button.titlebutton {
   min-height: 16px;
@@ -2086,7 +1735,6 @@ window.tiled headerbar, window.tiled headerbar:first-child, window.tiled headerb
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-
 
 headerbar separator.titlebutton {
   min-width: 0;
@@ -2347,7 +1995,6 @@ menu {
 .csd menu {
   border: none;
   background-color: rgba(60, 60, 70, 0.95);
-  box-shadow: none;
 }
 
 menu menuitem {
@@ -2403,11 +2050,29 @@ menu > arrow {
   border-radius: 7px;
 }
 
+<<<<<<< HEAD
 menu > arrow.top {
   -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
 }
 
 menu > arrow.bottom {
+=======
+menu > arrow.top,
+.menu > arrow.top,
+.context-menu > arrow.top {
+  margin: -4px -3px 0 -3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 7px 7px 0 0;
+  -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+}
+
+menu > arrow.bottom,
+.menu > arrow.bottom,
+.context-menu > arrow.bottom {
+  margin: 8px -3px -12px -3px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 7px 7px;
+>>>>>>> e998b1c (fixing rebase wreakage)
   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
 
@@ -2461,24 +2126,18 @@ menuitem:disabled accelerator {
 /************
  * Popovers *
  ************/
+popover modelbutton.flat,
+popover menuitem.button.flat,
+popover spinbutton.vertical button,
 popover.background modelbutton.flat,
 popover.background menuitem.button.flat,
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background spinbutton.vertical button, popover.background row.button.flat.menuitem.activatable,
-popover.background row.activatable, popover.background .view, popover.background button.flat.combo, popover.background button.flat {
-  color: rgba(255, 255, 255, 0.8);
-=======
 popover.background spinbutton.vertical button,
 popover.background.menu modelbutton.flat,
 popover.background.menu menuitem.button.flat,
-<<<<<<< HEAD
 popover.background.menu spinbutton.vertical button, popover row.button.flat.menuitem.activatable,
 popover row.activatable,
 popover .view,
 popover.background row.button.flat.menuitem.activatable,
-=======
-popover.background.menu spinbutton.vertical button, popover.background row.button.flat.menuitem.activatable,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background row.activatable,
 popover.background .view,
 popover.background.menu row.button.flat.menuitem.activatable,
@@ -2489,29 +2148,20 @@ popover.background.menu button.flat.combo, popover button.flat,
 popover.background button.flat,
 popover.background.menu button.flat {
   color: rgba(255, 255, 255, 0.7);
-<<<<<<< HEAD
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
 }
 
+popover modelbutton.flat:hover,
+popover menuitem.button.flat:hover,
+popover spinbutton.vertical button:hover,
 popover.background modelbutton.flat:hover,
 popover.background menuitem.button.flat:hover,
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background spinbutton.vertical button:hover, popover.background row.button.flat.menuitem.activatable:hover,
-popover.background row.activatable:hover, popover.background .view:hover, popover.background button.flat.combo:hover, popover.background button.flat:hover {
-=======
 popover.background spinbutton.vertical button:hover,
 popover.background.menu modelbutton.flat:hover,
 popover.background.menu menuitem.button.flat:hover,
-<<<<<<< HEAD
 popover.background.menu spinbutton.vertical button:hover, popover row.button.flat.menuitem.activatable:hover,
 popover row.activatable:hover,
 popover .view:hover,
-=======
-popover.background.menu spinbutton.vertical button:hover, popover.background row.button.flat.menuitem.activatable:hover,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background row.activatable:hover,
 popover.background .view:hover,
 popover.background.menu row.activatable:hover,
@@ -2520,30 +2170,21 @@ popover.background button.flat.combo:hover,
 popover.background.menu button.flat.combo:hover, popover button.flat:hover,
 popover.background button.flat:hover,
 popover.background.menu button.flat:hover {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.12);
   color: #ffffff;
 }
 
+popover modelbutton.flat:checked,
+popover menuitem.button.flat:checked,
+popover spinbutton.vertical button:checked,
 popover.background modelbutton.flat:checked,
 popover.background menuitem.button.flat:checked,
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background spinbutton.vertical button:checked, popover.background row.button.flat.menuitem.activatable:checked,
-popover.background row.activatable:checked, popover.background .view:checked, popover.background button.flat.combo:checked, popover.background button.flat:checked, popover.background modelbutton.flat:active,
-popover.background menuitem.button.flat:active,
-popover.background spinbutton.vertical button:active, popover.background row.button.flat.menuitem.activatable:active,
-popover.background row.activatable:active, popover.background .view:active, popover.background button.flat.combo:active, popover.background button.flat:active {
-=======
 popover.background spinbutton.vertical button:checked,
 popover.background.menu modelbutton.flat:checked,
 popover.background.menu menuitem.button.flat:checked,
-<<<<<<< HEAD
 popover.background.menu spinbutton.vertical button:checked, popover row.button.flat.menuitem.activatable:checked,
 popover row.activatable:checked,
 popover .view:checked,
-=======
-popover.background.menu spinbutton.vertical button:checked, popover.background row.button.flat.menuitem.activatable:checked,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background row.activatable:checked,
 popover.background .view:checked,
 popover.background.menu row.activatable:checked,
@@ -2559,13 +2200,9 @@ popover.background menuitem.button.flat:active,
 popover.background spinbutton.vertical button:active,
 popover.background.menu modelbutton.flat:active,
 popover.background.menu menuitem.button.flat:active,
-<<<<<<< HEAD
 popover.background.menu spinbutton.vertical button:active, popover row.button.flat.menuitem.activatable:active,
 popover row.activatable:active,
 popover .view:active,
-=======
-popover.background.menu spinbutton.vertical button:active, popover.background row.button.flat.menuitem.activatable:active,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background row.activatable:active,
 popover.background .view:active,
 popover.background.menu row.activatable:active,
@@ -2574,32 +2211,22 @@ popover.background button.flat.combo:active,
 popover.background.menu button.flat.combo:active, popover button.flat:active,
 popover.background button.flat:active,
 popover.background.menu button.flat:active {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   box-shadow: inset 0 0 0 9999px rgba(255, 255, 255, 0.12);
   background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.12) 10%, transparent 0%);
 }
 
+popover modelbutton.flat:disabled,
+popover menuitem.button.flat:disabled,
+popover spinbutton.vertical button:disabled,
 popover.background modelbutton.flat:disabled,
 popover.background menuitem.button.flat:disabled,
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background spinbutton.vertical button:disabled, popover.background row.button.flat.menuitem.activatable:disabled,
-popover.background row.activatable:disabled, popover.background .view:disabled, popover.background button.flat.combo:disabled, popover.background button.flat:disabled {
-=======
 popover.background spinbutton.vertical button:disabled,
 popover.background.menu modelbutton.flat:disabled,
 popover.background.menu menuitem.button.flat:disabled,
-<<<<<<< HEAD
 popover.background.menu spinbutton.vertical button:disabled, popover row.button.flat.menuitem.activatable:disabled,
 popover row.activatable:disabled,
 popover .view:disabled,
-=======
-popover.background.menu spinbutton.vertical button:disabled, popover.background row.button.flat.menuitem.activatable:disabled,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background row.activatable:disabled,
 popover.background .view:disabled,
 popover.background.menu row.activatable:disabled,
@@ -2608,50 +2235,30 @@ popover.background button.flat.combo:disabled,
 popover.background.menu button.flat.combo:disabled, popover button.flat:disabled,
 popover.background button.flat:disabled,
 popover.background.menu button.flat:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: rgba(255, 255, 255, 0.3);
   background-color: transparent;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.combo, popover.background button {
-  color: rgba(255, 255, 255, 0.8);
-=======
 popover button.combo,
 popover.background button.combo,
 popover.background.menu button.combo, popover button,
 popover.background button,
 popover.background.menu button {
   color: rgba(255, 255, 255, 0.7);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-popover.background button.combo,
-popover.background.menu button.combo, popover.background button,
-popover.background.menu button {
-  color: rgba(255, 255, 255, 0.7);
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: transparent;
   box-shadow: none;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.combo:hover, popover.background button:hover {
-=======
 popover button.combo:hover,
 popover.background button.combo:hover,
 popover.background.menu button.combo:hover, popover button:hover,
 popover.background button:hover,
 popover.background.menu button:hover {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   transition: none;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.combo:checked, popover.background button:checked, popover.background button.combo:active, popover.background button:active {
-=======
 popover button.combo:checked,
 popover.background button.combo:checked,
 popover.background.menu button.combo:checked, popover button:checked,
@@ -2661,58 +2268,37 @@ popover.background button.combo:active,
 popover.background.menu button.combo:active, popover button:active,
 popover.background button:active,
 popover.background.menu button:active {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   background-color: #5657f5;
   color: #ffffff;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.combo:disabled, popover.background button:disabled {
-=======
 popover button.combo:disabled,
 popover.background button.combo:disabled,
 popover.background.menu button.combo:disabled, popover button:disabled,
 popover.background button:disabled,
 popover.background.menu button:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: rgba(255, 255, 255, 0.3);
   background-color: transparent;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.combo:checked:disabled, popover.background button:checked:disabled {
-=======
 popover button.combo:checked:disabled,
 popover.background button.combo:checked:disabled,
 popover.background.menu button.combo:checked:disabled, popover button:checked:disabled,
 popover.background button:checked:disabled,
 popover.background.menu button:checked:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: rgba(255, 255, 255, 0.3);
   background-color: rgba(86, 87, 245, 0.5);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background .linked entry, popover.background entry,
-popover.background spinbutton:not(.vertical) {
-=======
-popover .linked entry, popover entry,
-=======
 popover .linked entry,
 popover entry,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
 popover spinbutton:not(.vertical),
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry,
 popover.background entry,
 popover.background spinbutton:not(.vertical),
 popover.background.menu .linked entry,
 popover.background.menu entry,
 popover.background.menu spinbutton:not(.vertical) {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   border-radius: 0;
   caret-color: #ffffff;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
@@ -2722,32 +2308,8 @@ popover.background.menu spinbutton:not(.vertical) {
   color: #ffffff;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background .linked entry:focus, popover.background entry:focus,
-popover.background spinbutton:focus:not(.vertical) {
-=======
-popover.background .linked entry:focus,
-popover.background entry:focus,
-popover.background spinbutton:focus:not(.vertical),
-popover.background.menu .linked entry:focus,
-popover.background.menu entry:focus,
-popover.background.menu spinbutton:focus:not(.vertical) {
->>>>>>> 478fdbf (Fixed merge problems)
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #5657f5 100%, transparent 0%) 0 0 2/0 0 2px;
-  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.3);
-}
-
-<<<<<<< HEAD
-popover.background .linked entry:disabled, popover.background entry:disabled,
-popover.background spinbutton:disabled:not(.vertical) {
-=======
-popover .linked entry:focus, popover entry:focus,
-=======
 popover .linked entry:focus,
 popover entry:focus,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
 popover spinbutton:focus:not(.vertical),
 popover.background .linked entry:focus,
 popover.background entry:focus,
@@ -2762,46 +2324,18 @@ popover.background.menu spinbutton:focus:not(.vertical) {
 popover .linked entry:disabled,
 popover entry:disabled,
 popover spinbutton:disabled:not(.vertical),
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry:disabled,
 popover.background entry:disabled,
 popover.background spinbutton:disabled:not(.vertical),
 popover.background.menu .linked entry:disabled,
 popover.background.menu entry:disabled,
 popover.background.menu spinbutton:disabled:not(.vertical) {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
   background-color: transparent;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background .linked entry, popover.background entry,
-popover.background spinbutton:not(.vertical), popover.background .linked entry label, popover.background entry label,
-popover.background spinbutton:not(.vertical) label, popover.background .linked entry image, popover.background entry image,
-popover.background spinbutton:not(.vertical) image {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-popover.background .linked entry:focus, popover.background entry:focus,
-popover.background spinbutton:focus:not(.vertical), popover.background .linked entry label:focus, popover.background entry label:focus,
-popover.background spinbutton:not(.vertical) label:focus, popover.background .linked entry image:focus, popover.background entry image:focus,
-popover.background spinbutton:not(.vertical) image:focus {
-  color: #FFFFFF;
-}
-
-popover.background .linked entry:disabled, popover.background entry:disabled,
-popover.background spinbutton:disabled:not(.vertical), popover.background .linked entry label:disabled, popover.background entry label:disabled,
-popover.background spinbutton:not(.vertical) label:disabled, popover.background .linked entry image:disabled, popover.background entry image:disabled,
-popover.background spinbutton:not(.vertical) image:disabled {
-=======
-popover .linked entry, popover entry,
-=======
 popover .linked entry,
 popover entry,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
 popover spinbutton:not(.vertical),
 popover.background .linked entry,
 popover.background entry,
@@ -2833,53 +2367,24 @@ popover.background.menu spinbutton:not(.vertical) image {
 popover .linked entry:focus,
 popover entry:focus,
 popover spinbutton:focus:not(.vertical),
-=======
-popover.background .linked entry,
-popover.background entry,
-popover.background spinbutton:not(.vertical),
-popover.background.menu .linked entry,
-popover.background.menu entry,
-popover.background.menu spinbutton:not(.vertical),
-popover.background .linked entry label,
-popover.background entry label,
-popover.background spinbutton:not(.vertical) label,
-popover.background.menu .linked entry label,
-popover.background.menu entry label,
-popover.background.menu spinbutton:not(.vertical) label,
-popover.background .linked entry image,
-popover.background entry image,
-popover.background spinbutton:not(.vertical) image,
-popover.background.menu .linked entry image,
-popover.background.menu entry image,
-popover.background.menu spinbutton:not(.vertical) image {
-  color: rgba(255, 255, 255, 0.7);
-}
-
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry:focus,
 popover.background entry:focus,
 popover.background spinbutton:focus:not(.vertical),
 popover.background.menu .linked entry:focus,
 popover.background.menu entry:focus,
 popover.background.menu spinbutton:focus:not(.vertical),
-<<<<<<< HEAD
 popover .linked entry label:focus,
 popover entry label:focus,
 popover spinbutton:not(.vertical) label:focus,
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry label:focus,
 popover.background entry label:focus,
 popover.background spinbutton:not(.vertical) label:focus,
 popover.background.menu .linked entry label:focus,
 popover.background.menu entry label:focus,
 popover.background.menu spinbutton:not(.vertical) label:focus,
-<<<<<<< HEAD
 popover .linked entry image:focus,
 popover entry image:focus,
 popover spinbutton:not(.vertical) image:focus,
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry image:focus,
 popover.background entry image:focus,
 popover.background spinbutton:not(.vertical) image:focus,
@@ -2889,81 +2394,66 @@ popover.background.menu spinbutton:not(.vertical) image:focus {
   color: #ffffff;
 }
 
-<<<<<<< HEAD
 popover .linked entry:disabled,
 popover entry:disabled,
 popover spinbutton:disabled:not(.vertical),
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry:disabled,
 popover.background entry:disabled,
 popover.background spinbutton:disabled:not(.vertical),
 popover.background.menu .linked entry:disabled,
 popover.background.menu entry:disabled,
 popover.background.menu spinbutton:disabled:not(.vertical),
-<<<<<<< HEAD
 popover .linked entry label:disabled,
 popover entry label:disabled,
 popover spinbutton:not(.vertical) label:disabled,
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry label:disabled,
 popover.background entry label:disabled,
 popover.background spinbutton:not(.vertical) label:disabled,
 popover.background.menu .linked entry label:disabled,
 popover.background.menu entry label:disabled,
 popover.background.menu spinbutton:not(.vertical) label:disabled,
-<<<<<<< HEAD
 popover .linked entry image:disabled,
 popover entry image:disabled,
 popover spinbutton:not(.vertical) image:disabled,
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background .linked entry image:disabled,
 popover.background entry image:disabled,
 popover.background spinbutton:not(.vertical) image:disabled,
 popover.background.menu .linked entry image:disabled,
 popover.background.menu entry image:disabled,
 popover.background.menu spinbutton:not(.vertical) image:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: rgba(255, 255, 255, 0.3);
 }
 
-popover.background, popover.background.menu {
+popover,
+popover.background,
+popover.background.menu {
   transition: box-shadow 100ms cubic-bezier(0, 0, 0.2, 1);
   padding: 2px;
+<<<<<<< HEAD
   margin: 0;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12), 0 4px 3px rgba(0, 0, 0, 0.16);
+=======
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.06);
+>>>>>>> e998b1c (fixing rebase wreakage)
   background-color: rgba(68, 69, 75, 0.95);
   color: rgba(255, 255, 255, 0.7);
 }
 
-popover.background:backdrop {
+popover:backdrop,
+popover.background:backdrop,
+popover.background.menu:backdrop {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(255, 255, 255, 0.75);
 }
 
-popover.background:disabled {
+popover:disabled,
+popover.background:disabled,
+popover.background.menu:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background image:disabled, popover.background label:disabled {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-popover.background, .csd popover.background {
-  border-radius: 9px;
-=======
-popover image:disabled, popover label:disabled,
-=======
 popover image:disabled,
 popover label:disabled,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background image:disabled,
 popover.background label:disabled,
 popover.background.menu image:disabled,
@@ -2975,38 +2465,32 @@ popover, .csd popover,
 popover.background, .csd popover.background,
 popover.background.menu, .csd popover.background.menu {
   border-radius: 8px;
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 }
 
-popover.background > stack {
+popover > stack,
+popover.background > stack,
+popover.background.menu > stack {
   margin: -4px;
 }
 
-popover.background > toolbar {
+popover > toolbar,
+popover.background > toolbar,
+popover.background.menu > toolbar {
   margin: -2px;
 }
 
-popover.background > toolbar {
+popover > toolbar,
+popover.background > toolbar,
+popover.background.menu > toolbar {
   border-style: none;
   box-shadow: none;
   background-color: transparent;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background list, popover.background row, popover.background .view, popover.background textview.view > text {
-  color: rgba(255, 255, 255, 0.8);
-=======
-popover list, popover row, popover .view, popover textview.view > text,
-=======
 popover list,
 popover row,
 popover .view,
 popover textview.view > text,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background list,
 popover.background row,
 popover.background .view,
@@ -3016,60 +2500,53 @@ popover.background.menu row,
 popover.background.menu .view,
 popover.background.menu textview.view > text {
   color: rgba(255, 255, 255, 0.7);
-<<<<<<< HEAD
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: #3d3e43;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
-popover.background treeview.view header button {
+popover treeview.view header button,
+popover.background treeview.view header button,
+popover.background.menu treeview.view header button {
   border-color: rgba(255, 255, 255, 0.12);
 }
 
-popover.background scrolledwindow {
+popover scrolledwindow,
+popover.background scrolledwindow,
+popover.background.menu scrolledwindow {
   border-color: rgba(255, 255, 255, 0.12);
 }
 
-popover.background scrollbar {
+popover scrollbar,
+popover.background scrollbar,
+popover.background.menu scrollbar {
   background-color: rgba(56, 57, 62, 0.65);
   border-color: rgba(255, 255, 255, 0.12);
 }
 
-popover.background scrollbar slider {
+popover scrollbar slider,
+popover.background scrollbar slider,
+popover.background.menu scrollbar slider {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-popover.background scrollbar slider:hover {
+popover scrollbar slider:hover,
+popover.background scrollbar slider:hover,
+popover.background.menu scrollbar slider:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background scrollbar slider:active {
-=======
 popover scrollbar slider:active,
 popover.background scrollbar slider:active,
 popover.background.menu scrollbar slider:active {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  background-color: #FFFFFF;
-=======
   background-color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
 }
 
-popover.background scrollbar slider:disabled {
+popover scrollbar slider:disabled,
+popover.background scrollbar slider:disabled,
+popover.background.menu scrollbar slider:disabled {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
-  border: 1px solid rgba(56, 57, 62, 0.3);
-}
-
-popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) button {
-=======
 popover scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
 popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider,
 popover.background.menu scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
@@ -3079,18 +2556,10 @@ popover.background.menu scrollbar.overlay-indicator:not(.dragging):not(.hovering
 popover scrollbar.overlay-indicator:not(.dragging):not(.hovering) button,
 popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) button,
 popover.background.menu scrollbar.overlay-indicator:not(.dragging):not(.hovering) button {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   border: 1px solid rgba(56, 57, 62, 0.3);
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-popover.background scrollbar.overlay-indicator.dragging, popover.background scrollbar.overlay-indicator.hovering {
-=======
 popover scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled,
 popover.background scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled,
 popover.background.menu scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled {
@@ -3102,73 +2571,40 @@ popover.background scrollbar.overlay-indicator.dragging,
 popover.background scrollbar.overlay-indicator.hovering,
 popover.background.menu scrollbar.overlay-indicator.dragging,
 popover.background.menu scrollbar.overlay-indicator.hovering {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   background-color: rgba(56, 57, 62, 0.9);
 }
 
-popover.background button.radio {
+popover button.radio,
+popover.background button.radio,
+popover.background.menu button.radio {
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.radio:hover {
-=======
 popover button.radio:hover,
 popover.background button.radio:hover,
 popover.background.menu button.radio:hover {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-.linked > popover.background button {
-  border-radius: 4px;
-}
-
-.linked > popover.background button:first-child {
-  border-radius: 4px;
-}
-
-.linked > popover.background button:last-child {
-  border-radius: 4px;
-}
-
-.linked > popover.background button:only-child {
-  border-radius: 4px;
-}
-
-popover.background.menu button, popover.background button.model {
-  border-radius: 4px;
-}
-
-popover.background button.suggested-action {
-=======
 .linked > popover button, .linked > popover.background button, .linked > popover.background.menu button {
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 .linked > popover button:first-child, .linked > popover.background button:first-child, .linked > popover.background.menu button:first-child {
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 .linked > popover button:last-child, .linked > popover.background button:last-child, .linked > popover.background.menu button:last-child {
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 .linked > popover button:only-child, .linked > popover.background button:only-child, .linked > popover.background.menu button:only-child {
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
-<<<<<<< HEAD
 popover.menu button,
 popover button.model,
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background.menu button,
 popover.background button.model,
 popover.background.menu.menu button,
@@ -3179,188 +2615,124 @@ popover.background.menu button.model {
 popover button.suggested-action,
 popover.background button.suggested-action,
 popover.background.menu button.suggested-action {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  background-color: #7C4DFF;
-  color: #FFFFFF;
-=======
   background-color: #7c4dff;
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
 }
 
-popover.background button.suggested-action:disabled {
+popover button.suggested-action:disabled,
+popover.background button.suggested-action:disabled,
+popover.background.menu button.suggested-action:disabled {
   color: rgba(255, 255, 255, 0.5);
   background-color: rgba(124, 77, 255, 0.5);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.suggested-action:hover {
-=======
 popover button.suggested-action:hover,
 popover.background button.suggested-action:hover,
 popover.background.menu button.suggested-action:hover {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   background-color: #8f67ff;
 }
 
-popover.background button.suggested-action:checked {
+popover button.suggested-action:checked,
+popover.background button.suggested-action:checked,
+popover.background.menu button.suggested-action:checked {
   background-color: #a382ff;
 }
 
-popover.background button.suggested-action.flat {
+popover button.suggested-action.flat,
+popover.background button.suggested-action.flat,
+popover.background.menu button.suggested-action.flat {
   background-color: transparent;
   color: #7c4dff;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.suggested-action.flat:hover {
-=======
 popover button.suggested-action.flat:hover,
 popover.background button.suggested-action.flat:hover,
 popover.background.menu button.suggested-action.flat:hover {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #7C4DFF;
-=======
   color: #7c4dff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   background-color: rgba(124, 77, 255, 0.15);
 }
 
-popover.background button.suggested-action.flat:disabled {
+popover button.suggested-action.flat:disabled,
+popover.background button.suggested-action.flat:disabled,
+popover.background.menu button.suggested-action.flat:disabled {
   background-color: transparent;
   color: rgba(124, 77, 255, 0.5);
 }
 
-popover.background button.suggested-action.flat:checked {
+popover button.suggested-action.flat:checked,
+popover.background button.suggested-action.flat:checked,
+popover.background.menu button.suggested-action.flat:checked {
   background-color: rgba(124, 77, 255, 0.3);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.destructive-action {
-=======
 popover button.destructive-action,
 popover.background button.destructive-action,
 popover.background.menu button.destructive-action {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  background-color: #FF5252;
-  color: #FFFFFF;
-=======
   background-color: #ff5252;
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
 }
 
-popover.background button.destructive-action:disabled {
+popover button.destructive-action:disabled,
+popover.background button.destructive-action:disabled,
+popover.background.menu button.destructive-action:disabled {
   color: rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 82, 82, 0.5);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.destructive-action:hover {
-=======
 popover button.destructive-action:hover,
 popover.background button.destructive-action:hover,
 popover.background.menu button.destructive-action:hover {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   background-color: #ff6c6c;
 }
 
-popover.background button.destructive-action:checked {
+popover button.destructive-action:checked,
+popover.background button.destructive-action:checked,
+popover.background.menu button.destructive-action:checked {
   background-color: #ff8686;
 }
 
-popover.background button.destructive-action.flat {
+popover button.destructive-action.flat,
+popover.background button.destructive-action.flat,
+popover.background.menu button.destructive-action.flat {
   background-color: transparent;
   color: #ff5252;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background button.destructive-action.flat:hover {
-=======
 popover button.destructive-action.flat:hover,
 popover.background button.destructive-action.flat:hover,
 popover.background.menu button.destructive-action.flat:hover {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FF5252;
-=======
   color: #ff5252;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
   background-color: rgba(255, 82, 82, 0.15);
 }
 
-popover.background button.destructive-action.flat:disabled {
+popover button.destructive-action.flat:disabled,
+popover.background button.destructive-action.flat:disabled,
+popover.background.menu button.destructive-action.flat:disabled {
   background-color: transparent;
   color: rgba(255, 82, 82, 0.5);
 }
 
-popover.background button.destructive-action.flat:checked {
+popover button.destructive-action.flat:checked,
+popover.background button.destructive-action.flat:checked,
+popover.background.menu button.destructive-action.flat:checked {
   background-color: rgba(255, 82, 82, 0.3);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background check, popover.background radio {
-  color: rgba(255, 255, 255, 0.8);
-=======
-popover check, popover radio,
-=======
 popover check,
 popover radio,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background check,
 popover.background radio,
 popover.background.menu check,
 popover.background.menu radio {
   color: rgba(255, 255, 255, 0.7);
-<<<<<<< HEAD
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
   transition: none;
   animation: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background check:hover, popover.background radio:hover {
-  color: #FFFFFF;
-}
-
-popover.background check:disabled, popover.background radio:disabled {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-popover.background check:checked, popover.background check:indeterminate, popover.background radio:checked, popover.background radio:indeterminate {
-  color: #7C4DFF;
-}
-
-popover.background check:checked:disabled, popover.background check:indeterminate:disabled, popover.background radio:checked:disabled, popover.background radio:indeterminate:disabled {
-=======
-popover check:hover, popover radio:hover,
-=======
 popover check:hover,
 popover radio:hover,
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background check:hover,
 popover.background radio:hover,
 popover.background.menu check:hover,
@@ -3368,11 +2740,8 @@ popover.background.menu radio:hover {
   color: #ffffff;
 }
 
-<<<<<<< HEAD
 popover check:disabled,
 popover radio:disabled,
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background check:disabled,
 popover.background radio:disabled,
 popover.background.menu check:disabled,
@@ -3380,15 +2749,11 @@ popover.background.menu radio:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD
 popover check:checked, popover check:indeterminate,
 popover radio:checked,
 popover radio:indeterminate,
 popover.background check:checked,
 popover.background check:indeterminate,
-=======
-popover.background check:checked, popover.background check:indeterminate,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background radio:checked,
 popover.background radio:indeterminate,
 popover.background.menu check:checked,
@@ -3398,96 +2763,107 @@ popover.background.menu radio:indeterminate {
   color: #7c4dff;
 }
 
-<<<<<<< HEAD
 popover check:checked:disabled, popover check:indeterminate:disabled,
 popover radio:checked:disabled,
 popover radio:indeterminate:disabled,
 popover.background check:checked:disabled,
 popover.background check:indeterminate:disabled,
-=======
-popover.background check:checked:disabled, popover.background check:indeterminate:disabled,
->>>>>>> 478fdbf (Fixed merge problems)
 popover.background radio:checked:disabled,
 popover.background radio:indeterminate:disabled,
 popover.background.menu check:checked:disabled,
 popover.background.menu check:indeterminate:disabled,
 popover.background.menu radio:checked:disabled,
 popover.background.menu radio:indeterminate:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: rgba(124, 77, 255, 0.5);
 }
 
+popover checkbutton.text-button,
+popover radiobutton.text-button,
 popover.background checkbutton.text-button,
-popover.background radiobutton.text-button {
+popover.background radiobutton.text-button,
+popover.background.menu checkbutton.text-button,
+popover.background.menu radiobutton.text-button {
   outline-style: none;
 }
 
-popover.background separator {
+popover separator,
+popover.background separator,
+popover.background.menu separator {
   margin: 4px 0;
 }
 
-popover.background list separator {
+popover list separator,
+popover.background list separator,
+popover.background.menu list separator {
   margin: 0;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-popover.background separator, popover.background separator, .csd popover.background separator {
-=======
 popover separator, popover separator, .csd popover separator,
 popover.background separator,
 popover.background separator, .csd popover.background separator,
 popover.background.menu separator,
 popover.background.menu separator, .csd popover.background.menu separator {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   border: none;
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-<<<<<<< HEAD
-popover.background label.separator {
-  color: rgba(255, 255, 255, 0.8);
-=======
+popover label.separator,
 popover.background label.separator,
 popover.background.menu label.separator {
   color: rgba(255, 255, 255, 0.7);
->>>>>>> 478fdbf (Fixed merge problems)
 }
 
-popover.background calendar {
+popover calendar,
+popover.background calendar,
+popover.background.menu calendar {
   border: 1px solid rgba(255, 255, 255, 0.12);
   color: #ffffff;
 }
 
-popover.background calendar:disabled {
+popover calendar:disabled,
+popover.background calendar:disabled,
+popover.background.menu calendar:disabled {
   color: rgba(255, 255, 255, 0.5);
 }
 
-popover.background calendar.header {
+popover calendar.header,
+popover.background calendar.header,
+popover.background.menu calendar.header {
   border-style: none none solid;
   border-color: rgba(255, 255, 255, 0.12);
   border-radius: 0;
 }
 
-popover.background calendar.highlight {
+popover calendar.highlight,
+popover.background calendar.highlight,
+popover.background.menu calendar.highlight {
   color: rgba(255, 255, 255, 0.7);
 }
 
-popover.background calendar:indeterminate {
+popover calendar:indeterminate,
+popover.background calendar:indeterminate,
+popover.background.menu calendar:indeterminate {
   color: rgba(255, 255, 255, 0.3);
 }
 
-popover.background.combo {
+popover.combo,
+popover.background.combo,
+popover.background.menu.combo {
   padding: 0;
   margin: 0;
 }
 
-popover.background.combo list {
+popover.combo list,
+popover.background.combo list,
+popover.background.menu.combo list {
   padding: 0;
   margin: 0;
   background: none;
 }
 
-popover.background.combo list > row.activatable {
+popover.combo list > row.activatable,
+popover.background.combo list > row.activatable,
+popover.background.menu.combo list > row.activatable {
   padding: 4px 8px;
 }
 
@@ -3655,15 +3031,7 @@ notebook > header tab {
   outline-offset: -6px;
   border-width: 1px;
   border-color: transparent;
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.2) 10%, transparent 0%);
-=======
   background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.3) 10%, transparent 0%);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 0.3) 10%, transparent 0%);
->>>>>>> 478fdbf (Fixed merge problems)
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0% 0%;
@@ -4690,8 +4058,6 @@ overshoot.right {
   box-shadow: none;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-=======
 undershoot.top {
   background-color: transparent;
   background-image: linear-gradient(to left, rgba(49, 49, 58, 0.3) 50%, rgba(255, 255, 255, 0.3) 50%);
@@ -4732,7 +4098,6 @@ undershoot.right {
   background-position: right top;
 }
 
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 junction {
   border-style: solid none none solid;
   border-width: 1px;
@@ -4750,13 +4115,7 @@ separator {
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 preferences stacksidebar.sidebar list separator, .tweak-categories separator, button.font separator, button.file separator {
-=======
-preferences stacksidebar.sidebar list separator, .tweak-categories separator,
-button.font separator,
-button.file separator {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   min-width: 0;
   min-height: 0;
   background-color: transparent;
@@ -4890,16 +4249,13 @@ calendar:indeterminate {
 /***********
  * Dialogs *
  ***********/
-<<<<<<< HEAD
-=======
 messagedialog {
   color: rgba(255, 255, 255, 0.7);
 }
 
->>>>>>> 478fdbf (Fixed merge problems)
 messagedialog.background {
   background-color: rgba(68, 69, 75, 0.95);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 messagedialog .titlebar {
@@ -4916,26 +4272,11 @@ messagedialog .titlebar:backdrop {
   color: rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-messagedialog list, messagedialog row, messagedialog .view, messagedialog textview.view > text {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  color: rgba(255, 255, 255, 0.8);
-=======
-=======
-=======
->>>>>>> 478fdbf (Fixed merge problems)
 messagedialog list,
 messagedialog row,
 messagedialog .view,
 messagedialog textview.view > text {
-<<<<<<< HEAD
->>>>>>> af563b5 (reformatted):src/gtk/gtk-dark.css
   color: rgba(255, 255, 255, 0.7);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  color: rgba(255, 255, 255, 0.7);
->>>>>>> 478fdbf (Fixed merge problems)
   background-color: #3d3e43;
   border-color: rgba(255, 255, 255, 0.12);
 }
@@ -5292,25 +4633,6 @@ infobar {
   border: none;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-infobar.info > revealer > box, infobar.info:backdrop > revealer > box {
-  background-color: #66BB6A;
-}
-
-infobar.question > revealer > box, infobar.question:backdrop > revealer > box {
-  background-color: #42A5F5;
-}
-
-infobar.warning > revealer > box, infobar.warning:backdrop > revealer > box {
-  background-color: #FFA726;
-}
-
-infobar.error > revealer > box, infobar.error:backdrop > revealer > box {
-  background-color: #EF5350;
-}
-
-infobar.info > revealer > box, infobar.info:backdrop > revealer > box, infobar.question > revealer > box, infobar.question:backdrop > revealer > box, infobar.warning > revealer > box, infobar.warning:backdrop > revealer > box, infobar.error > revealer > box, infobar.error:backdrop > revealer > box {
-=======
 infobar.info {
   background-color: #66bb6a;
 }
@@ -5328,12 +4650,7 @@ infobar.error {
 }
 
 infobar.info > label, infobar.info, infobar.question > label, infobar.question, infobar.warning > label, infobar.warning, infobar.error > label, infobar.error {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
   color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
 }
 
 /************
@@ -5421,36 +4738,12 @@ colorswatch:drop(active) {
   box-shadow: none;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 colorswatch:drop(active).light overlay {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7c4dff;
 }
 
 colorswatch:drop(active).dark overlay {
-<<<<<<< HEAD
-=======
-colorswatch.light:drop(active) overlay {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7c4dff;
-}
-
-colorswatch.dark:drop(active) overlay {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7C4DFF;
-=======
-=======
-colorswatch:drop(active).light overlay {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7c4dff;
-}
-
-colorswatch:drop(active).dark overlay {
->>>>>>> 722f6d2 (finally fixed gtk apps with weird bg):src/gtk/gtk.css
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7c4dff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
-=======
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #7c4dff;
->>>>>>> 478fdbf (Fixed merge problems)
 }
 
 colorswatch overlay {
@@ -5537,7 +4830,7 @@ decoration:backdrop {
 
 .csd.popup decoration {
   border-radius: 8px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12), 0 4px 3px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0px 1px rgba(250, 250, 250, 0.19);
 }
 
 tooltip.csd decoration {
@@ -5757,6 +5050,7 @@ stackswitcher button.text-button.circular {
   padding: 0;
 }
 
+<<<<<<< HEAD
 stackswitcher > button {
   box-shadow: none;
   border-radius: 7px;
@@ -5789,6 +5083,8 @@ stackswitcher > button:first-child, stackswitcher > button:last-child {
   border-radius: 7px;
 }
 
+=======
+>>>>>>> e998b1c (fixing rebase wreakage)
 /*********
  * Emoji *
  *********/
@@ -5917,14 +5213,11 @@ button.emoji-section:last-child {
   background-color: transparent;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .nautilus-window.csd.background.unified headerbar {
   background-color: transparent;
   box-shadow: none;
 }
 
-=======
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 .nautilus-window.maximized.csd.background, .nautilus-window.maximized placessidebar, .nautilus-window.maximized notebook, .nautilus-window.maximized notebook > stack {
   border-radius: 0;
 }
@@ -6082,12 +5375,8 @@ button.emoji-section:last-child {
 }
 
 .nautilus-window paned > separator {
-  min-width: 20px;
   color: transparent;
-  background-image: url("assets/scalable/side-paned.svg");
-  background-size: 20px 750px;
-  background-position: left center;
-  background-repeat: no-repeat;
+  display: none;
 }
 
 .nautilus-window .floating-bar {
@@ -6347,7 +5636,6 @@ paned.titlebar.horizontal headerbar {
   *  Gnome Tweak Tool  *
   **********************/
 .tweak-categories {
-  border-radius: 0 0 0 5px;
   background-image: image(#44454b);
 }
 
@@ -6569,21 +5857,8 @@ docktab {
 }
 
 docktab:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  box-shadow: inset 0 -2px rgba(255, 255, 255, 0.2);
-=======
-  box-shadow: inset 0 -2px rgba(255, 255, 255, 0.3);
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
-  color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
-=======
   box-shadow: inset 0 -2px rgba(255, 255, 255, 0.3);
   color: #ffffff;
->>>>>>> 478fdbf (Fixed merge problems)
 }
 
 docktab:checked {
@@ -6941,28 +6216,12 @@ window.background > box.vertical box.horizontal > box.vertical > scrolledwindow 
 }
 
 window.background > box.vertical box.horizontal > box.vertical > scrolledwindow > viewport.frame > list row.event.activatable.compressed-row-header:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  background-color: rgba(255, 255, 255, 0.08);
-=======
   background-color: rgba(255, 255, 255, 0.12);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  background-color: rgba(255, 255, 255, 0.12);
->>>>>>> 478fdbf (Fixed merge problems)
   color: #5657f5;
 }
 
 window.background > box.vertical box.horizontal > box.vertical > scrolledwindow > viewport.frame > list row.event.activatable.compressed-row-header:active, window.background > box.vertical box.horizontal > box.vertical > scrolledwindow > viewport.frame > list row.event.activatable.compressed-row-header:active:focus, window.background > box.vertical box.horizontal > box.vertical > scrolledwindow > viewport.frame > list row.event.activatable.compressed-row-header:checked, window.background > box.vertical box.horizontal > box.vertical > scrolledwindow > viewport.frame > list row.event.activatable.compressed-row-header:checked:focus {
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  background-color: rgba(255, 255, 255, 0.2);
-=======
   background-color: rgba(255, 255, 255, 0.3);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  background-color: rgba(255, 255, 255, 0.3);
->>>>>>> 478fdbf (Fixed merge problems)
   background-image: image(#31313a);
 }
 
@@ -6992,53 +6251,35 @@ leaflet overlay scrolledwindow > viewport list, .tweak-group-startup, list.tweak
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-window.background.csd stack stack stack frame > list row.activatable:first-child, window.background.csd > stack > list row.activatable:first-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:first-child, preferencesgroup list row.activatable:first-child, .geary-accounts-editor-pane list row.activatable:first-child, window.background.csd.unified > deck > deck > deck list row.activatable:first-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:first-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:first-child, leaflet stack.background scrolledwindow > viewport list row.activatable:first-child, leaflet overlay scrolledwindow > viewport list row.activatable:first-child, popover.background.combo list > row.activatable:first-child, .tweak-group-startup row.activatable:first-child, list.tweak-group list row.activatable:first-child {
-=======
-window.background.csd stack stack stack frame > list row.activatable:first-child, window.background.csd > stack > list row.activatable:first-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:first-child, preferencesgroup list row.activatable:first-child, .geary-accounts-editor-pane list row.activatable:first-child, window.background.csd.unified > deck > deck > deck list row.activatable:first-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:first-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:first-child, leaflet stack.background scrolledwindow > viewport list row.activatable:first-child, leaflet overlay scrolledwindow > viewport list row.activatable:first-child, .tweak-group-startup row.activatable:first-child, list.tweak-group list row.activatable:first-child {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 window.background.csd stack stack stack frame > list row.activatable:first-child, window.background.csd > stack > list row.activatable:first-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:first-child, preferencesgroup list row.activatable:first-child,
 .geary-accounts-editor-pane list row.activatable:first-child, window.background.csd.unified > deck > deck > deck list row.activatable:first-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:first-child,
 hdyleaflet overlay scrolledwindow > viewport list row.activatable:first-child,
 leaflet stack.background scrolledwindow > viewport list row.activatable:first-child,
-leaflet overlay scrolledwindow > viewport list row.activatable:first-child, .tweak-group-startup row.activatable:first-child, list.tweak-group list row.activatable:first-child {
->>>>>>> abcce8a (Nautilus is now solid):src/gtk/gtk-dark.css
+leaflet overlay scrolledwindow > viewport list row.activatable:first-child, popover.combo list > row.activatable:first-child,
+popover.background.combo list > row.activatable:first-child,
+popover.background.menu.combo list > row.activatable:first-child, .tweak-group-startup row.activatable:first-child, list.tweak-group list row.activatable:first-child {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-window.background.csd stack stack stack frame > list row.activatable:last-child, window.background.csd > stack > list row.activatable:last-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:last-child, preferencesgroup list row.activatable:last-child, .geary-accounts-editor-pane list row.activatable:last-child, window.background.csd.unified > deck > deck > deck list row.activatable:last-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:last-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:last-child, leaflet stack.background scrolledwindow > viewport list row.activatable:last-child, leaflet overlay scrolledwindow > viewport list row.activatable:last-child, popover.background.combo list > row.activatable:last-child, .tweak-group-startup row.activatable:last-child, list.tweak-group list row.activatable:last-child {
-=======
-window.background.csd stack stack stack frame > list row.activatable:last-child, window.background.csd > stack > list row.activatable:last-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:last-child, preferencesgroup list row.activatable:last-child, .geary-accounts-editor-pane list row.activatable:last-child, window.background.csd.unified > deck > deck > deck list row.activatable:last-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:last-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:last-child, leaflet stack.background scrolledwindow > viewport list row.activatable:last-child, leaflet overlay scrolledwindow > viewport list row.activatable:last-child, .tweak-group-startup row.activatable:last-child, list.tweak-group list row.activatable:last-child {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 window.background.csd stack stack stack frame > list row.activatable:last-child, window.background.csd > stack > list row.activatable:last-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:last-child, preferencesgroup list row.activatable:last-child,
 .geary-accounts-editor-pane list row.activatable:last-child, window.background.csd.unified > deck > deck > deck list row.activatable:last-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:last-child,
 hdyleaflet overlay scrolledwindow > viewport list row.activatable:last-child,
 leaflet stack.background scrolledwindow > viewport list row.activatable:last-child,
-leaflet overlay scrolledwindow > viewport list row.activatable:last-child, .tweak-group-startup row.activatable:last-child, list.tweak-group list row.activatable:last-child {
->>>>>>> abcce8a (Nautilus is now solid):src/gtk/gtk-dark.css
+leaflet overlay scrolledwindow > viewport list row.activatable:last-child, popover.combo list > row.activatable:last-child,
+popover.background.combo list > row.activatable:last-child,
+popover.background.menu.combo list > row.activatable:last-child, .tweak-group-startup row.activatable:last-child, list.tweak-group list row.activatable:last-child {
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-window.background.csd stack stack stack frame > list row.activatable:only-child, window.background.csd > stack > list row.activatable:only-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:only-child, preferencesgroup list row.activatable:only-child, .geary-accounts-editor-pane list row.activatable:only-child, window.background.csd.unified > deck > deck > deck list row.activatable:only-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:only-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:only-child, leaflet stack.background scrolledwindow > viewport list row.activatable:only-child, leaflet overlay scrolledwindow > viewport list row.activatable:only-child, popover.background.combo list > row.activatable:only-child, .tweak-group-startup row.activatable:only-child, list.tweak-group list row.activatable:only-child {
-=======
-window.background.csd stack stack stack frame > list row.activatable:only-child, window.background.csd > stack > list row.activatable:only-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:only-child, preferencesgroup list row.activatable:only-child, .geary-accounts-editor-pane list row.activatable:only-child, window.background.csd.unified > deck > deck > deck list row.activatable:only-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:only-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:only-child, leaflet stack.background scrolledwindow > viewport list row.activatable:only-child, leaflet overlay scrolledwindow > viewport list row.activatable:only-child, .tweak-group-startup row.activatable:only-child, list.tweak-group list row.activatable:only-child {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
 window.background.csd stack stack stack frame > list row.activatable:only-child, window.background.csd > stack > list row.activatable:only-child, window.background.csd.unified > deck > deck > box > stack > stack > scrolledwindow > viewport > clamp > list > row.activatable:only-child, preferencesgroup list row.activatable:only-child,
 .geary-accounts-editor-pane list row.activatable:only-child, window.background.csd.unified > deck > deck > deck list row.activatable:only-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:only-child,
 hdyleaflet overlay scrolledwindow > viewport list row.activatable:only-child,
 leaflet stack.background scrolledwindow > viewport list row.activatable:only-child,
-leaflet overlay scrolledwindow > viewport list row.activatable:only-child, .tweak-group-startup row.activatable:only-child, list.tweak-group list row.activatable:only-child {
->>>>>>> abcce8a (Nautilus is now solid):src/gtk/gtk-dark.css
+leaflet overlay scrolledwindow > viewport list row.activatable:only-child, popover.combo list > row.activatable:only-child,
+popover.background.combo list > row.activatable:only-child,
+popover.background.menu.combo list > row.activatable:only-child, .tweak-group-startup row.activatable:only-child, list.tweak-group list row.activatable:only-child {
   border-radius: 7px;
 }
 
@@ -7066,12 +6307,6 @@ window.background.csd > headerbar.titlebar > leaflet > separator.sidebar {
   min-width: 0;
 }
 
-window.background.csd > stack:not(.titlebar),
-window.background.csd > hdyleaflet > stack.background,
-window.background.csd > leaflet > stack.background {
-  border-radius: 0 0 5px 5px;
-}
-
 window.background.csd > box.horizontal > separator.sidebar,
 window.background.csd > hdyleaflet > separator.sidebar,
 window.background.csd > leaflet > separator.sidebar {
@@ -7079,15 +6314,12 @@ window.background.csd > leaflet > separator.sidebar {
   min-width: 0;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 window.background.csd > hdyleaflet > stack.background,
 window.background.csd > leaflet > stack.background,
 window.background.csd > box.horizontal > stack.background {
-  border-radius: 0 0 13px 13px;
+  border-radius: 0 0 5px 5px;
 }
 
-=======
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 window.background.csd > hdyleaflet > stack.background > widget > box.vertical > box.vertical > scrolledwindow > viewport.frame,
 window.background.csd > leaflet > stack.background > widget > box.vertical > box.vertical > scrolledwindow > viewport.frame,
 window.background.csd > box.horizontal > stack.background > widget > box.vertical > box.vertical > scrolledwindow > viewport.frame {
@@ -7260,13 +6492,8 @@ window.background.csd.unified {
 }
 
 window.background.csd.unified > deck > deck > deck > box.vertical > headerbar.titlebar.windowhandle {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
-=======
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
 }
 
@@ -7575,9 +6802,8 @@ window.background.csd.unified.fullscreen > decoration-overlay {
   color: rgba(255, 255, 255, 0.7);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .nemo-window toolbar.primary-toolbar > toolitem > box > button:hover, .nemo-window toolbar.primary-toolbar > toolitem > box > button:active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nemo-window toolbar.primary-toolbar > toolitem > box > button:disabled {
@@ -7585,21 +6811,6 @@ window.background.csd.unified.fullscreen > decoration-overlay {
 }
 
 .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked {
-=======
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:hover, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:active,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:hover,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:active {
-  color: #ffffff;
-}
-
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:disabled,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:disabled {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:checked,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:checked {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   border-image: none;
   background-color: #5657f5;
   color: #ffffff;
@@ -7610,17 +6821,11 @@ window.background.csd.unified.fullscreen > decoration-overlay {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.12);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .nemo-window toolbar.primary-toolbar > toolitem > box > button:checked:disabled {
-=======
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:checked:disabled,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:checked:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: rgba(255, 255, 255, 0.5);
   background-color: rgba(86, 87, 245, 0.5);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .nemo-window toolbar.primary-toolbar > toolitem > box > button:backdrop {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -7634,36 +6839,11 @@ window.background.csd.unified.fullscreen > decoration-overlay {
 }
 
 .nemo-window toolbar.primary-toolbar > toolitem > box > button:backdrop:checked {
-=======
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:backdrop,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:backdrop {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:backdrop:hover, .nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:backdrop:active,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:backdrop:hover,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:backdrop:active {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:backdrop:disabled,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:backdrop:disabled {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:backdrop:checked,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:backdrop:checked {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   background-image: none;
   color: rgba(255, 255, 255, 0.7);
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .nemo-window toolbar.primary-toolbar > toolitem > box > button:backdrop:checked:disabled {
-=======
-.nemo-window toolbar.primary-toolbar > toolitem > box.raised > button:backdrop:checked:disabled,
-.nemo-window toolbar.primary-toolbar > toolitem > box.linked.raised > button:backdrop:checked:disabled {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -7683,11 +6863,7 @@ window.background.csd.unified.fullscreen > decoration-overlay {
 }
 
 .nemo-window toolbar.primary-toolbar .linked.path-bar > button:first-child, .nemo-window toolbar.primary-toolbar .linked.path-bar > button:last-child {
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
   padding: 0 4px;
-=======
-  padding: 0 6px;
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
 }
 
 .nemo-window toolbar.primary-toolbar .linked.path-bar > button image, .nemo-window toolbar.primary-toolbar .linked.path-bar > button label {
@@ -8141,15 +7317,7 @@ stack#conversation_viewer scrolledwindow.geary-conversation-scroller > viewport.
 }
 
 popover.background list.geary-folder-popover-list row.activatable.geary-folder-popover-list-row label {
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  color: rgba(255, 255, 255, 0.8);
-=======
   color: rgba(255, 255, 255, 0.7);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-=======
-  color: rgba(255, 255, 255, 0.7);
->>>>>>> 478fdbf (Fixed merge problems)
 }
 
 popover.background list.geary-folder-popover-list row.activatable.geary-folder-popover-list-row label:disabled {
@@ -8551,21 +7719,8 @@ MatePanelAppletFrameDBus {
 }
 
 .mate-panel-menu-bar menubar > menuitem:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
-  background-color: rgba(255, 255, 255, 0.08);
-=======
-  background-color: rgba(255, 255, 255, 0.12);
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
-  color: #FFFFFF;
-=======
-  color: #ffffff;
->>>>>>> 4666dbf (replaced ellipse with manjaro logo):src/gtk/gtk-dark.css
-=======
   background-color: rgba(255, 255, 255, 0.12);
   color: #ffffff;
->>>>>>> 478fdbf (Fixed merge problems)
 }
 
 .mate-panel-menu-bar menubar > menuitem:disabled {
@@ -9934,13 +9089,7 @@ box.vertical > stack > box.vertical .raven-background > viewport.frame list > ro
   background-color: transparent;
 }
 
-<<<<<<< HEAD:src/gtk/3.0/gtk-dark.css
 .budgie-run-dialog list .dim-label, .budgie-run-dialog list label.separator, .budgie-run-dialog list headerbar .subtitle, headerbar .budgie-run-dialog list .subtitle, .budgie-run-dialog list .budgie-notification .notification-body, .budgie-notification .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher .notification-body, .budgie-switcher .budgie-run-dialog list .notification-body {
-=======
-.budgie-run-dialog list .dim-label, .budgie-run-dialog list label.separator,
-.budgie-run-dialog list headerbar .subtitle,
-headerbar .budgie-run-dialog list .subtitle, .budgie-run-dialog list .budgie-notification .notification-body, .budgie-notification .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher .notification-body, .budgie-switcher .budgie-run-dialog list .notification-body {
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gtk/gtk-dark.css
   opacity: 1;
 }
 
