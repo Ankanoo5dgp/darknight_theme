@@ -321,12 +321,6 @@ spinner {
     }
   }
 
-  // &:drop(active) {
-    // box-shadow: inset 0 0 0 2px $accent_color;
-  // }
-
-  // .osd & { }
-
   > progress {
     margin: 2px (2px - 8px);
   }
@@ -524,10 +518,6 @@ button {
 
     &:disabled { opacity: 0; }
   }
-
-  // overlay / OSD style
-  // @at-root %osd_button,
-  // .osd & { }
 
   // Suggested and Destructive Action buttons
   @each $b_type, $b_color, $b_image in (suggested-action, $suggested_color, $suggested_image),
@@ -773,11 +763,6 @@ spinbutton {
     }
   }
 
-  // OSD horizontal
-  // .osd &:not(.vertical) {
-  //   button {
-  //   }
-  // }
 
   // Vertical
   &.vertical {
