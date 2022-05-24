@@ -154,29 +154,6 @@ StScrollBar StButton#hhandle {
   margin: 4px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 0, 0.55);
-=======
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-  background-color: rgba(0, 0, 0, 0.55);
-=======
-  background-color: rgba(0, 0, 0, 0.54);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
-=======
-  background-color: rgba(255, 255, 255, 0.7);
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
->>>>>>> de2ba85 (created a darker theme)
-}
-
-StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
-  background-color: #FFFFFF;
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
 StScrollBar StButton#vhandle:hover,
 StScrollBar StButton#hhandle:hover {
   background-color: rgba(0, 0, 0, 0.54);
@@ -187,31 +164,6 @@ StScrollBar StButton#hhandle:active {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-<<<<<<< HEAD
-#overview StScrollBar StBin#trough, #screenShieldNotifications StScrollBar StBin#trough {
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
-#overview StScrollBar StButton#vhandle, #screenShieldNotifications StScrollBar StButton#vhandle,
-#overview StScrollBar StButton#hhandle,
-#screenShieldNotifications StScrollBar StButton#hhandle {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-#overview StScrollBar StButton#vhandle:hover, #screenShieldNotifications StScrollBar StButton#vhandle:hover,
-#overview StScrollBar StButton#hhandle:hover,
-#screenShieldNotifications StScrollBar StButton#hhandle:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-<<<<<<< HEAD
-#overview StScrollBar StButton#vhandle:active, #screenShieldNotifications StScrollBar StButton#vhandle:active, #overview StScrollBar StButton#hhandle:active, #screenShieldNotifications StScrollBar StButton#hhandle:active {
-  background-color: #FFFFFF;
-=======
-#overview StScrollBar StButton#vhandle:active, #screenShieldNotifications StScrollBar StButton#vhandle:active,
-#overview StScrollBar StButton#hhandle:active,
-#screenShieldNotifications StScrollBar StButton#hhandle:active {
-=======
 #screenShieldNotifications StScrollBar StBin#trough, #overview StScrollBar StBin#trough {
   background-color: rgba(255, 255, 255, 0.12);
 }
@@ -231,7 +183,6 @@ StScrollBar StButton#hhandle:active {
 #screenShieldNotifications StScrollBar StButton#vhandle:active, #overview StScrollBar StButton#vhandle:active,
 #screenShieldNotifications StScrollBar StButton#hhandle:active,
 #overview StScrollBar StButton#hhandle:active {
->>>>>>> e998b1c (fixing rebase wreakage)
   background-color: #ffffff;
 }
 
@@ -400,22 +351,8 @@ StScrollBar StButton#hhandle:active {
 .modal-dialog .run-dialog-label {
   font-size: 1em;
   font-weight: normal;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: rgba(255, 255, 255, 0.5);
-  padding-bottom: .4em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-=======
   color: rgba(0, 0, 0, 0.38);
   padding-bottom: 0.4em;
->>>>>>> 478fdbf (Fixed merge problems)
->>>>>>> a190168 (Fixed merge problems)
-=======
-  color: rgba(0, 0, 0, 0.38);
-  padding-bottom: 0.4em;
->>>>>>> e998b1c (fixing rebase wreakage)
 }
 
 .modal-dialog-linked-button {
@@ -479,20 +416,7 @@ StScrollBar StButton#hhandle:active {
 
 .modal-dialog-linked-button:first-child:last-child {
   border-right-width: 0px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  border-radius: 0px 0px 13px 13px;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
-=======
   border-radius: 0px 0px 5px 5px;
->>>>>>> 478fdbf (Fixed merge problems)
->>>>>>> a190168 (Fixed merge problems)
-=======
-  border-radius: 0px 0px 5px 5px;
->>>>>>> e998b1c (fixing rebase wreakage)
 }
 
 .show-processes-dialog-subject,
@@ -774,61 +698,46 @@ StScrollBar StButton#hhandle:active {
   border-radius: 0 !important;
 }
 
+.popup-menu .popup-menu-item:ltr {
+  padding-right: 1.75em;
+  padding-left: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.popup-menu .popup-menu-item:rtl {
+  padding-right: 0;
+  padding-left: 1.75em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 .popup-menu .popup-menu-item:checked {
-<<<<<<< HEAD
-  background-color: #5657f5 !important;
-  color: #FFFFFF !important;
-=======
-  background-color: #8e8d9c;
-  color: #ffffff;
->>>>>>> e998b1c (fixing rebase wreakage)
+  background-color: #8e8d9c !important;
+  color: #ffffff !important;
   box-shadow: none;
   border: none;
   font-weight: normal;
   border-radius: 0 !important;
 }
 
-<<<<<<< HEAD
 .popup-menu .popup-menu-item:checked:hover, .popup-menu .popup-menu-item:checked:focus, .popup-menu .popup-menu-item:checked.selected {
-  background-color: #6f70f7 !important;
-  color: #FFFFFF !important;
-=======
-.popup-menu .popup-menu-item:checked.selected {
-  background-color: #9f9eab;
-  color: #ffffff;
->>>>>>> a190168 (Fixed merge problems)
+  background-color: #9f9eab !important;
+  color: #ffffff !important;
 }
 
 .popup-menu .popup-menu-item:checked:active {
-<<<<<<< HEAD
-  background-color: #8989f8 !important;
-  color: #FFFFFF !important;
-=======
-  background-color: #b0afba;
+  background-color: #b0afba !important;
   color: #ffffff !important;
->>>>>>> e998b1c (fixing rebase wreakage)
 }
 
 .popup-menu .popup-menu-item:checked:insensitive {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
-<<<<<<< HEAD
 .popup-menu .popup-menu-item:hover, .popup-menu .popup-menu-item:focus, .popup-menu .popup-menu-item.selected {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
   color: rgba(0, 0, 0, 0.75) !important;
-=======
-.popup-menu .popup-menu-item.selected {
-  background-color: rgba(0, 0, 0, 0.12);
-  color: rgba(0, 0, 0, 0.75);
-<<<<<<< HEAD
-=======
-  background-color: rgba(255, 255, 255, 0.12);
-  color: #FFFFFF;
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
->>>>>>> de2ba85 (created a darker theme)
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
   transition-duration: 0ms;
   box-shadow: none;
   border: none;
@@ -836,56 +745,12 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-menu-item:active {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0.26) !important;
   color: rgba(0, 0, 0, 0.75) !important;
-=======
-=======
->>>>>>> a190168 (Fixed merge problems)
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-  background-color: rgba(0, 0, 0, 0.2);
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
-  background-color: rgba(0, 0, 0, 0.26);
-  color: rgba(0, 0, 0, 0.75);
-<<<<<<< HEAD
-=======
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #FFFFFF;
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
->>>>>>> de2ba85 (created a darker theme)
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
   transition-duration: 225ms;
 }
 
 .popup-menu .popup-menu-item.selected:active {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: rgba(0, 0, 0, 0.75) !important;
-}
-
-.popup-menu .popup-menu-item:insensitive {
-  color: rgba(0, 0, 0, 0.38) !important;
-}
-
-.popup-menu .popup-inactive-menu-item {
-  color: rgba(0, 0, 0, 0.38) !important;
-}
-
-.popup-menu .popup-inactive-menu-item:insensitive {
-  color: rgba(0, 0, 0, 0.26) !important;
-=======
-=======
->>>>>>> a190168 (Fixed merge problems)
-  color: #FFFFFF;
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
   color: rgba(0, 0, 0, 0.75);
 }
 
@@ -898,12 +763,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-inactive-menu-item:insensitive {
-<<<<<<< HEAD
-  color: rgba(255, 255, 255, 0.3);
->>>>>>> de2ba85 (created a darker theme)
-=======
   color: rgba(0, 0, 0, 0.26);
->>>>>>> a190168 (Fixed merge problems)
 }
 
 .popup-menu.panel-menu {
@@ -955,42 +815,7 @@ StScrollBar StButton#hhandle:active {
   -arrow-box-shadow: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.candidate-popup-boxpointer {
-  -arrow-border-radius: 0;
-  -arrow-background-color: transparent;
-  -arrow-border-width: 0;
-  -arrow-border-color: transparent;
-  -arrow-base: 0;
-  -arrow-rise: 0;
-  -arrow-box-shadow: none;
-  margin: 5px 8px 12px 12px;
-  background-color: rgba(60, 60, 70, 0.95);
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 6px 3px rgba(0, 0, 0, 0.23);
-}
-
-.popup-menu-boxpointer .popup-menu-content {
-  margin: 5px 8px 12px 12px;
-  background-color: transparent;
-  background-color: rgba(60, 60, 70, 0.95);
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 6px 3px rgba(0, 0, 0, 0.23);
-}
-
-.candidate-popup-boxpointer {
-  -arrow-border-radius: 0;
-  -arrow-background-color: transparent;
-  -arrow-border-width: 0;
-  -arrow-border-color: transparent;
-  -arrow-base: 0;
-  -arrow-rise: 0;
-  -arrow-box-shadow: none;
-=======
 .popup-menu-boxpointer .popup-menu-content, .candidate-popup-boxpointer .popup-menu-content {
->>>>>>> e998b1c (fixing rebase wreakage)
   margin: 5px 8px 12px 12px;
   background-color: rgba(60, 60, 70, 0.95);
   border-radius: 5px;
@@ -1017,7 +842,6 @@ StScrollBar StButton#hhandle:active {
   margin: 0 54px 0 24px;
 }
 
->>>>>>> de2ba85 (created a darker theme)
 #appMenu {
   spinner-image: url("process-working.svg");
   spacing: 4px;
@@ -1224,30 +1048,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: transparent;
-=======
-=======
->>>>>>> a190168 (Fixed merge problems)
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
   transition-duration: 250ms;
   background-color: transparent;
-<<<<<<< HEAD
-=======
-  background-color: rgba(37, 37, 45, 0.5);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
-=======
-  background-color: transparent;
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
->>>>>>> de2ba85 (created a darker theme)
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
 }
 
 #panel #panelLeft,
@@ -1321,18 +1123,6 @@ StScrollBar StButton#hhandle:active {
 
 #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
   background-color: rgba(255, 255, 255, 0.05);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-  background-color: rgba(37, 37, 45, 0.01);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
->>>>>>> a190168 (Fixed merge problems)
-  box-shadow: inset 0 -2px 0px #5657f5;
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
   box-shadow: inset 0 -2px 0px #8e8d9c;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -1369,42 +1159,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #panel .remote-access-indicator {
-<<<<<<< HEAD
-  color: #FF6D00;
-}
-
-#panel.solid {
-  background-color: #25252d;
-  /* transition from transparent to solid */
-  transition-duration: 250ms;
-  background-gradient-direction: none;
-  text-shadow: none;
-}
-
-#panel.solid:overview {
-  background-color: transparent;
-}
-
-#panel.solid .panel-corner {
-  -panel-corner-background-color: #25252d;
-}
-
-#panel.solid .panel-button {
-  color: rgba(255, 255, 255, 0.68);
-  text-shadow: none;
-}
-
-#panel.solid .panel-button:hover, #panel.solid .panel-button:active, #panel.solid .panel-button:overview, #panel.solid .panel-button:focus, #panel.solid .panel-button:checked {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-#panel.solid .system-status-icon,
-#panel.solid .app-menu-icon > StIcon,
-#panel.solid .popup-menu-arrow {
-  icon-shadow: none;
-=======
   color: #ff6d00;
->>>>>>> e998b1c (fixing rebase wreakage)
 }
 
 #panel #panelActivities.panel-button > * {
@@ -1591,35 +1346,6 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-day-base:hover, .calendar-day-base:focus {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-  background-color: rgba(0, 0, 0, 0.08);
->>>>>>> a190168 (Fixed merge problems)
-=======
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
->>>>>>> de2ba85 (created a darker theme)
-  background-color: rgba(0, 0, 0, 0.08);
-}
-
-.calendar-day-base:active {
-  color: rgba(0, 0, 0, 0.55);
-  background-color: rgba(0, 0, 0, 0.2);
-=======
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
-.calendar-day-base:active {
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.3);
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -1703,7 +1429,6 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-week-number {
-<<<<<<< HEAD
   height: 24px !important;
   width: 24px !important;
   margin: 4px 0 !important;
@@ -1711,19 +1436,6 @@ StScrollBar StButton#hhandle:active {
   border-radius: 9999px;
   background-color: rgba(0, 0, 0, 0.04);
   color: rgba(0, 0, 0, 0.38);
-=======
-  height: 1.8em;
-  width: 2em;
-  margin: 4px 0;
-  border-radius: 100px;
-<<<<<<< HEAD
-  background-color: rgba(255, 255, 255, 0.03);
-  color: rgba(255, 255, 255, 0.5);
->>>>>>> de2ba85 (created a darker theme)
-=======
-  background-color: rgba(0, 0, 0, 0.04);
-  color: rgba(0, 0, 0, 0.38);
->>>>>>> a190168 (Fixed merge problems)
   font-size: inherit;
   font-weight: bold;
   text-align: center;
@@ -1873,33 +1585,6 @@ StScrollBar StButton#hhandle:active {
 }
 
 .message-list-clear-button.button:hover, .message-list-clear-button.button:focus {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-  background-color: rgba(0, 0, 0, 0.08);
->>>>>>> a190168 (Fixed merge problems)
-=======
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
->>>>>>> de2ba85 (created a darker theme)
-  background-color: rgba(0, 0, 0, 0.08);
-}
-
-.message-list-clear-button.button:active {
-  background-color: rgba(0, 0, 0, 0.2);
-=======
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
-.message-list-clear-button.button:active {
-  background-color: rgba(255, 255, 255, 0.3);
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -1925,59 +1610,20 @@ StScrollBar StButton#hhandle:active {
   border-radius: 7px;
   color: rgba(0, 0, 0, 0.54);
   text-shadow: none;
-  background-color: #FFFFFF;
+  background-color: #1e1e1e;
 }
 
 .popup-menu .message {
   box-shadow: none !important;
-  background-color: rgba(0, 0, 0, 0.05) !important;
+  background-color: alpha(currentColor, 0.05) !important;
 }
 
-<<<<<<< HEAD
 .popup-menu .message:hover, .popup-menu .message:focus {
-  background-color: rgba(0, 0, 0, 0.08) !important;
-=======
-.message:hover, .message:focus {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 0, 0.08);
-=======
-.message:hover, .message:focus {
-<<<<<<< HEAD:src/gnome-shell/shell-3-36/gnome-shell.css
-  background-color: rgba(0, 0, 0, 0.12);
->>>>>>> ad2ccbd (pulled new version and generated css with it):src/gnome-shell/gnome-shell.css
->>>>>>> 47b438a (pulled new version and generated css with it)
+  background-color: rgba(0, 0, 0, 0.12) !important;
 }
 
-<<<<<<< HEAD
 .popup-menu .message:active {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-=======
-.message:active {
-  background-color: rgba(0, 0, 0, 0.2);
-=======
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
-.message:active {
-  background-color: rgba(255, 255, 255, 0.3);
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
-<<<<<<< HEAD
->>>>>>> de2ba85 (created a darker theme)
-=======
-=======
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
-  background-color: rgba(0, 0, 0, 0.12);
-}
-
-.message:active {
-  background-color: rgba(0, 0, 0, 0.26);
-<<<<<<< HEAD
->>>>>>> 478fdbf (Fixed merge problems)
->>>>>>> a190168 (Fixed merge problems)
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
+  background-color: rgba(0, 0, 0, 0.26) !important;
 }
 
 .message-icon-bin {
@@ -3275,26 +2921,7 @@ StWidget.focused .app-well-app-running-dot {
   margin: 2px 15px 17px 8px;
   padding: 4px;
   spacing: 4px;
-<<<<<<< HEAD
-<<<<<<< HEAD
   border: none;
-=======
-=======
-  padding: 8px;
-  spacing: 0;
-}
-
-.candidate-index {
-  padding: 0 4px 0 0;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.candidate-box:selected .candidate-index {
-  color: rgba(255, 255, 255, 0.5);
->>>>>>> 8f094f6 (created a darker theme):src/gnome-shell/gnome-shell.css
->>>>>>> de2ba85 (created a darker theme)
-=======
->>>>>>> e998b1c (fixing rebase wreakage)
 }
 
 .candidate-box {

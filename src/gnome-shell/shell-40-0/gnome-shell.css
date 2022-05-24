@@ -698,54 +698,46 @@ StScrollBar StButton#hhandle:active {
   border-radius: 0 !important;
 }
 
+.popup-menu .popup-menu-item:ltr {
+  padding-right: 1.75em;
+  padding-left: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.popup-menu .popup-menu-item:rtl {
+  padding-right: 0;
+  padding-left: 1.75em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 .popup-menu .popup-menu-item:checked {
-<<<<<<< HEAD
-  background-color: #5657f5 !important;
-  color: #FFFFFF !important;
-=======
-  background-color: #8e8d9c;
-  color: #ffffff;
->>>>>>> a190168 (Fixed merge problems)
+  background-color: #8e8d9c !important;
+  color: #ffffff !important;
   box-shadow: none;
   border: none;
   font-weight: normal;
   border-radius: 0 !important;
 }
 
-<<<<<<< HEAD
 .popup-menu .popup-menu-item:checked:hover, .popup-menu .popup-menu-item:checked:focus, .popup-menu .popup-menu-item:checked.selected {
-  background-color: #6f70f7 !important;
-  color: #FFFFFF !important;
-}
-
-.popup-menu .popup-menu-item:checked:active {
-  background-color: #8989f8 !important;
-  color: #FFFFFF !important;
-=======
-.popup-menu .popup-menu-item:checked.selected {
-  background-color: #9f9eab;
-  color: #ffffff;
-}
-
-.popup-menu .popup-menu-item:checked:active {
-  background-color: #b0afba;
+  background-color: #9f9eab !important;
   color: #ffffff !important;
->>>>>>> a190168 (Fixed merge problems)
+}
+
+.popup-menu .popup-menu-item:checked:active {
+  background-color: #b0afba !important;
+  color: #ffffff !important;
 }
 
 .popup-menu .popup-menu-item:checked:insensitive {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
-<<<<<<< HEAD
 .popup-menu .popup-menu-item:hover, .popup-menu .popup-menu-item:focus, .popup-menu .popup-menu-item.selected {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
   color: rgba(0, 0, 0, 0.75) !important;
-=======
-.popup-menu .popup-menu-item.selected {
-  background-color: rgba(0, 0, 0, 0.12);
-  color: rgba(0, 0, 0, 0.75);
->>>>>>> a190168 (Fixed merge problems)
   transition-duration: 0ms;
   box-shadow: none;
   border: none;
@@ -753,30 +745,25 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-menu-item:active {
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0.26) !important;
   color: rgba(0, 0, 0, 0.75) !important;
-=======
-  background-color: rgba(0, 0, 0, 0.26);
-  color: rgba(0, 0, 0, 0.75);
->>>>>>> a190168 (Fixed merge problems)
   transition-duration: 225ms;
 }
 
 .popup-menu .popup-menu-item.selected:active {
-  color: rgba(0, 0, 0, 0.75) !important;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .popup-menu .popup-menu-item:insensitive {
-  color: rgba(0, 0, 0, 0.38) !important;
+  color: rgba(0, 0, 0, 0.38);
 }
 
 .popup-menu .popup-inactive-menu-item {
-  color: rgba(0, 0, 0, 0.38) !important;
+  color: rgba(0, 0, 0, 0.38);
 }
 
 .popup-menu .popup-inactive-menu-item:insensitive {
-  color: rgba(0, 0, 0, 0.26) !important;
+  color: rgba(0, 0, 0, 0.26);
 }
 
 .popup-menu.panel-menu {
@@ -828,20 +815,7 @@ StScrollBar StButton#hhandle:active {
   -arrow-box-shadow: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.candidate-popup-boxpointer {
-  -arrow-border-radius: 0;
-  -arrow-background-color: transparent;
-  -arrow-border-width: 0;
-  -arrow-border-color: transparent;
-  -arrow-base: 0;
-  -arrow-rise: 0;
-  -arrow-box-shadow: none;
-=======
 .popup-menu-boxpointer .popup-menu-content, .candidate-popup-boxpointer .popup-menu-content {
->>>>>>> e998b1c (fixing rebase wreakage)
   margin: 5px 8px 12px 12px;
   background-color: rgba(60, 60, 70, 0.95);
   border-radius: 5px;
@@ -868,7 +842,6 @@ StScrollBar StButton#hhandle:active {
   margin: 0 54px 0 24px;
 }
 
->>>>>>> a190168 (Fixed merge problems)
 #appMenu {
   spinner-image: url("process-working.svg");
   spacing: 4px;
@@ -1637,29 +1610,20 @@ StScrollBar StButton#hhandle:active {
   border-radius: 7px;
   color: rgba(0, 0, 0, 0.54);
   text-shadow: none;
-  background-color: #FFFFFF;
+  background-color: #1e1e1e;
 }
 
 .popup-menu .message {
   box-shadow: none !important;
-  background-color: rgba(0, 0, 0, 0.05) !important;
+  background-color: alpha(currentColor, 0.05) !important;
 }
 
-<<<<<<< HEAD
 .popup-menu .message:hover, .popup-menu .message:focus {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
 }
 
 .popup-menu .message:active {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-=======
-.message:hover, .message:focus {
-  background-color: rgba(0, 0, 0, 0.12);
-}
-
-.message:active {
-  background-color: rgba(0, 0, 0, 0.26);
->>>>>>> a190168 (Fixed merge problems)
+  background-color: rgba(0, 0, 0, 0.26) !important;
 }
 
 .message-icon-bin {
