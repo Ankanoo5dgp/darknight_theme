@@ -1,4 +1,4 @@
-## Akamayan-gtk-theme
+darknight-gtk-theme
 
 Akamayan is a flat monochrome theme to boost your focus and zen.
 
